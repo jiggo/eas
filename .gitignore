@@ -16,3 +16,4 @@ bootstrap/cache/
 
 # Eclipse files
 .project
+.buildpath
