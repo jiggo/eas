@@ -1,0 +1,30 @@
+{
+	"name": "Kakashi",
+	"attribute": "ltng",
+	"mistery": 
+		{
+			"creates": ["low_float"],
+			"pursuits": [],
+			"hits": 3 
+		},
+	"standard":
+		{
+			"creates": ["knockdown"],
+			"hits": 1 
+		},
+	"chases": [
+		{
+			"name": "Fire Style - Fire Ball Jutsu",
+			"pursuits": ["high_float"],
+			"creates": ["low_float"],
+			"hits": 1
+		},
+		{
+			"name": "Lightning Blade - Twin Lightning Shiver",
+			"pursuits": ["low_float"],
+			"creates": ["knockdown"],
+			"hits": 1
+		}
+	],		
+	"chakra": 0
+}

@@ -1,0 +1,24 @@
+{
+	"name": "Tobi",
+	"attribute": "ltng",
+	"mistery": 
+		{
+			"creates": ["knockdown"],
+			"pursuits": [], 
+			"hits": 5
+		},
+	"standard":
+		{
+			"creates": ["high_float"],
+			"hits": 2 
+		},
+	"chases": [
+		{
+			"name": "Large success of bomb setting",
+			"pursuits": ["knockdown"],
+			"creates": ["low_float"],
+			"hits": 1
+		}
+	],		
+	"chakra": 0
+}

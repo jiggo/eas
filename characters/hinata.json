@@ -1,0 +1,30 @@
+{
+	"name": "Hinata",
+	"attribute": "ltng",
+	"mistery": 
+		{
+			"creates": [],
+			"pursuits": [],
+			"hits": 0 
+		},
+	"standard":
+		{
+			"creates": ["knockdown"],
+			"hits": 0 
+		},
+	"chases": [
+		{
+			"name": "Sealed Point Palm Strike",
+			"pursuits": ["repulse"],
+			"creates": ["knockdown"],
+			"hits": 0
+		},
+		{
+			"name": "Gentle Step Twin Lion Fists",
+			"pursuits": ["knockdown"],
+			"creates": ["knockdown"],
+			"hits": 0
+		}
+	],		
+	"chakra": 0
+}

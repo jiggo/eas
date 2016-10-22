@@ -1,0 +1,14 @@
+{
+	"name": "Chameleon",
+	"attribute": "",
+	"type": "purple",
+	"chases": [
+		{
+			"name": "Summoning Jutsu",
+			"pursuits": ["high_combo"],
+			"creates": [],
+			"hits": 1
+		}
+	],		
+	"chakra": 0
+}

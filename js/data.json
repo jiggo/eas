@@ -1,0 +1,88 @@
+[
+	{
+		"name": "Main",
+		"attribute": "earth",
+		"mistery": 
+			{
+				"creates": [],
+				"pursuits": [] 
+			},
+		"chases": [
+			{			
+				"pursuits": ["knockdown"],
+				"creates": ["low_float"]
+			},
+			{
+				"pursuits": ["high_combo"],
+				"creates": []			
+			}
+		],		
+		"chakra": 20
+	},
+	{
+		"name": "Sasuke",
+		"attribute": "ltng",
+		"mistery": 
+			{
+				"creates": ["knockdown"],
+				"pursuits": [] 
+			},
+		"chases": [
+			{
+				"pursuits": ["low_float"],
+				"creates": ["repulse"]
+			},
+			{
+				"pursuits": ["high_float"],
+				"creates": ["low_float"]				
+			},
+			{
+				"pursuits": ["high_combo"],
+				"creates": ["ignition"]				
+			}
+		],		
+		"chakra": 0
+	},
+	{
+		"name": "Kakashi",
+		"attribute": "ltng",
+		"mistery": 
+			{
+				"creates": ["low_float"],
+				"pursuits": [] 
+			},
+		"chases": [
+			{
+				"pursuits": ["high_float"],
+				"creates": ["low_float"]
+			},
+			{
+				"pursuits": ["low_float"],
+				"creates": ["knockdown"]
+			}
+		],		
+		"chakra": 0
+	},
+	{
+		"name": "Sakura",
+		"attribute": "ltng",
+		"chases": [
+			{
+				"pursuits": ["repulse"],
+				"creates": ["high_float"]
+			}
+		],		
+		"chakra": 0
+	},
+	{
+		"name": "Gamachu",
+		"attribute": "ltng",
+		"chases": [
+			{
+				"pursuits": ["repulse"],
+				"creates": ["knockdown"]
+			}
+		],		
+		"chakra": 0
+	}
+]

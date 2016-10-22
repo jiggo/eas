@@ -1,0 +1,18 @@
+{
+	"name": "Naruto Volpe",
+	"attribute": "wind",
+	"mistery": 
+		{
+			"creates": ["repulse", "ignition"],
+			"pursuits": [],
+			"hits": 0 
+		},
+	"standard":
+		{
+			"creates": ["low_float", "ignition"],
+			"hits": 0 
+		},
+	"chases": [
+	],		
+	"chakra": 0
+}

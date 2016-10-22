@@ -1,0 +1,30 @@
+{
+	"name": "Karin",
+	"attribute": "fire",
+	"mistery": 
+		{
+			"creates": ["poisoning"],
+			"pursuits": [], 
+			"hits": 1
+		},
+	"standard":
+		{
+			"creates": ["high_float"],
+			"hits": 3 
+		},
+	"chases": [
+		{
+			"name": "Kick flying",
+			"pursuits": ["knockdown"],
+			"creates": ["high_float"],
+			"hits": 1
+		},		
+		{
+			"name": "Perfum spray",
+			"pursuits": ["high_combo"],
+			"creates": ["poisoning"],
+			"hits": 1				
+		}
+	],		
+	"chakra": 0
+}

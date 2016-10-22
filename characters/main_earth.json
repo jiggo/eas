@@ -1,0 +1,19 @@
+{
+	"name": "Main",
+	"attribute": "earth",
+	"mistery": 
+		{
+			"creates": [],
+			"pursuits": [],
+			"hits": 1 
+		},
+	"chases": [
+		{
+			"name": "Earth Style - Stone Fist Jutsu - Fall",
+			"pursuits": ["knockdown"],
+			"creates": ["low_float"],
+			"hits": 1
+		}
+	],		
+	"chakra": 20
+}

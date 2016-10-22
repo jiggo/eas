@@ -1,0 +1,14 @@
+{
+	"name": "Serpent",
+	"attribute": "",
+	"type": "yellow",
+	"chases": [
+		{
+			"name": "Summoning Jutsu",
+			"pursuits": ["high_float"],
+			"creates": ["repulse"],
+			"hits": 1
+		}
+	],		
+	"chakra": 0
+}

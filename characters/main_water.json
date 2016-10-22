@@ -1,0 +1,19 @@
+{
+	"name": "Main",
+	"attribute": "water",
+	"mistery": 
+		{
+			"creates": [],
+			"pursuits": [],
+			"hits": 1 
+		},
+	"chases": [
+		{
+			"name": "Water Style - Water Dragon Jutsu",
+			"pursuits": ["low_float"],
+			"creates": ["repulse"],
+			"hits": 0
+		}
+	],		
+	"chakra": 20
+}

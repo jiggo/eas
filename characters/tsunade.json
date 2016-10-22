@@ -1,0 +1,18 @@
+{
+	"name": "Tsunade",
+	"attribute": "water",
+	"standard":
+		{
+			"creates": ["low_float"],
+			"hits": 3 
+		},
+	"chases": [
+		{
+			"name": "Paradise Pure Land - Heaven Fist",
+			"pursuits": ["low_float"],
+			"creates": ["high_float"],
+			"hits": 1
+		}
+	],		
+	"chakra": 0
+}

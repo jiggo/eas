@@ -1,0 +1,14 @@
+{
+	"name": "Bull",
+	"attribute": "",
+	"type": "purple",
+	"chases": [
+		{
+			"name": "Summoning Jutsu",
+			"pursuits": ["knockdown"],
+			"creates": ["repulse"],
+			"hits": 1
+		}
+	],		
+	"chakra": 0
+}

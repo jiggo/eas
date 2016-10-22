@@ -1,0 +1,18 @@
+{
+	"name": "Sakura",
+	"attribute": "ltng",
+	"standard":
+		{
+			"creates": ["repulse"],
+			"hits": 3 
+		},
+	"chases": [
+		{
+			"name": "Cherry Blossom Clash",
+			"pursuits": ["repulse"],
+			"creates": ["high_float"],
+			"hits": 1
+		}
+	],		
+	"chakra": 0
+}

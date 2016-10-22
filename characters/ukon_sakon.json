@@ -1,0 +1,24 @@
+{
+	"name": "Ukon Sakon",
+	"attribute": "fire",
+	"mistery": 
+		{
+			"creates": [],
+			"pursuits": [], 
+			"hits": 1
+		},
+	"standard":
+		{
+			"creates": ["knockdown"],
+			"hits": 5 
+		},
+	"chases": [
+		{
+			"name": "Critical kill formation",
+			"pursuits": ["knockdown"],
+			"creates": ["low_float", "ignition"],
+			"hits": 1
+		}
+	],		
+	"chakra": 0
+}

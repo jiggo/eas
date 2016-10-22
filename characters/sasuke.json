@@ -1,0 +1,36 @@
+{
+	"name": "Sasuke",
+	"attribute": "ltng",
+	"mistery": 
+		{
+			"creates": ["knockdown"],
+			"pursuits": [], 
+			"hits": 1
+		},
+	"standard":
+		{
+			"creates": ["low_float"],
+			"hits": 1 
+		},
+	"chases": [
+		{
+			"name": "Fire Style - Flame Jutsu",
+			"pursuits": ["low_float"],
+			"creates": ["repulse"],
+			"hits": 2
+		},
+		{
+			"name": "Chidori Sharp Spear",
+			"pursuits": ["high_float"],
+			"creates": ["low_float"],
+			"hits": 5				
+		},
+		{
+			"name": "Fire Style - Dragon Flame Jutsu",
+			"pursuits": ["high_combo"],
+			"creates": ["ignition"],
+			"hits": 1				
+		}
+	],		
+	"chakra": 0
+}

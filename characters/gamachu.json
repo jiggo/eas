@@ -1,0 +1,14 @@
+{
+	"name": "Gamachu",
+	"attribute": "ltng",
+	"type": "purple",
+	"chases": [
+		{
+			"name": "Summoning Jutsu",
+			"pursuits": ["repulse"],
+			"creates": ["knockdown"],
+			"hits": 1
+		}
+	],		
+	"chakra": 0
+}

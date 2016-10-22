@@ -1,0 +1,24 @@
+{
+	"name": "Kimimaro",
+	"attribute": "ltng",
+	"mistery": 
+		{
+			"creates": ["high_float"],
+			"pursuits": [], 
+			"hits": 1
+		},
+	"standard":
+		{
+			"creates": ["high_float"],
+			"hits": 3 
+		},
+	"chases": [
+		{
+			"name": "Corpse bone chain - Larch Dance",
+			"pursuits": ["high_float"],
+			"creates": ["repulse"],
+			"hits": 1
+		}
+	],		
+	"chakra": 0
+}

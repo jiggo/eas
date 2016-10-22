@@ -1,0 +1,19 @@
+{
+	"name": "Main 2",
+	"attribute": "earth",
+	"mistery": 
+		{
+			"creates": ["knockdown"],
+			"pursuits": [],
+			"hits": 1 
+		},
+	"chases": [
+		{
+			"name": "Primary lotus",
+			"pursuits": ["high_float"],
+			"creates": ["knockdown"],
+			"hits": 1
+		}
+	],		
+	"chakra": 20
+}
