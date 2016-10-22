@@ -215,7 +215,7 @@ function insertSkill($skills, $dbconn, $ninja_id, $skill_id) {
 
 function findNext($current, $attack, $ninjas, &$considered, &$high_combo_queue, &$combos, &$hits) {
 
-	//print_r("Comboooo:".$combos);
+	
 	$toReturn = array();
 	$summon_times = 0;
 	if(count($attack["hurt_statuses"]) == 0)
@@ -231,9 +231,9 @@ function findNext($current, $attack, $ninjas, &$considered, &$high_combo_queue, 
 						if($create["id"] == $pursuit["id"]) 
 						{
 							$combos++;
-							echo "<pre>";
-							echo "Found combo: from " .$current["name"]." [".$create["alias"]."] - [".$pursuit["alias"]."] ".$ninja["name"]."\n";
-							echo "</pre>";
+							//echo "<pre>";
+							//echo "Found combo: from " .$current["name"]." [".$create["alias"]."] - [".$pursuit["alias"]."] ".$ninja["name"]."\n";
+							//echo "</pre>";
 							if(($ninja["human_summon"] == 2 && $ninja["summon_color"] == 'yellow' && $summon_times > 2) || $ninja["human_summon"] == 1) {
 								$considered[] = array('ninja_key' => $ninja_key, 'chase_key' => $chase_key);
 							}
@@ -292,10 +292,10 @@ function ninjasLoop($ids, $dbconn, $i, &$highest_combo) {
 	
 	foreach($ninjas as $ninja) {
 		
-		echo "<pre>";
-		echo "/************** ".$ninja["name"]."**************/\n";
-		echo "/************** Mistery **************/";
-		echo "</pre>";
+		//echo "<pre>";
+		//echo "/************** ".$ninja["name"]."**************/\n";
+		//echo "/************** Mistery **************/";
+		//echo "</pre>";
 		/************** Mistery **************/
 		$considered = array();
 		$high_combo_queue = array();
@@ -307,14 +307,14 @@ function ninjasLoop($ids, $dbconn, $i, &$highest_combo) {
 				$combos++;
 			}
 		}
-		echo "<pre>";
-		echo "Combos: ".$combos."\n";
-		echo "Hits: ".$hits."\n";
-		echo "</pre>";
+		//echo "<pre>";
+		//echo "Combos: ".$combos."\n";
+		//echo "Hits: ".$hits."\n";
+		//echo "</pre>";
 		
-		echo "<pre>";
-		echo "/************** Standard **************/";
-		echo "</pre>";
+		//echo "<pre>";
+		//echo "/************** Standard **************/";
+		//echo "</pre>";
 		/************** Standard **************/		
 		$considered = array();
 		$high_combo_queue = array();
@@ -326,10 +326,10 @@ function ninjasLoop($ids, $dbconn, $i, &$highest_combo) {
 				$combos++;
 			}
 		}
-		echo "<pre>";
-		echo "Combos: ".$combos."\n";
-		echo "Hits: ".$hits."\n";
-		echo "</pre>";
+		//echo "<pre>";
+		//echo "Combos: ".$combos."\n";
+		//echo "Hits: ".$hits."\n";
+		//echo "</pre>";
 		if($combos > $highest_combo)
 			$highest_combo = $combos;
 		
