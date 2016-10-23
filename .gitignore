@@ -19,3 +19,4 @@ public/
 # Eclipse files
 .project
 .buildpath
+.settings/
