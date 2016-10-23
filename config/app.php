@@ -182,6 +182,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\HistoryServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+    	App\Providers\NinjaServiceProvider::class,
+    	App\Providers\SkillServiceProvider::class,
 
         /*
          * Third Party Providers

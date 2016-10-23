@@ -33,7 +33,9 @@
             <li class="{{ Active::pattern('admin/dashboard') }}">
                 {{ link_to_route('admin.dashboard', trans('menus.backend.sidebar.dashboard')) }}
             </li>
-
+			<li class="{{ Active::pattern('admin/ninjas') }}">
+                    {{ link_to_route('admin.ninja.index', trans('menus.backend.ninja.title')) }}
+            </li>
             @permission('manage-users')
                 <li class="{{ Active::pattern('admin/access/*') }}">
                     {{ link_to_route('admin.access.user.index', trans('menus.backend.access.title')) }}
