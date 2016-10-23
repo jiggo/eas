@@ -17,8 +17,15 @@ class DatabaseSeeder extends Seeder
         Model::unguard();
 
         $this->call(AccessTableSeeder::class);
-        $this->call(HistoryTypeTableSeeder::class);
+        //$this->call(HistoryTypeTableSeeder::class);
 
+        $this->call(SkillTypeTableSeeder::class);
+        $this->call(StatusTableSeeder::class);
+        
         Model::reguard();
+        $this->call('NinjasTableSeeder');
+        $this->call('SkillsTableSeeder');
+        $this->call('NinjasSkillsTableSeeder');
+        $this->call('SkillsStatusesTableSeeder');
     }
 }

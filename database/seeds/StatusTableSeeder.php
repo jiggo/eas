@@ -18,7 +18,7 @@ class StatusTableSeeder extends Seeder {
 			DB::statement('SET FOREIGN_KEY_CHECKS=0;');
 		}
 
-		DB::table('statuses')->truncate();
+		//DB::table('statuses')->truncate();
 
 		$statuses = [
 			[

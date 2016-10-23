@@ -18,7 +18,7 @@ class SkillTypeTableSeeder extends Seeder {
 			DB::statement('SET FOREIGN_KEY_CHECKS=0;');
 		}
 
-		DB::table('skill_types')->truncate();
+		//DB::table('skill_types')->truncate();
 
 		$types = [
 			[

@@ -17,7 +17,8 @@
         "arcanedev/no-captcha": "~3.0",
         "spatie/laravel-backup": "^3.0",
         "yajra/laravel-datatables-oracle": "^6.10",
-        "netshell/paypal": "dev-master"
+        "netshell/paypal": "dev-master",
+        "orangehill/iseed": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

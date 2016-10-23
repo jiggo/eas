@@ -196,6 +196,7 @@ return [
         Laravel\Socialite\SocialiteServiceProvider::class,
         Spatie\Backup\BackupServiceProvider::class,
         Yajra\Datatables\DatatablesServiceProvider::class,
+    	Orangehill\Iseed\IseedServiceProvider::class,
 
         /*
          * Has to override the Collective\Html\HtmlServiceProvider form singleton

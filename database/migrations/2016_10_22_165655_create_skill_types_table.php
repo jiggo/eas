@@ -16,7 +16,7 @@ class CreateSkillTypesTable extends Migration
             $table->increments('id');
             $table->string('name')->nullable();         
             $table->timestamp('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
-            $table->timestamp('updated_at');            
+            $table->timestamp('updated_at')->default(DB::raw('CURRENT_TIMESTAMP'));           
         });
     }
 

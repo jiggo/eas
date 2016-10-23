@@ -18,7 +18,7 @@ class CreateSkillsStatusesTable extends Migration
             $table->integer('skill_id')->nullable();
             $table->integer('chase_create')->default(0);
             $table->timestamp('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
-            $table->timestamp('updated_at');
+            $table->timestamp('updated_at')->default(DB::raw('CURRENT_TIMESTAMP'));
             
             $table->foreign('status_id')
 	            ->references('id')
