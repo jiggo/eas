@@ -31,9 +31,11 @@
                             <th>{{ trans('labels.backend.ninjas.table.id') }}</th>
                             <th>{{ trans('labels.backend.ninjas.table.name') }}</th>
                             <th>{{ trans('labels.backend.ninjas.table.alias') }}</th>
-                            <th>{{ trans('labels.backend.ninjas.table.skills') }}</th>
-                            <th>{{ trans('labels.backend.ninjas.table.created') }}</th>
-                            <th>{{ trans('labels.backend.ninjas.table.last_updated') }}</th>
+                            <th>{{ trans('labels.backend.ninjas.table.life') }}</th>
+                            <th>{{ trans('labels.backend.ninjas.table.attack') }}</th>
+                            <th>{{ trans('labels.backend.ninjas.table.defense') }}</th>
+                            <th>{{ trans('labels.backend.ninjas.table.ninjutsu') }}</th>
+                            <th>{{ trans('labels.backend.ninjas.table.resistance') }}</th>
                             <th>{{ trans('labels.general.actions') }}</th>
                         </tr>
                     </thead>
@@ -72,10 +74,12 @@
                 columns: [
                     {data: 'id', name: 'id'},
                     {data: 'name', name: 'name'},
-                    {data: 'alias', name: 'alias'},                    
-                    {data: 'skills', name: 'skills'},
-                    {data: 'created_at', name: 'created_at'},
-                    {data: 'updated_at', name: 'updated_at'},
+                    {data: 'alias', name: 'alias'},
+                    {data: 'life', name: 'life'},      
+                    {data: 'attack', name: 'attack'},      
+                    {data: 'defense', name: 'defense'},      
+                    {data: 'ninjutsu', name: 'ninjutsu'},      
+                    {data: 'resistance', name: 'resistance'},                          
                     {data: 'actions', name: 'actions'}
                 ],
                 order: [[0, "asc"]],

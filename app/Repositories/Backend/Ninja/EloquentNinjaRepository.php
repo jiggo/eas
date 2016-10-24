@@ -21,28 +21,27 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
      */
     public function getForDataTable()
     {
-        return Ninja::select(['id', 'name', 'alias', 'created_at', 'updated_at'])
+        return Ninja::select(['id', 'name', 'alias', 'life', 'attack', 'defense', 'ninjutsu', 'resistance'])
             ->get();
     }
 
     /**
-     * @param  $input
-     * @param  $skills
+     * @param  $request
      * @throws GeneralException
      * @throws NinjaNeedsRolesException
      * @return bool
      */
-    public function create($input, $skills)
+    public function create($request)
     {
+    	$input = $request->all();
         $ninja = $this->createNinjaStub($input);
         
-		DB::transaction(function() use ($ninja, $skills) {
+		DB::transaction(function() use ($ninja, $input) {
 			if ($ninja->save()) {
 
 				//Attach new skills
-				$ninja->attachSkills($skills['assignees_skills']);
+				$ninja->skills()->attach($input['associated-skills']);
 
-				event(new NinjaCreated($ninja));
 				return true;
 			}
 
@@ -58,14 +57,13 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
      * @throws GeneralException
      */
     public function update(Ninja $ninja, $input, $skills)
-    {        
+    {            	
 		DB::transaction(function() use ($ninja, $input, $skills) {
 			if ($ninja->update($input)) {
 				//For whatever reason this just wont work in the above call, so a second is needed for now
 				$this->flushSkills($skills, $ninja);
 				$ninja->save();
 
-				event(new NinjaUpdated($ninja));
 				return true;
 			}
 
@@ -82,10 +80,8 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
     {
 		DB::transaction(function() use ($ninja) {
 			//Detach all skills
-			$ninja->detachSkills($ninja->skills);
-
-			if ($ninja->forceDelete()) {
-				event(new NinjaPermanentlyDeleted($ninja));
+			$ninja->skills()->detach();
+			if ($ninja->forceDelete()) {				
 				return true;
 			}
 
@@ -100,8 +96,8 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
     private function flushSkills($skills, $ninja)
     {
         //Flush skills out, then add array of new ones
-        $ninja->detachSkills($ninja->skills);
-        $ninja->attachSkills($skills['assignees_skills']);
+        $ninja->skills()->detach();
+        $ninja->skills()->attach($skills['associated-skills']);
     }
 
     /**

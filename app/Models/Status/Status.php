@@ -1,4 +1,4 @@
-<?php namespace App\Models\Skill;
+<?php namespace App\Models\Status;
 
 use Illuminate\Database\Eloquent\Model;
 use App\Model\Skill\Skill;
@@ -26,8 +26,10 @@ class Status extends Model {
 	/**
 	 * @return \Illuminate\Database\Eloquent\Relations\HasMany
 	 */
+	/*
 	public function skills()
 	{
-		return $this->belongsToMany(Skill::class, 'skills_statuses', 'status_id', 'skill_id');
+		return $this->belongsToMany(Skill::class, 'skills_statuses', 'skill_id', 'status_id');
 	}
+	*/
 }

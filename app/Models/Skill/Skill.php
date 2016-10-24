@@ -27,7 +27,7 @@ class Skill extends Model {
 	 */
 	public function statuses()
 	{
-		return $this->hasMany(Status::class, 'skills_statuses', 'skill_id', 'status_id');
+		return $this->belongsToMany(Status::class, 'skills_statuses', 'skill_id', 'status_id');
 	}
 
 	/**

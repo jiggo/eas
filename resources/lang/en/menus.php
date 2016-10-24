@@ -35,6 +35,16 @@ return [
                 'main' => 'Users',
             ],
         ],
+    		
+    	'ninja' => [
+    		'title' => 'Ninja'	
+    	],
+    		
+    	'ninjas' => [
+    		'main' => 'Menu',
+    		'all' => 'All',
+    		'create' => 'Create'
+    	],
 
         'log-viewer' => [
             'main' => 'Log Viewer',

@@ -35,7 +35,7 @@ class EloquentSkillRepository implements SkillRepositoryContract
      * @param  bool    $withStatuses
      * @return mixed
      */
-    public function getAllSkills($order_by = 'sort', $sort = 'asc', $withStatuses = false)
+    public function getAllSkills($order_by = 'id', $sort = 'asc', $withStatuses = false)
     {
     	if ($withStatuses) {
     		return Skill::with('statuses')

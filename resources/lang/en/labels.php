@@ -73,6 +73,22 @@ return [
                 ],
             ],
         ],
+    		
+    	'ninjas' => [
+    		'table' => [
+    			'id' => 'ID',
+    			'name' => 'Name',
+    			'alias' => 'Alias',
+    			'life' => 'Life',
+    			'attack' => 'Attack',
+    			'defense' => 'Defense',
+    			'ninjutsu' => 'Ninjutsu',
+    			'resistance' => 'Resistance',
+    		],
+    		'management' => 'Ninja Management',
+    		'active' => 'Active ninjas',
+    		'create' => 'Create ninja'
+    	],
     ],
 
     'frontend' => [

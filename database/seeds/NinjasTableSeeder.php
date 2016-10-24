@@ -37,41 +37,23 @@ class NinjasTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => 270,
-                'name' => '',
-                'alias' => '',
+                'id' => 275,
+                'name' => 'Hanzo',
+                'alias' => 'Hanzo',
                 'attribute' => 'fire',
                 'chakra' => 0,
-                'life' => 692,
-                'attack' => 628,
-                'defense' => 709,
-                'ninjutsu' => 764,
-                'resistance' => 562,
-                'id_json' => '11011201',
+                'life' => 842,
+                'attack' => 577,
+                'defense' => 578,
+                'ninjutsu' => 665,
+                'resistance' => 730,
+                'id_json' => '11006801',
                 'human' => true,
-                'summon_color' => NULL,
+                'summon_color' => '',
                 'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 15:07:49',
             ),
             2 => 
-            array (
-                'id' => 271,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'water',
-                'chakra' => 0,
-                'life' => 944,
-                'attack' => 457,
-                'defense' => 598,
-                'ninjutsu' => 827,
-                'resistance' => 598,
-                'id_json' => '11006901',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            3 => 
             array (
                 'id' => 272,
                 'name' => 'Kimimaro',
@@ -89,43 +71,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            4 => 
-            array (
-                'id' => 273,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'fire',
-                'chakra' => 0,
-                'life' => 873,
-                'attack' => 561,
-                'defense' => 561,
-                'ninjutsu' => 537,
-                'resistance' => 537,
-                'id_json' => '10000201',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            5 => 
-            array (
-                'id' => 275,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'fire',
-                'chakra' => 0,
-                'life' => 842,
-                'attack' => 577,
-                'defense' => 578,
-                'ninjutsu' => 665,
-                'resistance' => 730,
-                'id_json' => '11006801',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            6 => 
+            3 => 
             array (
                 'id' => 278,
                 'name' => 'Kankuro[Great Ninja War]',
@@ -143,7 +89,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            7 => 
+            4 => 
             array (
                 'id' => 279,
                 'name' => 'Jiraiya[Sage Mode]',
@@ -161,25 +107,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            8 => 
-            array (
-                'id' => 280,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'wind',
-                'chakra' => 0,
-                'life' => 537,
-                'attack' => 870,
-                'defense' => 681,
-                'ninjutsu' => 676,
-                'resistance' => 540,
-                'id_json' => '11004401',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            9 => 
+            5 => 
             array (
                 'id' => 281,
                 'name' => 'Zabuza[',
@@ -197,7 +125,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            10 => 
+            6 => 
             array (
                 'id' => 283,
                 'name' => 'Kiba[Great Ninja War]',
@@ -215,7 +143,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            11 => 
+            7 => 
             array (
                 'id' => 284,
                 'name' => 'Naruto[',
@@ -233,7 +161,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            12 => 
+            8 => 
             array (
                 'id' => 285,
                 'name' => 'Chiyo ',
@@ -251,7 +179,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            13 => 
+            9 => 
             array (
                 'id' => 286,
                 'name' => 'Hataka[',
@@ -269,7 +197,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            14 => 
+            10 => 
             array (
                 'id' => 287,
                 'name' => 'Yamanaka',
@@ -287,7 +215,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            15 => 
+            11 => 
             array (
                 'id' => 288,
                 'name' => 'Udon',
@@ -305,7 +233,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            16 => 
+            12 => 
             array (
                 'id' => 289,
                 'name' => 'Shizune',
@@ -323,7 +251,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            17 => 
+            13 => 
             array (
                 'id' => 290,
                 'name' => 'Gaara[',
@@ -341,7 +269,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            18 => 
+            14 => 
             array (
                 'id' => 291,
                 'name' => 'Chiyo ',
@@ -359,7 +287,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            19 => 
+            15 => 
             array (
                 'id' => 292,
                 'name' => 'Kimimaro[',
@@ -377,7 +305,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            20 => 
+            16 => 
             array (
                 'id' => 293,
                 'name' => 'Udon[',
@@ -395,43 +323,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            21 => 
-            array (
-                'id' => 294,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'ltng',
-                'chakra' => 0,
-                'life' => 725,
-                'attack' => 510,
-                'defense' => 567,
-                'ninjutsu' => 876,
-                'resistance' => 686,
-                'id_json' => '11011501',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            22 => 
-            array (
-                'id' => 295,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'earth',
-                'chakra' => 0,
-                'life' => 991,
-                'attack' => 375,
-                'defense' => 593,
-                'ninjutsu' => 726,
-                'resistance' => 748,
-                'id_json' => '11007801',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            23 => 
+            17 => 
             array (
                 'id' => 296,
                 'name' => 'Pain - Animal Path',
@@ -449,25 +341,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            24 => 
-            array (
-                'id' => 297,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'water',
-                'chakra' => 0,
-                'life' => 506,
-                'attack' => 543,
-                'defense' => 505,
-                'ninjutsu' => 543,
-                'resistance' => 1204,
-                'id_json' => '11009101',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            25 => 
+            18 => 
             array (
                 'id' => 298,
                 'name' => 'Itachi Uchiha[',
@@ -485,7 +359,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            26 => 
+            19 => 
             array (
                 'id' => 299,
                 'name' => 'Pain - Tendo',
@@ -503,61 +377,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            27 => 
-            array (
-                'id' => 300,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'ltng',
-                'chakra' => 0,
-                'life' => 617,
-                'attack' => 466,
-                'defense' => 528,
-                'ninjutsu' => 636,
-                'resistance' => 1084,
-                'id_json' => '11008401',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            28 => 
-            array (
-                'id' => 302,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'earth',
-                'chakra' => 0,
-                'life' => 751,
-                'attack' => 510,
-                'defense' => 853,
-                'ninjutsu' => 691,
-                'resistance' => 560,
-                'id_json' => '11008701',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            29 => 
-            array (
-                'id' => 303,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'fire',
-                'chakra' => 0,
-                'life' => 537,
-                'attack' => 581,
-                'defense' => 540,
-                'ninjutsu' => 966,
-                'resistance' => 682,
-                'id_json' => '11010801',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            30 => 
+            20 => 
             array (
                 'id' => 304,
                 'name' => 'Hinata[Great Ninja War]',
@@ -575,7 +395,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            31 => 
+            21 => 
             array (
                 'id' => 305,
                 'name' => 'Jirobo',
@@ -593,25 +413,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            32 => 
-            array (
-                'id' => 306,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'wind',
-                'chakra' => 0,
-                'life' => 698,
-                'attack' => 955,
-                'defense' => 569,
-                'ninjutsu' => 561,
-                'resistance' => 569,
-                'id_json' => '11011301',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            33 => 
+            22 => 
             array (
                 'id' => 307,
                 'name' => 'Tayuya',
@@ -629,43 +431,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            34 => 
-            array (
-                'id' => 308,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'ltng',
-                'chakra' => 0,
-                'life' => 781,
-                'attack' => 574,
-                'defense' => 579,
-                'ninjutsu' => 863,
-                'resistance' => 579,
-                'id_json' => '11010101',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            35 => 
-            array (
-                'id' => 309,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'earth',
-                'chakra' => 0,
-                'life' => 842,
-                'attack' => 948,
-                'defense' => 730,
-                'ninjutsu' => 293,
-                'resistance' => 578,
-                'id_json' => '11007401',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            36 => 
+            23 => 
             array (
                 'id' => 311,
                 'name' => 'Kakuzu[',
@@ -683,7 +449,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            37 => 
+            24 => 
             array (
                 'id' => 312,
                 'name' => 'Naruto[Sage Mode]',
@@ -701,25 +467,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            38 => 
-            array (
-                'id' => 313,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'ltng',
-                'chakra' => 0,
-                'life' => 610,
-                'attack' => 850,
-                'defense' => 829,
-                'ninjutsu' => 498,
-                'resistance' => 544,
-                'id_json' => '11009801',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            39 => 
+            25 => 
             array (
                 'id' => 314,
                 'name' => 'Sasori[',
@@ -737,115 +485,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            40 => 
-            array (
-                'id' => 315,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'earth',
-                'chakra' => 0,
-                'life' => 921,
-                'attack' => 562,
-                'defense' => 379,
-                'ninjutsu' => 688,
-                'resistance' => 532,
-                'id_json' => '10000501',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            41 => 
-            array (
-                'id' => 316,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'fire',
-                'chakra' => 0,
-                'life' => 617,
-                'attack' => 799,
-                'defense' => 558,
-                'ninjutsu' => 799,
-                'resistance' => 558,
-                'id_json' => '11009001',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            42 => 
-            array (
-                'id' => 317,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'wind',
-                'chakra' => 0,
-                'life' => 698,
-                'attack' => 569,
-                'defense' => 569,
-                'ninjutsu' => 947,
-                'resistance' => 569,
-                'id_json' => '11009501',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            43 => 
-            array (
-                'id' => 318,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'water',
-                'chakra' => 0,
-                'life' => 1008,
-                'attack' => 876,
-                'defense' => 604,
-                'ninjutsu' => 350,
-                'resistance' => 604,
-                'id_json' => '11011401',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            44 => 
-            array (
-                'id' => 319,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'ltng',
-                'chakra' => 0,
-                'life' => 943,
-                'attack' => 738,
-                'defense' => 597,
-                'ninjutsu' => 545,
-                'resistance' => 597,
-                'id_json' => '11010201',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            45 => 
-            array (
-                'id' => 320,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'earth',
-                'chakra' => 0,
-                'life' => 872,
-                'attack' => 351,
-                'defense' => 581,
-                'ninjutsu' => 861,
-                'resistance' => 734,
-                'id_json' => '11008101',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            46 => 
+            26 => 
             array (
                 'id' => 321,
                 'name' => 'Tobirama Senju[',
@@ -863,7 +503,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            47 => 
+            27 => 
             array (
                 'id' => 323,
                 'name' => 'Yamanaka',
@@ -881,61 +521,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            48 => 
-            array (
-                'id' => 324,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'wind',
-                'chakra' => 0,
-                'life' => 537,
-                'attack' => 870,
-                'defense' => 681,
-                'ninjutsu' => 676,
-                'resistance' => 540,
-                'id_json' => '11004411',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            49 => 
-            array (
-                'id' => 325,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'wind',
-                'chakra' => 0,
-                'life' => 751,
-                'attack' => 428,
-                'defense' => 559,
-                'ninjutsu' => 774,
-                'resistance' => 853,
-                'id_json' => '11009601',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            50 => 
-            array (
-                'id' => 326,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'ltng',
-                'chakra' => 0,
-                'life' => 944,
-                'attack' => 827,
-                'defense' => 598,
-                'ninjutsu' => 457,
-                'resistance' => 598,
-                'id_json' => '11007001',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            51 => 
+            28 => 
             array (
                 'id' => 327,
                 'name' => 'Pain - Gakido',
@@ -953,7 +539,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            52 => 
+            29 => 
             array (
                 'id' => 328,
                 'name' => 'Pain - Ningendo',
@@ -971,79 +557,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            53 => 
-            array (
-                'id' => 331,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'fire',
-                'chakra' => 0,
-                'life' => 770,
-                'attack' => 555,
-                'defense' => 1032,
-                'ninjutsu' => 468,
-                'resistance' => 550,
-                'id_json' => '11009301',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            54 => 
-            array (
-                'id' => 334,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'water',
-                'chakra' => 0,
-                'life' => 617,
-                'attack' => 466,
-                'defense' => 528,
-                'ninjutsu' => 636,
-                'resistance' => 1084,
-                'id_json' => '11008001',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            55 => 
-            array (
-                'id' => 335,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'fire',
-                'chakra' => 0,
-                'life' => 798,
-                'attack' => 351,
-                'defense' => 555,
-                'ninjutsu' => 680,
-                'resistance' => 994,
-                'id_json' => '11002401',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            56 => 
-            array (
-                'id' => 336,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'ltng',
-                'chakra' => 0,
-                'life' => 987,
-                'attack' => 956,
-                'defense' => 708,
-                'ninjutsu' => 434,
-                'resistance' => 560,
-                'id_json' => '11007601',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            57 => 
+            30 => 
             array (
                 'id' => 337,
                 'name' => 'Ino[',
@@ -1061,25 +575,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            58 => 
-            array (
-                'id' => 338,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'earth',
-                'chakra' => 0,
-                'life' => 993,
-                'attack' => 552,
-                'defense' => 594,
-                'ninjutsu' => 552,
-                'resistance' => 750,
-                'id_json' => '11011601',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            59 => 
+            31 => 
             array (
                 'id' => 339,
                 'name' => 'Kakashi[',
@@ -1097,7 +593,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            60 => 
+            32 => 
             array (
                 'id' => 340,
                 'name' => 'Temari[Great Ninja War]',
@@ -1115,43 +611,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            61 => 
-            array (
-                'id' => 341,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'fire',
-                'chakra' => 0,
-                'life' => 837,
-                'attack' => 852,
-                'defense' => 975,
-                'ninjutsu' => 483,
-                'resistance' => 632,
-                'id_json' => '11003611',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            62 => 
-            array (
-                'id' => 342,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'earth',
-                'chakra' => 0,
-                'life' => 872,
-                'attack' => 631,
-                'defense' => 524,
-                'ninjutsu' => 631,
-                'resistance' => 524,
-                'id_json' => '11004701',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            63 => 
+            33 => 
             array (
                 'id' => 343,
                 'name' => 'Sasuke[',
@@ -1169,7 +629,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            64 => 
+            34 => 
             array (
                 'id' => 344,
                 'name' => 'Shikamaru[Great Ninja War]',
@@ -1187,7 +647,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            65 => 
+            35 => 
             array (
                 'id' => 345,
                 'name' => 'Asuma[',
@@ -1205,43 +665,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            66 => 
-            array (
-                'id' => 346,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'ltng',
-                'chakra' => 0,
-                'life' => 873,
-                'attack' => 514,
-                'defense' => 582,
-                'ninjutsu' => 700,
-                'resistance' => 734,
-                'id_json' => '11008301',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            67 => 
-            array (
-                'id' => 347,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'fire',
-                'chakra' => 0,
-                'life' => 851,
-                'attack' => 428,
-                'defense' => 559,
-                'ninjutsu' => 774,
-                'resistance' => 853,
-                'id_json' => '19004711',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            68 => 
+            36 => 
             array (
                 'id' => 348,
                 'name' => 'Sai',
@@ -1259,11 +683,227 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            69 => 
+            37 => 
+            array (
+                'id' => 280,
+                'name' => '波风水门[四代火影]',
+                'alias' => '波风水门',
+                'attribute' => 'wind',
+                'chakra' => 0,
+                'life' => 537,
+                'attack' => 870,
+                'defense' => 681,
+                'ninjutsu' => 676,
+                'resistance' => 540,
+                'id_json' => '11004401',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 11:35:30',
+            ),
+            38 => 
+            array (
+                'id' => 295,
+                'name' => '油女取根',
+                'alias' => '油女取根',
+                'attribute' => 'earth',
+                'chakra' => 0,
+                'life' => 991,
+                'attack' => 375,
+                'defense' => 593,
+                'ninjutsu' => 726,
+                'resistance' => 748,
+                'id_json' => '11007801',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 11:39:34',
+            ),
+            39 => 
+            array (
+                'id' => 297,
+                'name' => '矢仓[三尾人柱力]',
+                'alias' => '矢仓',
+                'attribute' => 'water',
+                'chakra' => 0,
+                'life' => 506,
+                'attack' => 543,
+                'defense' => 505,
+                'ninjutsu' => 543,
+                'resistance' => 1204,
+                'id_json' => '11009101',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 11:41:13',
+            ),
+            40 => 
+            array (
+                'id' => 273,
+                'name' => 'Scarlet Blaze',
+                'alias' => 'Scarlet Blaze',
+                'attribute' => 'fire',
+                'chakra' => 0,
+                'life' => 873,
+                'attack' => 561,
+                'defense' => 561,
+                'ninjutsu' => 537,
+                'resistance' => 537,
+                'id_json' => '10000201',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 15:06:39',
+            ),
+            41 => 
+            array (
+                'id' => 302,
+                'name' => 'Nara Shikahisa',
+                'alias' => 'Nara Shikahisa',
+                'attribute' => 'earth',
+                'chakra' => 0,
+                'life' => 751,
+                'attack' => 510,
+                'defense' => 853,
+                'ninjutsu' => 691,
+                'resistance' => 560,
+                'id_json' => '11008701',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 11:45:22',
+            ),
+            42 => 
+            array (
+                'id' => 303,
+                'name' => 'Pakura',
+                'alias' => 'Pakura',
+                'attribute' => 'fire',
+                'chakra' => 0,
+                'life' => 537,
+                'attack' => 581,
+                'defense' => 540,
+                'ninjutsu' => 966,
+                'resistance' => 682,
+                'id_json' => '11010801',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 11:57:01',
+            ),
+            43 => 
+            array (
+                'id' => 308,
+                'name' => 'Kinkaku',
+                'alias' => 'Kinkaku',
+                'attribute' => 'ltng',
+                'chakra' => 0,
+                'life' => 781,
+                'attack' => 574,
+                'defense' => 579,
+                'ninjutsu' => 863,
+                'resistance' => 579,
+                'id_json' => '11010101',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 12:02:20',
+            ),
+            44 => 
+            array (
+                'id' => 309,
+                'name' => 'Mifune',
+                'alias' => 'Mifune',
+                'attribute' => 'earth',
+                'chakra' => 0,
+                'life' => 842,
+                'attack' => 948,
+                'defense' => 730,
+                'ninjutsu' => 293,
+                'resistance' => 578,
+                'id_json' => '11007401',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 12:03:08',
+            ),
+            45 => 
+            array (
+                'id' => 313,
+                'name' => 'Samui',
+                'alias' => 'Samui',
+                'attribute' => 'ltng',
+                'chakra' => 0,
+                'life' => 610,
+                'attack' => 850,
+                'defense' => 829,
+                'ninjutsu' => 498,
+                'resistance' => 544,
+                'id_json' => '11009801',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 12:04:15',
+            ),
+            46 => 
+            array (
+                'id' => 324,
+                'name' => '波风水门',
+                'alias' => '波风水门',
+                'attribute' => 'wind',
+                'chakra' => 0,
+                'life' => 537,
+                'attack' => 870,
+                'defense' => 681,
+                'ninjutsu' => 676,
+                'resistance' => 540,
+                'id_json' => '11004411',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 12:31:06',
+            ),
+            47 => 
+            array (
+                'id' => 347,
+                'name' => '蛇姬[琥珀]',
+                'alias' => '蛇姬',
+                'attribute' => 'fire',
+                'chakra' => 0,
+                'life' => 851,
+                'attack' => 428,
+                'defense' => 559,
+                'ninjutsu' => 774,
+                'resistance' => 853,
+                'id_json' => '19004711',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 12:35:07',
+            ),
+            48 => 
+            array (
+                'id' => 346,
+                'name' => 'Nozomi',
+                'alias' => 'Nozomi',
+                'attribute' => 'ltng',
+                'chakra' => 0,
+                'life' => 873,
+                'attack' => 514,
+                'defense' => 582,
+                'ninjutsu' => 700,
+                'resistance' => 734,
+                'id_json' => '11008301',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 12:36:15',
+            ),
+            49 => 
             array (
                 'id' => 350,
-                'name' => '',
-                'alias' => '',
+                'name' => '罗砂[四代风影]',
+                'alias' => '罗砂',
                 'attribute' => 'wind',
                 'chakra' => 0,
                 'life' => 681,
@@ -1273,15 +913,87 @@ class NinjasTableSeeder extends Seeder
                 'resistance' => 842,
                 'id_json' => '11010501',
                 'human' => true,
-                'summon_color' => NULL,
+                'summon_color' => '',
                 'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 12:41:42',
             ),
-            70 => 
+            50 => 
+            array (
+                'id' => 341,
+                'name' => 'Iruka',
+                'alias' => 'Iruka',
+                'attribute' => 'fire',
+                'chakra' => 0,
+                'life' => 837,
+                'attack' => 852,
+                'defense' => 975,
+                'ninjutsu' => 483,
+                'resistance' => 632,
+                'id_json' => '11003611',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 12:44:28',
+            ),
+            51 => 
+            array (
+                'id' => 300,
+                'name' => 'Mabui',
+                'alias' => 'Mabui',
+                'attribute' => 'ltng',
+                'chakra' => 0,
+                'life' => 617,
+                'attack' => 466,
+                'defense' => 528,
+                'ninjutsu' => 636,
+                'resistance' => 1084,
+                'id_json' => '11008401',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 15:05:10',
+            ),
+            52 => 
+            array (
+                'id' => 316,
+                'name' => '由木人[二尾人柱力]',
+                'alias' => '由木人',
+                'attribute' => 'fire',
+                'chakra' => 0,
+                'life' => 617,
+                'attack' => 799,
+                'defense' => 558,
+                'ninjutsu' => 799,
+                'resistance' => 558,
+                'id_json' => '11009001',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 13:15:53',
+            ),
+            53 => 
+            array (
+                'id' => 320,
+                'name' => 'Kurotsuchi',
+                'alias' => 'Kurotsuchi',
+                'attribute' => 'earth',
+                'chakra' => 0,
+                'life' => 872,
+                'attack' => 351,
+                'defense' => 581,
+                'ninjutsu' => 861,
+                'resistance' => 734,
+                'id_json' => '11008101',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 13:19:01',
+            ),
+            54 => 
             array (
                 'id' => 351,
-                'name' => '',
-                'alias' => '',
+                'name' => 'Jinin Akebino[秽土转生]',
+                'alias' => 'Jinin Akebino',
                 'attribute' => 'earth',
                 'chakra' => 0,
                 'life' => 902,
@@ -1291,15 +1003,51 @@ class NinjasTableSeeder extends Seeder
                 'resistance' => 737,
                 'id_json' => '11011101',
                 'human' => true,
-                'summon_color' => NULL,
+                'summon_color' => '',
                 'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 13:31:04',
             ),
-            71 => 
+            55 => 
+            array (
+                'id' => 334,
+                'name' => 'Ao',
+                'alias' => 'Ao',
+                'attribute' => 'water',
+                'chakra' => 0,
+                'life' => 617,
+                'attack' => 466,
+                'defense' => 528,
+                'ninjutsu' => 636,
+                'resistance' => 1084,
+                'id_json' => '11008001',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:01:46',
+            ),
+            56 => 
+            array (
+                'id' => 326,
+                'name' => 'Mogusa',
+                'alias' => 'Mogusa',
+                'attribute' => 'ltng',
+                'chakra' => 0,
+                'life' => 944,
+                'attack' => 827,
+                'defense' => 598,
+                'ninjutsu' => 457,
+                'resistance' => 598,
+                'id_json' => '11007001',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:02:58',
+            ),
+            57 => 
             array (
                 'id' => 352,
-                'name' => '',
-                'alias' => '',
+                'name' => 'Madara Uchiha',
+                'alias' => 'Madara Uchiha',
                 'attribute' => 'fire',
                 'chakra' => 0,
                 'life' => 890,
@@ -1309,33 +1057,123 @@ class NinjasTableSeeder extends Seeder
                 'resistance' => 621,
                 'id_json' => '11011701',
                 'human' => true,
-                'summon_color' => NULL,
+                'summon_color' => '',
                 'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:07:37',
             ),
-            72 => 
+            58 => 
             array (
-                'id' => 354,
-                'name' => '',
-                'alias' => '',
+                'id' => 338,
+                'name' => 'Zetsu',
+                'alias' => 'Zetsu',
+                'attribute' => 'earth',
+                'chakra' => 0,
+                'life' => 993,
+                'attack' => 552,
+                'defense' => 594,
+                'ninjutsu' => 552,
+                'resistance' => 750,
+                'id_json' => '11011601',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:21:46',
+            ),
+            59 => 
+            array (
+                'id' => 325,
+                'name' => 'Nagato[秽土转生]',
+                'alias' => 'Nagato',
+                'attribute' => 'wind',
+                'chakra' => 0,
+                'life' => 751,
+                'attack' => 428,
+                'defense' => 559,
+                'ninjutsu' => 774,
+                'resistance' => 853,
+                'id_json' => '11009601',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:26:37',
+            ),
+            60 => 
+            array (
+                'id' => 335,
+                'name' => 'Hiruzen Sarutobi[The Third Hokage]',
+                'alias' => 'Hiruzen Sarutobi',
+                'attribute' => 'fire',
+                'chakra' => 0,
+                'life' => 798,
+                'attack' => 351,
+                'defense' => 555,
+                'ninjutsu' => 680,
+                'resistance' => 994,
+                'id_json' => '11002401',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:30:00',
+            ),
+            61 => 
+            array (
+                'id' => 336,
+                'name' => 'Fukurokumaru',
+                'alias' => 'Fukurokumaru',
                 'attribute' => 'ltng',
                 'chakra' => 0,
-                'life' => 1024,
-                'attack' => 789,
-                'defense' => 606,
-                'ninjutsu' => 423,
-                'resistance' => 606,
-                'id_json' => '11010301',
+                'life' => 987,
+                'attack' => 956,
+                'defense' => 708,
+                'ninjutsu' => 434,
+                'resistance' => 560,
+                'id_json' => '11007601',
                 'human' => true,
-                'summon_color' => NULL,
+                'summon_color' => '',
                 'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:33:06',
             ),
-            73 => 
+            62 => 
+            array (
+                'id' => 318,
+                'name' => 'Mangetsu Hozuki[秽土转生]',
+                'alias' => 'Mangetsu Hozuki',
+                'attribute' => 'water',
+                'chakra' => 0,
+                'life' => 1008,
+                'attack' => 876,
+                'defense' => 604,
+                'ninjutsu' => 350,
+                'resistance' => 604,
+                'id_json' => '11011401',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:38:06',
+            ),
+            63 => 
+            array (
+                'id' => 331,
+                'name' => 'Han[五尾人柱力]',
+                'alias' => 'Han',
+                'attribute' => 'fire',
+                'chakra' => 0,
+                'life' => 770,
+                'attack' => 555,
+                'defense' => 1032,
+                'ninjutsu' => 468,
+                'resistance' => 550,
+                'id_json' => '11009301',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:38:58',
+            ),
+            64 => 
             array (
                 'id' => 355,
-                'name' => '',
-                'alias' => '',
+                'name' => '青之助',
+                'alias' => '青之助',
                 'attribute' => 'water',
                 'chakra' => 0,
                 'life' => 690,
@@ -1345,11 +1183,11 @@ class NinjasTableSeeder extends Seeder
                 'resistance' => 560,
                 'id_json' => '11007611',
                 'human' => true,
-                'summon_color' => NULL,
+                'summon_color' => '',
                 'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 15:03:48',
             ),
-            74 => 
+            65 => 
             array (
                 'id' => 330,
                 'name' => 'Shino[Shippuden]',
@@ -1367,7 +1205,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            75 => 
+            66 => 
             array (
                 'id' => 349,
                 'name' => 'Lee[Shippuden]',
@@ -1385,7 +1223,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            76 => 
+            67 => 
             array (
                 'id' => 356,
                 'name' => 'Naruto[Shippuden]',
@@ -1403,7 +1241,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            77 => 
+            68 => 
             array (
                 'id' => 277,
                 'name' => 'Hinata[Big Sister]',
@@ -1421,7 +1259,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            78 => 
+            69 => 
             array (
                 'id' => 276,
                 'name' => 'Hinata[1 star]',
@@ -1439,7 +1277,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            79 => 
+            70 => 
             array (
                 'id' => 274,
                 'name' => 'Kiba[1 star]',
@@ -1457,7 +1295,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            80 => 
+            71 => 
             array (
                 'id' => 301,
                 'name' => 'Choji[1 star]',
@@ -1475,7 +1313,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            81 => 
+            72 => 
             array (
                 'id' => 310,
                 'name' => 'Ino[1 star]',
@@ -1493,7 +1331,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            82 => 
+            73 => 
             array (
                 'id' => 322,
                 'name' => 'Neji[1 star]',
@@ -1511,7 +1349,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            83 => 
+            74 => 
             array (
                 'id' => 332,
                 'name' => 'Lee[1 star]',
@@ -1529,25 +1367,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            84 => 
-            array (
-                'id' => 357,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'earth',
-                'chakra' => 0,
-                'life' => 972,
-                'attack' => 639,
-                'defense' => 589,
-                'ninjutsu' => 457,
-                'resistance' => 775,
-                'id_json' => '11003311',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            85 => 
+            75 => 
             array (
                 'id' => 359,
                 'name' => 'Hidan[',
@@ -1565,7 +1385,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            86 => 
+            76 => 
             array (
                 'id' => 361,
                 'name' => 'Deidara[',
@@ -1583,7 +1403,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            87 => 
+            77 => 
             array (
                 'id' => 362,
                 'name' => 'Shino[Great Ninja War]',
@@ -1601,25 +1421,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            88 => 
-            array (
-                'id' => 365,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'ltng',
-                'chakra' => 0,
-                'life' => 627,
-                'attack' => 838,
-                'defense' => 813,
-                'ninjutsu' => 241,
-                'resistance' => 813,
-                'id_json' => '11010701',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            89 => 
+            78 => 
             array (
                 'id' => 366,
                 'name' => 'Obito[',
@@ -1637,7 +1439,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            90 => 
+            79 => 
             array (
                 'id' => 367,
                 'name' => 'Enma',
@@ -1655,7 +1457,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            91 => 
+            80 => 
             array (
                 'id' => 368,
                 'name' => 'Chiza Akimichi',
@@ -1673,7 +1475,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            92 => 
+            81 => 
             array (
                 'id' => 369,
                 'name' => 'Anko',
@@ -1691,25 +1493,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            93 => 
-            array (
-                'id' => 370,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'earth',
-                'chakra' => 0,
-                'life' => 798,
-                'attack' => 752,
-                'defense' => 555,
-                'ninjutsu' => 281,
-                'resistance' => 994,
-                'id_json' => '11003301',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            94 => 
+            82 => 
             array (
                 'id' => 371,
                 'name' => 'Lee[',
@@ -1727,25 +1511,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            95 => 
-            array (
-                'id' => 372,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'ltng',
-                'chakra' => 0,
-                'life' => 842,
-                'attack' => 800,
-                'defense' => 730,
-                'ninjutsu' => 442,
-                'resistance' => 578,
-                'id_json' => '11007501',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            96 => 
+            83 => 
             array (
                 'id' => 373,
                 'name' => 'Lee[Great Ninja War]',
@@ -1763,7 +1529,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            97 => 
+            84 => 
             array (
                 'id' => 375,
                 'name' => 'Asuma',
@@ -1781,7 +1547,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            98 => 
+            85 => 
             array (
                 'id' => 376,
                 'name' => 'Tobi[',
@@ -1799,7 +1565,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            99 => 
+            86 => 
             array (
                 'id' => 377,
                 'name' => 'Karin',
@@ -1817,7 +1583,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            100 => 
+            87 => 
             array (
                 'id' => 378,
                 'name' => 'Tsunade[',
@@ -1835,7 +1601,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            101 => 
+            88 => 
             array (
                 'id' => 379,
                 'name' => 'Naruto[',
@@ -1853,7 +1619,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            102 => 
+            89 => 
             array (
                 'id' => 380,
                 'name' => 'Konan[',
@@ -1871,7 +1637,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            103 => 
+            90 => 
             array (
                 'id' => 381,
                 'name' => 'Deidara[',
@@ -1889,7 +1655,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            104 => 
+            91 => 
             array (
                 'id' => 382,
                 'name' => 'Shikamaru[',
@@ -1907,7 +1673,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            105 => 
+            92 => 
             array (
                 'id' => 383,
                 'name' => 'Baki',
@@ -1925,7 +1691,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            106 => 
+            93 => 
             array (
                 'id' => 384,
                 'name' => 'Tenten[',
@@ -1943,7 +1709,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            107 => 
+            94 => 
             array (
                 'id' => 385,
                 'name' => 'Sakura[',
@@ -1961,25 +1727,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            108 => 
-            array (
-                'id' => 386,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'earth',
-                'chakra' => 0,
-                'life' => 1052,
-                'attack' => 434,
-                'defense' => 599,
-                'ninjutsu' => 616,
-                'resistance' => 756,
-                'id_json' => '11008201',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            109 => 
+            95 => 
             array (
                 'id' => 388,
                 'name' => 'Jugo',
@@ -1997,7 +1745,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            110 => 
+            96 => 
             array (
                 'id' => 391,
                 'name' => 'Jiraiya[Sannin War]',
@@ -2015,7 +1763,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            111 => 
+            97 => 
             array (
                 'id' => 392,
                 'name' => 'Temari[',
@@ -2033,7 +1781,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            112 => 
+            98 => 
             array (
                 'id' => 393,
                 'name' => 'Kakuzu[',
@@ -2051,7 +1799,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            113 => 
+            99 => 
             array (
                 'id' => 394,
                 'name' => 'Naruto[Nine Tails Chakra]',
@@ -2069,7 +1817,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            114 => 
+            100 => 
             array (
                 'id' => 395,
                 'name' => 'Kabuto[',
@@ -2087,7 +1835,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            115 => 
+            101 => 
             array (
                 'id' => 396,
                 'name' => 'Sasuke[',
@@ -2105,7 +1853,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            116 => 
+            102 => 
             array (
                 'id' => 397,
                 'name' => 'Itachi Uchiha[',
@@ -2123,7 +1871,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            117 => 
+            103 => 
             array (
                 'id' => 398,
                 'name' => 'Kidomaru',
@@ -2141,7 +1889,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            118 => 
+            104 => 
             array (
                 'id' => 399,
                 'name' => 'Suigetsu',
@@ -2159,7 +1907,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            119 => 
+            105 => 
             array (
                 'id' => 400,
                 'name' => 'Kisame Hoshigaki[',
@@ -2177,7 +1925,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            120 => 
+            106 => 
             array (
                 'id' => 404,
                 'name' => 'Guy[',
@@ -2195,7 +1943,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            121 => 
+            107 => 
             array (
                 'id' => 405,
                 'name' => 'Kakashi[',
@@ -2213,7 +1961,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            122 => 
+            108 => 
             array (
                 'id' => 406,
                 'name' => 'Asuma[',
@@ -2231,7 +1979,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            123 => 
+            109 => 
             array (
                 'id' => 407,
                 'name' => 'Zabuza[',
@@ -2249,7 +1997,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            124 => 
+            110 => 
             array (
                 'id' => 408,
                 'name' => 'Orochimaru[',
@@ -2267,43 +2015,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            125 => 
-            array (
-                'id' => 409,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'ltng',
-                'chakra' => 0,
-                'life' => 494,
-                'attack' => 603,
-                'defense' => 526,
-                'ninjutsu' => 840,
-                'resistance' => 833,
-                'id_json' => '11010901',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            126 => 
-            array (
-                'id' => 410,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'ltng',
-                'chakra' => 0,
-                'life' => 690,
-                'attack' => 513,
-                'defense' => 560,
-                'ninjutsu' => 876,
-                'resistance' => 708,
-                'id_json' => '11007301',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            127 => 
+            111 => 
             array (
                 'id' => 411,
                 'name' => 'Sakura[Great Ninja War]',
@@ -2321,7 +2033,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            128 => 
+            112 => 
             array (
                 'id' => 412,
                 'name' => 'Naruto[',
@@ -2339,7 +2051,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            129 => 
+            113 => 
             array (
                 'id' => 413,
                 'name' => 'Shiro[',
@@ -2357,25 +2069,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            130 => 
-            array (
-                'id' => 414,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'earth',
-                'chakra' => 0,
-                'life' => 992,
-                'attack' => 300,
-                'defense' => 593,
-                'ninjutsu' => 803,
-                'resistance' => 749,
-                'id_json' => '11009901',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            131 => 
+            114 => 
             array (
                 'id' => 415,
                 'name' => 'Orochimaru[Sannin War]',
@@ -2393,7 +2087,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            132 => 
+            115 => 
             array (
                 'id' => 416,
                 'name' => 'Sasuke[',
@@ -2411,7 +2105,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            133 => 
+            116 => 
             array (
                 'id' => 417,
                 'name' => 'Hidan[',
@@ -2429,25 +2123,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            134 => 
-            array (
-                'id' => 419,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'water',
-                'chakra' => 0,
-                'life' => 690,
-                'attack' => 1027,
-                'defense' => 708,
-                'ninjutsu' => 362,
-                'resistance' => 560,
-                'id_json' => '11007901',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            135 => 
+            117 => 
             array (
                 'id' => 420,
                 'name' => 'Gaara[',
@@ -2465,7 +2141,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            136 => 
+            118 => 
             array (
                 'id' => 421,
                 'name' => 'Pain - Shurado',
@@ -2483,115 +2159,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            137 => 
-            array (
-                'id' => 422,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'fire',
-                'chakra' => 0,
-                'life' => 991,
-                'attack' => 375,
-                'defense' => 593,
-                'ninjutsu' => 726,
-                'resistance' => 748,
-                'id_json' => '11007201',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            138 => 
-            array (
-                'id' => 424,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'water',
-                'chakra' => 0,
-                'life' => 933,
-                'attack' => 531,
-                'defense' => 625,
-                'ninjutsu' => 587,
-                'resistance' => 741,
-                'id_json' => '10000101',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            139 => 
-            array (
-                'id' => 425,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'earth',
-                'chakra' => 0,
-                'life' => 699,
-                'attack' => 659,
-                'defense' => 569,
-                'ninjutsu' => 858,
-                'resistance' => 569,
-                'id_json' => '11009201',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            140 => 
-            array (
-                'id' => 427,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'wind',
-                'chakra' => 0,
-                'life' => 781,
-                'attack' => 718,
-                'defense' => 579,
-                'ninjutsu' => 718,
-                'resistance' => 579,
-                'id_json' => '11010001',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            141 => 
-            array (
-                'id' => 428,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'ltng',
-                'chakra' => 0,
-                'life' => 842,
-                'attack' => 800,
-                'defense' => 730,
-                'ninjutsu' => 442,
-                'resistance' => 578,
-                'id_json' => '11007511',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            142 => 
-            array (
-                'id' => 429,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'earth',
-                'chakra' => 0,
-                'life' => 842,
-                'attack' => 442,
-                'defense' => 578,
-                'ninjutsu' => 800,
-                'resistance' => 730,
-                'id_json' => '11007101',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            143 => 
+            119 => 
             array (
                 'id' => 430,
                 'name' => 'Naruto[',
@@ -2609,7 +2177,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            144 => 
+            120 => 
             array (
                 'id' => 431,
                 'name' => 'Zabuza[',
@@ -2627,25 +2195,205 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            145 => 
+            121 => 
             array (
-                'id' => 432,
-                'name' => '',
-                'alias' => '',
+                'id' => 409,
+                'name' => 'Kizashi haruno',
+                'alias' => 'Kizashi haruno',
+                'attribute' => 'ltng',
+                'chakra' => 0,
+                'life' => 494,
+                'attack' => 603,
+                'defense' => 526,
+                'ninjutsu' => 840,
+                'resistance' => 833,
+                'id_json' => '11010901',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 13:27:28',
+            ),
+            122 => 
+            array (
+                'id' => 414,
+                'name' => 'Mu[二代土影]',
+                'alias' => 'Mu',
+                'attribute' => 'earth',
+                'chakra' => 0,
+                'life' => 992,
+                'attack' => 300,
+                'defense' => 593,
+                'ninjutsu' => 803,
+                'resistance' => 749,
+                'id_json' => '11009901',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 13:40:21',
+            ),
+            123 => 
+            array (
+                'id' => 419,
+                'name' => 'Chojuro',
+                'alias' => 'Chojuro',
+                'attribute' => 'water',
+                'chakra' => 0,
+                'life' => 690,
+                'attack' => 1027,
+                'defense' => 708,
+                'ninjutsu' => 362,
+                'resistance' => 560,
+                'id_json' => '11007901',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 13:46:34',
+            ),
+            124 => 
+            array (
+                'id' => 424,
+                'name' => 'Azure Fang',
+                'alias' => 'Azure Fang',
+                'attribute' => 'water',
+                'chakra' => 0,
+                'life' => 933,
+                'attack' => 531,
+                'defense' => 625,
+                'ninjutsu' => 587,
+                'resistance' => 741,
+                'id_json' => '10000101',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 13:50:58',
+            ),
+            125 => 
+            array (
+                'id' => 427,
+                'name' => 'Zaku Abumi',
+                'alias' => 'Zaku Abumi',
                 'attribute' => 'wind',
                 'chakra' => 0,
-                'life' => 1042,
-                'attack' => 550,
-                'defense' => 608,
-                'ninjutsu' => 648,
-                'resistance' => 608,
-                'id_json' => '11010601',
+                'life' => 781,
+                'attack' => 718,
+                'defense' => 579,
+                'ninjutsu' => 718,
+                'resistance' => 579,
+                'id_json' => '11010001',
                 'human' => true,
-                'summon_color' => NULL,
+                'summon_color' => '',
                 'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 13:55:52',
             ),
-            146 => 
+            126 => 
+            array (
+                'id' => 365,
+                'name' => 'Omoi',
+                'alias' => 'Omoi',
+                'attribute' => 'ltng',
+                'chakra' => 0,
+                'life' => 627,
+                'attack' => 838,
+                'defense' => 813,
+                'ninjutsu' => 241,
+                'resistance' => 813,
+                'id_json' => '11010701',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:00:02',
+            ),
+            127 => 
+            array (
+                'id' => 386,
+                'name' => 'Akatsuchi',
+                'alias' => 'Akatsuchi',
+                'attribute' => 'earth',
+                'chakra' => 0,
+                'life' => 1052,
+                'attack' => 434,
+                'defense' => 599,
+                'ninjutsu' => 616,
+                'resistance' => 756,
+                'id_json' => '11008201',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:03:56',
+            ),
+            128 => 
+            array (
+                'id' => 425,
+                'name' => 'Roshi[四尾人柱力]',
+                'alias' => 'Roshi',
+                'attribute' => 'earth',
+                'chakra' => 0,
+                'life' => 699,
+                'attack' => 659,
+                'defense' => 569,
+                'ninjutsu' => 858,
+                'resistance' => 569,
+                'id_json' => '11009201',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:12:21',
+            ),
+            129 => 
+            array (
+                'id' => 428,
+                'name' => 'Killer Bee[鲛肌]',
+                'alias' => 'Killer Bee',
+                'attribute' => 'ltng',
+                'chakra' => 0,
+                'life' => 842,
+                'attack' => 800,
+                'defense' => 730,
+                'ninjutsu' => 442,
+                'resistance' => 578,
+                'id_json' => '11007511',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:13:26',
+            ),
+            130 => 
+            array (
+                'id' => 372,
+                'name' => 'Killer Bee[七刀流]',
+                'alias' => 'Killer Bee',
+                'attribute' => 'ltng',
+                'chakra' => 0,
+                'life' => 842,
+                'attack' => 800,
+                'defense' => 730,
+                'ninjutsu' => 442,
+                'resistance' => 578,
+                'id_json' => '11007501',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:22:49',
+            ),
+            131 => 
+            array (
+                'id' => 429,
+                'name' => 'Onoki[三代土影]',
+                'alias' => 'Onoki',
+                'attribute' => 'earth',
+                'chakra' => 0,
+                'life' => 842,
+                'attack' => 442,
+                'defense' => 578,
+                'ninjutsu' => 800,
+                'resistance' => 730,
+                'id_json' => '11007101',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:56:58',
+            ),
+            132 => 
             array (
                 'id' => 435,
                 'name' => 'Sai[Great Ninja War]',
@@ -2663,7 +2411,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            147 => 
+            133 => 
             array (
                 'id' => 436,
                 'name' => 'Shiro[',
@@ -2681,7 +2429,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            148 => 
+            134 => 
             array (
                 'id' => 437,
                 'name' => 'Konohamaru[',
@@ -2699,7 +2447,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            149 => 
+            135 => 
             array (
                 'id' => 438,
                 'name' => 'Yamato',
@@ -2717,7 +2465,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            150 => 
+            136 => 
             array (
                 'id' => 439,
                 'name' => 'Kisame Hoshigaki[',
@@ -2735,7 +2483,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            151 => 
+            137 => 
             array (
                 'id' => 440,
                 'name' => 'Choji[Great Ninja War]',
@@ -2753,7 +2501,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            152 => 
+            138 => 
             array (
                 'id' => 441,
                 'name' => 'Konohamaru',
@@ -2771,25 +2519,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            153 => 
-            array (
-                'id' => 442,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'water',
-                'chakra' => 0,
-                'life' => 1161,
-                'attack' => 526,
-                'defense' => 609,
-                'ninjutsu' => 452,
-                'resistance' => 738,
-                'id_json' => '11011001',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            154 => 
+            139 => 
             array (
                 'id' => 360,
                 'name' => 'Shikamaru[Shippuden]',
@@ -2807,7 +2537,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            155 => 
+            140 => 
             array (
                 'id' => 363,
                 'name' => 'Kiba[Shippuden]',
@@ -2825,7 +2555,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            156 => 
+            141 => 
             array (
                 'id' => 364,
                 'name' => 'Hinata[Shippuden]',
@@ -2843,7 +2573,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            157 => 
+            142 => 
             array (
                 'id' => 374,
                 'name' => 'Gaara[Shippuden]',
@@ -2861,7 +2591,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            158 => 
+            143 => 
             array (
                 'id' => 402,
                 'name' => 'Ino[Shippuden]',
@@ -2879,7 +2609,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            159 => 
+            144 => 
             array (
                 'id' => 418,
                 'name' => 'Choji[Shippuden]',
@@ -2897,7 +2627,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            160 => 
+            145 => 
             array (
                 'id' => 387,
                 'name' => 'Shikamaru[1 star]',
@@ -2915,7 +2645,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            161 => 
+            146 => 
             array (
                 'id' => 390,
                 'name' => 'Temari[1 star]',
@@ -2933,7 +2663,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            162 => 
+            147 => 
             array (
                 'id' => 403,
                 'name' => 'Obito[1 star]',
@@ -2951,7 +2681,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            163 => 
+            148 => 
             array (
                 'id' => 423,
                 'name' => 'Sasuke[1 star]',
@@ -2969,7 +2699,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            164 => 
+            149 => 
             array (
                 'id' => 426,
                 'name' => 'Kankuro[1 star]',
@@ -2987,7 +2717,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            165 => 
+            150 => 
             array (
                 'id' => 433,
                 'name' => 'Kabuto[1 star]',
@@ -3005,7 +2735,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            166 => 
+            151 => 
             array (
                 'id' => 443,
                 'name' => 'Sasori[',
@@ -3023,7 +2753,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            167 => 
+            152 => 
             array (
                 'id' => 444,
                 'name' => 'Temari[',
@@ -3041,7 +2771,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            168 => 
+            153 => 
             array (
                 'id' => 446,
                 'name' => 'Pain - Jigokudo',
@@ -3059,7 +2789,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            169 => 
+            154 => 
             array (
                 'id' => 447,
                 'name' => 'Kurenai',
@@ -3077,7 +2807,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            170 => 
+            155 => 
             array (
                 'id' => 448,
                 'name' => 'Kakashi[',
@@ -3095,25 +2825,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            171 => 
-            array (
-                'id' => 449,
-                'name' => '',
-                'alias' => 'ltng',
-                'attribute' => 'ltng',
-                'chakra' => 0,
-                'life' => 710,
-                'attack' => 803,
-                'defense' => 473,
-                'ninjutsu' => 519,
-                'resistance' => 519,
-                'id_json' => '10000401',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            172 => 
+            156 => 
             array (
                 'id' => 450,
                 'name' => 'Sasori[',
@@ -3131,7 +2843,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            173 => 
+            157 => 
             array (
                 'id' => 451,
                 'name' => 'Neji[Great Ninja War]',
@@ -3149,7 +2861,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            174 => 
+            158 => 
             array (
                 'id' => 453,
                 'name' => 'Ino[Great Ninja War]',
@@ -3167,25 +2879,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            175 => 
-            array (
-                'id' => 454,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'fire',
-                'chakra' => 0,
-                'life' => 851,
-                'attack' => 428,
-                'defense' => 559,
-                'ninjutsu' => 774,
-                'resistance' => 853,
-                'id_json' => '19004701',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            176 => 
+            159 => 
             array (
                 'id' => 455,
                 'name' => 'Tsunade[Sannin War]',
@@ -3203,43 +2897,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            177 => 
-            array (
-                'id' => 456,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'wind',
-                'chakra' => 0,
-                'life' => 539,
-                'attack' => 500,
-                'defense' => 685,
-                'ninjutsu' => 382,
-                'resistance' => 767,
-                'id_json' => '10000301',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            178 => 
-            array (
-                'id' => 457,
-                'name' => '',
-                'alias' => '',
-                'attribute' => 'water',
-                'chakra' => 0,
-                'life' => 617,
-                'attack' => 526,
-                'defense' => 558,
-                'ninjutsu' => 1073,
-                'resistance' => 558,
-                'id_json' => '11009701',
-                'human' => true,
-                'summon_color' => NULL,
-                'created_at' => '2016-10-23 15:27:04',
-                'updated_at' => '2016-10-23 15:27:04',
-            ),
-            179 => 
+            160 => 
             array (
                 'id' => 458,
                 'name' => 'Tenten[Great Ninja War]',
@@ -3257,7 +2915,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            180 => 
+            161 => 
             array (
                 'id' => 460,
                 'name' => 'Crimson Fist',
@@ -3275,7 +2933,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            181 => 
+            162 => 
             array (
                 'id' => 434,
                 'name' => 'Sasuke[Shippuden]',
@@ -3293,7 +2951,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            182 => 
+            163 => 
             array (
                 'id' => 461,
                 'name' => 'Chameleon',
@@ -3311,7 +2969,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            183 => 
+            164 => 
             array (
                 'id' => 459,
                 'name' => 'Neji[Shippuden]',
@@ -3329,7 +2987,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            184 => 
+            165 => 
             array (
                 'id' => 329,
                 'name' => 'Kankuro[Shippuden]',
@@ -3347,7 +3005,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            185 => 
+            166 => 
             array (
                 'id' => 353,
                 'name' => 'Sakura[Shippuden]',
@@ -3365,7 +3023,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            186 => 
+            167 => 
             array (
                 'id' => 358,
                 'name' => 'Tenten[Shippuden]',
@@ -3383,7 +3041,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            187 => 
+            168 => 
             array (
                 'id' => 389,
                 'name' => 'Temari[Shippuden]',
@@ -3401,7 +3059,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            188 => 
+            169 => 
             array (
                 'id' => 445,
                 'name' => 'Kakashi[Copy Ninja]',
@@ -3419,7 +3077,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            189 => 
+            170 => 
             array (
                 'id' => 282,
                 'name' => 'Shino[1 star]',
@@ -3437,7 +3095,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            190 => 
+            171 => 
             array (
                 'id' => 333,
                 'name' => 'Tenten[1 star]',
@@ -3455,7 +3113,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            191 => 
+            172 => 
             array (
                 'id' => 401,
                 'name' => 'Naruto[1 star]',
@@ -3473,7 +3131,7 @@ class NinjasTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
             ),
-            192 => 
+            173 => 
             array (
                 'id' => 452,
                 'name' => 'Sakura[1 star]',
@@ -3490,6 +3148,348 @@ class NinjasTableSeeder extends Seeder
                 'summon_color' => NULL,
                 'created_at' => '2016-10-23 15:27:04',
                 'updated_at' => '2016-10-23 15:27:04',
+            ),
+            174 => 
+            array (
+                'id' => 271,
+                'name' => 'Mei Terumi[Fifth Mizukage]',
+                'alias' => 'Mei Terumi',
+                'attribute' => 'water',
+                'chakra' => 0,
+                'life' => 944,
+                'attack' => 457,
+                'defense' => 598,
+                'ninjutsu' => 827,
+                'resistance' => 598,
+                'id_json' => '11006901',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 11:31:35',
+            ),
+            175 => 
+            array (
+                'id' => 294,
+                'name' => 'Ringo Ameyuri[秽土转生]',
+                'alias' => 'Ringo Ameyuri',
+                'attribute' => 'ltng',
+                'chakra' => 0,
+                'life' => 725,
+                'attack' => 510,
+                'defense' => 567,
+                'ninjutsu' => 876,
+                'resistance' => 686,
+                'id_json' => '11011501',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 11:37:15',
+            ),
+            176 => 
+            array (
+                'id' => 306,
+                'name' => 'Kuromaru[秽土转生]',
+                'alias' => 'Kuromaru',
+                'attribute' => 'wind',
+                'chakra' => 0,
+                'life' => 698,
+                'attack' => 955,
+                'defense' => 569,
+                'ninjutsu' => 561,
+                'resistance' => 569,
+                'id_json' => '11011301',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 12:00:19',
+            ),
+            177 => 
+            array (
+                'id' => 370,
+                'name' => 'Hashirama Senju[初代火影]',
+                'alias' => 'Hashirama Senju',
+                'attribute' => 'earth',
+                'chakra' => 0,
+                'life' => 798,
+                'attack' => 752,
+                'defense' => 555,
+                'ninjutsu' => 281,
+                'resistance' => 994,
+                'id_json' => '11003301',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 12:32:28',
+            ),
+            178 => 
+            array (
+                'id' => 342,
+                'name' => 'Moegi',
+                'alias' => 'Moegi',
+                'attribute' => 'earth',
+                'chakra' => 0,
+                'life' => 872,
+                'attack' => 631,
+                'defense' => 524,
+                'ninjutsu' => 631,
+                'resistance' => 524,
+                'id_json' => '11004701',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 12:43:00',
+            ),
+            179 => 
+            array (
+                'id' => 319,
+                'name' => 'Ginkaku',
+                'alias' => 'Ginkaku',
+                'attribute' => 'ltng',
+                'chakra' => 0,
+                'life' => 943,
+                'attack' => 738,
+                'defense' => 597,
+                'ninjutsu' => 545,
+                'resistance' => 597,
+                'id_json' => '11010201',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 13:22:38',
+            ),
+            180 => 
+            array (
+                'id' => 270,
+                'name' => '无梨甚八[秽土转生]',
+                'alias' => '无梨甚八',
+                'attribute' => 'fire',
+                'chakra' => 0,
+                'life' => 692,
+                'attack' => 628,
+                'defense' => 709,
+                'ninjutsu' => 764,
+                'resistance' => 562,
+                'id_json' => '11011201',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 11:29:43',
+            ),
+            181 => 
+            array (
+                'id' => 410,
+                'name' => 'Darui',
+                'alias' => 'Darui',
+                'attribute' => 'ltng',
+                'chakra' => 0,
+                'life' => 690,
+                'attack' => 513,
+                'defense' => 560,
+                'ninjutsu' => 876,
+                'resistance' => 708,
+                'id_json' => '11007301',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 13:35:33',
+            ),
+            182 => 
+            array (
+                'id' => 354,
+                'name' => 'Mogusa[三代雷影]',
+                'alias' => 'Mogusa',
+                'attribute' => 'ltng',
+                'chakra' => 0,
+                'life' => 1024,
+                'attack' => 789,
+                'defense' => 606,
+                'ninjutsu' => 423,
+                'resistance' => 606,
+                'id_json' => '11010301',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:08:46',
+            ),
+            183 => 
+            array (
+                'id' => 357,
+                'name' => 'Hashirama Senju[秽土转生]',
+                'alias' => 'Hashirama Senju',
+                'attribute' => 'earth',
+                'chakra' => 0,
+                'life' => 972,
+                'attack' => 639,
+                'defense' => 589,
+                'ninjutsu' => 457,
+                'resistance' => 775,
+                'id_json' => '11003311',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:10:57',
+            ),
+            184 => 
+            array (
+                'id' => 432,
+                'name' => 'Kushina Uzumaki',
+                'alias' => 'Kushina Uzumaki',
+                'attribute' => 'wind',
+                'chakra' => 0,
+                'life' => 1042,
+                'attack' => 550,
+                'defense' => 608,
+                'ninjutsu' => 648,
+                'resistance' => 608,
+                'id_json' => '11010601',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:24:15',
+            ),
+            185 => 
+            array (
+                'id' => 442,
+                'name' => 'Fuguki Suikazan[秽土转生]',
+                'alias' => 'Fuguki Suikazan',
+                'attribute' => 'water',
+                'chakra' => 0,
+                'life' => 1161,
+                'attack' => 526,
+                'defense' => 609,
+                'ninjutsu' => 452,
+                'resistance' => 738,
+                'id_json' => '11011001',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:32:22',
+            ),
+            186 => 
+            array (
+                'id' => 317,
+                'name' => 'Fu[七尾人柱力]',
+                'alias' => 'Fu',
+                'attribute' => 'wind',
+                'chakra' => 0,
+                'life' => 698,
+                'attack' => 569,
+                'defense' => 569,
+                'ninjutsu' => 947,
+                'resistance' => 569,
+                'id_json' => '11009501',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:36:57',
+            ),
+            187 => 
+            array (
+                'id' => 456,
+                'name' => 'Breeze Dancer',
+                'alias' => 'Breeze Dancer',
+                'attribute' => 'wind',
+                'chakra' => 0,
+                'life' => 539,
+                'attack' => 500,
+                'defense' => 685,
+                'ninjutsu' => 382,
+                'resistance' => 767,
+                'id_json' => '10000301',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:40:32',
+            ),
+            188 => 
+            array (
+                'id' => 454,
+                'name' => '蛇姬[玛瑙]',
+                'alias' => '蛇姬[玛瑙]',
+                'attribute' => 'fire',
+                'chakra' => 0,
+                'life' => 851,
+                'attack' => 428,
+                'defense' => 559,
+                'ninjutsu' => 774,
+                'resistance' => 853,
+                'id_json' => '19004701',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:52:51',
+            ),
+            189 => 
+            array (
+                'id' => 422,
+                'name' => 'Danzo Shimura',
+                'alias' => 'Danzo Shimura',
+                'attribute' => 'fire',
+                'chakra' => 0,
+                'life' => 991,
+                'attack' => 375,
+                'defense' => 593,
+                'ninjutsu' => 726,
+                'resistance' => 748,
+                'id_json' => '11007201',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:53:58',
+            ),
+            190 => 
+            array (
+                'id' => 449,
+                'name' => 'Midnight Blade',
+                'alias' => 'Midnight Blade',
+                'attribute' => 'ltng',
+                'chakra' => 0,
+                'life' => 710,
+                'attack' => 803,
+                'defense' => 473,
+                'ninjutsu' => 519,
+                'resistance' => 519,
+                'id_json' => '10000401',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 14:55:48',
+            ),
+            191 => 
+            array (
+                'id' => 457,
+                'name' => 'Gengetsu Hozuki[Second Mizukage]',
+                'alias' => 'Gengetsu Hozuki',
+                'attribute' => 'water',
+                'chakra' => 0,
+                'life' => 617,
+                'attack' => 526,
+                'defense' => 558,
+                'ninjutsu' => 1073,
+                'resistance' => 558,
+                'id_json' => '11009701',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 15:00:15',
+            ),
+            192 => 
+            array (
+                'id' => 315,
+                'name' => 'Crimson Fist',
+                'alias' => 'Crimson Fist',
+                'attribute' => 'earth',
+                'chakra' => 0,
+                'life' => 921,
+                'attack' => 562,
+                'defense' => 379,
+                'ninjutsu' => 688,
+                'resistance' => 532,
+                'id_json' => '10000501',
+                'human' => true,
+                'summon_color' => '',
+                'created_at' => '2016-10-23 15:27:04',
+                'updated_at' => '2016-10-24 15:04:25',
             ),
         ));
         

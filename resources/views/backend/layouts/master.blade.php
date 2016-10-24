@@ -25,6 +25,7 @@
             {{ Html::style(elixir('css/backend.css')) }}
         @endif
 
+			{{ Html::style('https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css') }}
         @yield('after-styles-end')
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -65,9 +66,14 @@
         {{ HTML::script('https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js') }}
         <script>window.jQuery || document.write('<script src="{{asset('js/vendor/jquery/jquery-2.1.4.min.js')}}"><\/script>')</script>
         {{ Html::script('js/vendor/bootstrap/bootstrap.min.js') }}
-
+		{{ Html::script('https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.full.min.js') }}
         @yield('before-scripts-end')
-        {{ HTML::script(elixir('js/backend.js')) }}
+        {{ HTML::script(elixir('js/backend.js')) }}        
         @yield('after-scripts-end')
+        <script>
+			$(function() {
+				$('select').select2();
+			});
+        </script>
     </body>
 </html>

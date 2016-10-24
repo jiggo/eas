@@ -17,19 +17,18 @@ interface NinjaRepositoryContract
     public function getForDataTable();
 
     /**
-     * @param $input
-     * @param $roles
+     * @param $input     
      * @return mixed
      */
-    public function create($input, $roles);
+    public function create($input);
 
     /**
      * @param Ninja $ninja
-     * @param $input
+     * @param $request
      * @param $skills
      * @return mixed
      */
-    public function update(Ninja $ninja, $input, $skills);
+    public function update(Ninja $ninja, $request, $skills);
 
     /**
      * @param  Ninja $ninja

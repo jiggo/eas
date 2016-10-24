@@ -77,7 +77,7 @@ class NinjaController extends Controller
     public function create(ManageNinjaRequest $request)
     {
         return view('backend.ninja.create')
-            ->withSkills($this->skills->getAllSkills('sort', 'asc', true));
+            ->withSkills($this->skills->getAllSkills('id', 'asc', true)->pluck('name', 'id'));
     }
 
 	/**
@@ -86,9 +86,7 @@ class NinjaController extends Controller
      */
     public function store(StoreNinjaRequest $request)
     {
-        $this->ninjas->create(
-           $request
-        );
+        $this->ninjas->create($request);
         return redirect()->route('admin.ninja.index')->withFlashSuccess(trans('alerts.backend.ninjas.created'));
     }
 
@@ -102,7 +100,7 @@ class NinjaController extends Controller
         return view('backend.ninja.edit')
             ->withNinja($ninja)
             ->withNinjaSkills($ninja->skills->lists('id')->all())
-            ->withSkills($this->skills->getAllSkills('sort', 'asc', true));
+            ->withSkills($this->skills->getAllSkills('id', 'asc', true)->pluck('name', 'id'));
     }
 
 	/**
@@ -112,20 +110,21 @@ class NinjaController extends Controller
      */
     public function update(Ninja $ninja, UpdateNinjaRequest $request)
     {
-        $this->ninjas->update($ninja,
-            $request
-        );
-        return redirect()->route('admin.ninja.index')->withFlashSuccess(trans('alerts.backend.ninjas.updated'));
+        $this->ninjas->update(
+        		$ninja,
+        		$request->except('associated-skills'),
+            	$request->only('associated-skills'));
+        return redirect()->back()->withFlashSuccess(trans('alerts.backend.ninjas.updated'));
     }
 
 	/**
-     * @param Ninja $deletedNinja
+     * @param Ninja $ninja
      * @param ManageNinjaRequest $request
      * @return mixed
      */
-    public function delete(Ninja $deletedNinja, ManageNinjaRequest $request)
+    public function delete(Ninja $ninja, ManageNinjaRequest $request)
     {
-        $this->ninjas->delete($deletedNinja);
+        $this->ninjas->delete($ninja);
         return redirect()->back()->withFlashSuccess(trans('alerts.backend.ninjas.deleted_permanently'));
     }
 }

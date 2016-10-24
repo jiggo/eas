@@ -2,12 +2,15 @@
 
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Skill\Skill;
+use App\Models\Ninja\NinjaAttribute;
 /**
  * Class Ninja
  * package App
  */
 class Ninja extends Model {
 
+	use NinjaAttribute;
+	
 	/**
 	 * The database table used by the model.
 	 *
