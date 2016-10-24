@@ -26,6 +26,24 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
     }
 
     /**
+     * @param  string  $order_by
+     * @param  string  $sort
+     * @param  bool    $withSkills
+     * @return mixed
+     */
+    public function getAllNinjas($order_by = 'id', $sort = 'asc', $withSkills = false)
+    {
+    	if ($withSkills) {
+    		return Ninja::with('skills')
+    		->orderBy($order_by, $sort)
+    		->get();
+    	}
+    
+    	return Ninja::orderBy($order_by, $sort)
+    	->get();
+    }
+    
+    /**
      * @param  $request
      * @throws GeneralException
      * @throws NinjaNeedsRolesException

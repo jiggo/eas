@@ -17,6 +17,14 @@ interface NinjaRepositoryContract
     public function getForDataTable();
 
     /**
+     * @param  string  $order_by
+     * @param  string  $sort
+     * @param  bool    $withSkills
+     * @return mixed
+     */
+    public function getAllNinjas($order_by = 'id', $sort = 'asc', $withSkills = false);
+    
+    /**
      * @param $input     
      * @return mixed
      */

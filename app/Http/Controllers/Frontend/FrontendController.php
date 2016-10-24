@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Repositories\Backend\Ninja\NinjaRepositoryContract;
 
 /**
  * Class FrontendController
@@ -10,6 +11,20 @@ use App\Http\Controllers\Controller;
  */
 class FrontendController extends Controller
 {
+	
+	/**
+	 * @var NinjaRepositoryContract
+	 */
+	protected $ninjas;
+	
+	/**
+	 * @param NinjaRepositoryContract $ninjas
+	 */
+	public function __construct(NinjaRepositoryContract $ninjas)
+	{
+		$this->ninjas = $ninjas;
+	}
+	
     /**
      * @return \Illuminate\View\View
      */
@@ -19,7 +34,8 @@ class FrontendController extends Controller
             'test' => 'it works!',
         ]);
 
-        return view('frontend.index');
+        return view('frontend.index')
+        		->withNinjas($this->ninjas->getAllNinjas());
     }
 
     /**
