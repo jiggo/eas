@@ -77,7 +77,7 @@ class NinjaController extends Controller
     public function create(ManageNinjaRequest $request)
     {
         return view('backend.ninja.create')
-            ->withSkills($this->skills->getAllSkills('id', 'asc', true)->pluck('name', 'id'));
+            ->withSkills($this->skills->getAllSkills('name', 'asc', true)->pluck('name', 'id'));
     }
 
 	/**

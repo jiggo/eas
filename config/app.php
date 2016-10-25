@@ -184,7 +184,8 @@ return [
         App\Providers\RouteServiceProvider::class,
     	App\Providers\NinjaServiceProvider::class,
     	App\Providers\SkillServiceProvider::class,
-
+    	App\Providers\StatusServiceProvider::class,
+    		
         /*
          * Third Party Providers
          */

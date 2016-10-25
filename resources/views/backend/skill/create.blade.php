@@ -1,20 +1,20 @@
 @extends ('backend.layouts.master')
 
-@section ('title', trans('labels.backend.ninjas.management') . ' | ' . trans('labels.backend.ninjas.edit'))
+@section ('title', trans('labels.backend.ninjas.management') . ' | ' . trans('labels.backend.ninjas.create'))
 
 @section('page-header')
     <h1>
         {{ trans('labels.backend.ninjas.management') }}
-        <small>{{ trans('labels.backend.ninjas.edit') }}</small>
+        <small>{{ trans('labels.backend.ninjas.create') }}</small>
     </h1>
 @endsection
 
 @section('content')
-    {{ Form::model($ninja, ['route' => ['admin.ninja.update', $ninja], 'class' => 'form-horizontal', 'ninja' => 'form', 'method' => 'PATCH', 'id' => 'edit-ninja']) }}
+    {{ Form::open(['route' => 'admin.ninja.store', 'class' => 'form-horizontal', 'ninja' => 'form', 'method' => 'post', 'id' => 'create-ninja']) }}
 
         <div class="box box-success">
             <div class="box-header with-border">
-                <h3 class="box-title">{{ trans('labels.backend.ninjas.edit') }}</h3>
+                <h3 class="box-title">{{ trans('labels.backend.ninjas.create') }}</h3>
 
                 <div class="box-tools pull-right">
                     @include('backend.ninja.includes.partials.header-buttons')
@@ -50,7 +50,7 @@
                     {{ Form::label('chakra', trans('validation.attributes.backend.ninjas.chakra'), ['class' => 'col-lg-2 control-label']) }}
 
                     <div class="col-lg-10">
-                        {{ Form::number('chakra', null, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.chakra')]) }}
+                        {{ Form::number('chakra', 0, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.chakra')]) }}
                     </div><!--col-lg-10-->
                 </div><!--form control-->
                 
@@ -58,7 +58,7 @@
                     {{ Form::label('life', trans('validation.attributes.backend.ninjas.life'), ['class' => 'col-lg-2 control-label']) }}
 
                     <div class="col-lg-10">
-                        {{ Form::number('life', null, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.life')]) }}
+                        {{ Form::number('life', 0, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.life')]) }}
                     </div><!--col-lg-10-->
                 </div><!--form control-->
                 
@@ -66,7 +66,7 @@
                     {{ Form::label('attack', trans('validation.attributes.backend.ninjas.attack'), ['class' => 'col-lg-2 control-label']) }}
 
                     <div class="col-lg-10">
-                        {{ Form::number('attack', null, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.attack')]) }}
+                        {{ Form::number('attack', 0, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.attack')]) }}
                     </div><!--col-lg-10-->
                 </div><!--form control-->
                 
@@ -74,7 +74,7 @@
                     {{ Form::label('defense', trans('validation.attributes.backend.ninjas.defense'), ['class' => 'col-lg-2 control-label']) }}
 
                     <div class="col-lg-10">
-                        {{ Form::number('defense', null, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.defense')]) }}
+                        {{ Form::number('defense', 0, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.defense')]) }}
                     </div><!--col-lg-10-->
                 </div><!--form control-->
                 
@@ -82,7 +82,7 @@
                     {{ Form::label('ninjutsu', trans('validation.attributes.backend.ninjas.ninjutsu'), ['class' => 'col-lg-2 control-label']) }}
 
                     <div class="col-lg-10">
-                        {{ Form::number('ninjutsu', null, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.ninjutsu')]) }}
+                        {{ Form::number('ninjutsu', 0, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.ninjutsu')]) }}
                     </div><!--col-lg-10-->
                 </div><!--form control-->
                 
@@ -90,7 +90,7 @@
                     {{ Form::label('resistance', trans('validation.attributes.backend.ninjas.resistance'), ['class' => 'col-lg-2 control-label']) }}
 
                     <div class="col-lg-10">
-                        {{ Form::number('resistance', null, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.resistance')]) }}
+                        {{ Form::number('resistance', 0, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.resistance')]) }}
                     </div><!--col-lg-10-->
                 </div><!--form control-->
                 
@@ -98,7 +98,8 @@
                     {{ Form::label('human', trans('validation.attributes.backend.ninjas.human'), ['class' => 'col-lg-2 control-label']) }}
 
                     <div class="col-lg-10">
-                        {{ Form::checkbox('human', null, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.resistance')]) }}
+                        {{ Form::radio('human', "false", ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.resistance')]) }}
+                        {{ Form::radio('human', "true", ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.resistance')]) }}
                     </div><!--col-lg-10-->
                 </div><!--form control-->
                 
@@ -114,9 +115,10 @@
                     {{ Form::label('associated-skills', trans('validation.attributes.backend.ninjas.associated_skills'), ['class' => 'col-lg-2 control-label']) }}
 
                     <div class="col-lg-10">
-                        {{ Form::select('associated-skills[]', $skills, $ninja_skills, ['class' => 'form-control', 'multiple' => true]) }}
+                        {{ Form::select('associated-skills', $skills, 'all', ['class' => 'form-control', 'multiple' => true]) }}
                     </div><!--col-lg-3-->
                 </div><!--form control-->
+
             </div><!-- /.box-body -->
         </div><!--box-->
 
@@ -127,7 +129,7 @@
                 </div><!--pull-left-->
 
                 <div class="pull-right">
-                    {{ Form::submit(trans('buttons.general.crud.update'), ['class' => 'btn btn-success btn-xs']) }}
+                    {{ Form::submit(trans('buttons.general.crud.create'), ['class' => 'btn btn-success btn-xs']) }}
                 </div><!--pull-right-->
 
                 <div class="clearfix"></div>

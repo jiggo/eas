@@ -25,6 +25,22 @@ interface NinjaRepositoryContract
     public function getAllNinjas($order_by = 'id', $sort = 'asc', $withSkills = false);
     
     /**
+     * @param  string  $order_by
+     * @param  string  $sort
+     * @param  bool    $withSkills
+     * @return mixed
+     */
+    public function getAllMains($order_by = 'id', $sort = 'asc', $withSkills = false);
+    
+    /**
+     * @param  string  $order_by
+     * @param  string  $sort
+     * @param  bool    $withSkills
+     * @return mixed
+     */
+    public function getAllSummons($order_by = 'id', $sort = 'asc', $withSkills = false);
+    
+    /**
      * @param $input     
      * @return mixed
      */

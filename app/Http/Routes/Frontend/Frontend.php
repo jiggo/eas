@@ -16,3 +16,9 @@ Route::group(['middleware' => 'auth'], function () {
         Route::patch('profile/update', 'ProfileController@update')->name('frontend.user.profile.update');
     });
 });
+Route::group(['prefix' => 'ninja/{ninja}'], function() {
+	Route::get('skills', 'FrontendController@getSkills')->name('frontend.ninja.skills');
+});
+
+Route::get('ninjas/combo', 'FrontendController@combo')->name('frontend.ninjas.combo');
+	

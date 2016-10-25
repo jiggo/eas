@@ -1,6 +1,6 @@
 @extends ('backend.layouts.master')
 
-@section ('title', trans('labels.backend.ninjas.management'))
+@section ('title', trans('labels.backend.skills.management'))
 
 @section('after-styles-end')
     {{ Html::style("css/backend/plugin/datatables/dataTables.bootstrap.min.css") }}
@@ -8,34 +8,31 @@
 
 @section('page-header')
     <h1>
-        {{ trans('labels.backend.ninjas.management') }}
-        <small>{{ trans('labels.backend.ninjas.active') }}</small>
+        {{ trans('labels.backend.skills.management') }}
+        <small>{{ trans('labels.backend.skills.active') }}</small>
     </h1>
 @endsection
 
 @section('content')
     <div class="box box-success">
         <div class="box-header with-border">
-            <h3 class="box-title">{{ trans('labels.backend.ninjas.active') }}</h3>
+            <h3 class="box-title">{{ trans('labels.backend.skills.active') }}</h3>
 
             <div class="box-tools pull-right">
-                @include('backend.ninja.includes.partials.header-buttons')
+                @include('backend.skill.includes.partials.header-buttons')
             </div><!--box-tools pull-right-->
         </div><!-- /.box-header -->
 
         <div class="box-body">
             <div class="table-responsive">
-                <table id="ninjas-table" class="table table-condensed table-hover">
+                <table id="skills-table" class="table table-condensed table-hover">
                     <thead>
                         <tr>
-                            <th>{{ trans('labels.backend.ninjas.table.id') }}</th>
-                            <th>{{ trans('labels.backend.ninjas.table.name') }}</th>
-                            <th>{{ trans('labels.backend.ninjas.table.alias') }}</th>
-                            <th>{{ trans('labels.backend.ninjas.table.life') }}</th>
-                            <th>{{ trans('labels.backend.ninjas.table.attack') }}</th>
-                            <th>{{ trans('labels.backend.ninjas.table.defense') }}</th>
-                            <th>{{ trans('labels.backend.ninjas.table.ninjutsu') }}</th>
-                            <th>{{ trans('labels.backend.ninjas.table.resistance') }}</th>
+                            <th>{{ trans('labels.backend.skills.table.id') }}</th>
+                            <th style="width: 40%;">{{ trans('labels.backend.skills.table.name') }}</th>
+                            <th>{{ trans('labels.backend.skills.table.hurt_num') }}</th>
+                            <th>{{ trans('labels.backend.skills.table.type') }}</th>
+                            <th>{{ trans('labels.backend.skills.table.owner') }}</th>                                  
                             <th>{{ trans('labels.general.actions') }}</th>
                         </tr>
                     </thead>
@@ -63,23 +60,20 @@
 
     <script>
         $(function() {
-            $('#ninjas-table').DataTable({
+            $('#skills-table').DataTable({
                 processing: true,
                 serverSide: true,
                 ajax: {
-                    url: '{{ route("admin.ninja.get") }}',
+                    url: '{{ route("admin.skill.get") }}',
                     type: 'get',
                     data: {status: 1, trashed: false}
                 },
                 columns: [
                     {data: 'id', name: 'id'},
                     {data: 'name', name: 'name'},
-                    {data: 'alias', name: 'alias'},
-                    {data: 'life', name: 'life'},      
-                    {data: 'attack', name: 'attack'},      
-                    {data: 'defense', name: 'defense'},      
-                    {data: 'ninjutsu', name: 'ninjutsu'},      
-                    {data: 'resistance', name: 'resistance'},                          
+                    {data: 'hurt_num', name: 'hurt_num'},
+                    {data: 'type_id', name: 'type_id'},
+                    {data: 'owner', name: 'owner'},                                     
                     {data: 'actions', name: 'actions'}
                 ],
                 order: [[1, "asc"]],

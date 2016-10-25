@@ -27,6 +27,10 @@ return [
         'none' => 'None',
         'show' => 'Show',
         'toggle_navigation' => 'Toggle Navigation',
+    	'standard' => 'Standard',
+    	'chase' => 'Chase',
+    	'mistery' => 'Mistery',
+    	'passive' => 'Passive'
     ],
 
     'backend' => [
@@ -88,6 +92,19 @@ return [
     		'management' => 'Ninja Management',
     		'active' => 'Active ninjas',
     		'create' => 'Create ninja'
+    	],
+    		
+    	'skills' => [
+    		'table' => [
+    			'id' => 'ID',
+    			'name' => 'Name',    			
+    			'hurt_num' => '# Colpi',
+    			'type' => 'Tipologia',
+    			'owner' => 'Usata da',    			
+    		],
+    		'management' => 'Skill Management',
+    		'active' => 'Active skills',
+    		'create' => 'Create skill'
     	],
     ],
 

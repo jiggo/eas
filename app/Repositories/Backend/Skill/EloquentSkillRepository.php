@@ -26,7 +26,13 @@ class EloquentSkillRepository implements SkillRepositoryContract
      * @return \Illuminate\Database\Eloquent\Collection|static[]
      */
     public function getForDataTable() {
-    	return Skill::all();
+    	return Skill::with(array('ninja' => function($query)
+					{
+					    $query->select('name');
+					
+					}))
+    		->select(['id', 'name', 'hurt_num', 'type_id'])
+            ->get();
     }
     
     /**
@@ -46,6 +52,8 @@ class EloquentSkillRepository implements SkillRepositoryContract
     	return Skill::orderBy($order_by, $sort)
     	->get();
     }
+    
+    
     
     /**
      * @param  $input
@@ -94,39 +102,61 @@ class EloquentSkillRepository implements SkillRepositoryContract
      * @throws GeneralException
      * @return bool
      */
-    public function update(Skill $skill, $input)
-    {
-    
-    	if (! isset($input['statuses']))
-    		$input['statuses'] = [];
+    public function update(Skill $skill, $input, $statuses)
+    {   
     
     		$skill->name = $input['name'];
         
-    		DB::transaction(function() use ($skill, $input, $all) {
+    		DB::transaction(function() use ($skill, $input, $statuses) {
     			if ($skill->save()) {
     				//Remove all skills first
-    				$skill->statuses()->sync([]);
+    				$skill->chases()->sync([]);
+    				$skill->hurts()->sync([]);
     
     				//Attach statuses if the skill does not have all access
-    				$statuses = [];
-    
-    				if (is_array($input['statuses']) && count($input['statuses'])) {
-    					foreach ($input['statuses'] as $perm) {
-    						if (is_numeric($perm)) {
-    							array_push($statuses, $perm);
+    				$chases = [];   
+    				if (is_array($statuses['associated-chases']) && count($statuses['associated-chases'])) {
+    					foreach ($statuses['associated-chases'] as $chase) {
+    						if (is_numeric($chase)) {
+    							$chases[$chase] = array('chase_create' => 1);    							
+    						}
+    					}
+    				}    
+    				$skill->chases()->attach($chases);
+
+    				$hurts = [];
+    				if (is_array($statuses['associated-hurts']) && count($statuses['associated-hurts'])) {
+    					foreach ($statuses['associated-hurts'] as $hurt) {
+    						if (is_numeric($hurt)) {
+    							$hurts[$hurt] = array('chase_create' => 2);
     						}
     					}
     				}
-    
-    				$skill->attachStatuses($statuses);
+    				$skill->hurts()->attach($hurts);
     				
-    
-    				event(new SkillUpdated($skill));
     				return true;
     			}
     
     			throw new GeneralException(trans('exceptions.backend.skills.update_error'));
     		});
+    }
+    
+    /**
+     * @param  Skill $skill
+     * @throws GeneralException
+     * @return boolean|null
+     */
+    public function delete(Skill $skill)
+    {
+    	DB::transaction(function() use ($skill) {
+    		//Detach all statuses
+    		$skill->statuses()->detach();
+    		if ($skill->forceDelete()) {
+    			return true;
+    		}
+    
+    		throw new GeneralException(trans('exceptions.backend.skills.delete_error'));
+    	});
     }
     
     /**

@@ -36,6 +36,9 @@
 			<li class="{{ Active::pattern('admin/ninjas') }}">
                     {{ link_to_route('admin.ninja.index', trans('menus.backend.ninja.title')) }}
             </li>
+            <li class="{{ Active::pattern('admin/skills') }}">
+                    {{ link_to_route('admin.skill.index', trans('menus.backend.skill.title')) }}
+            </li>
             @permission('manage-users')
                 <li class="{{ Active::pattern('admin/access/*') }}">
                     {{ link_to_route('admin.access.user.index', trans('menus.backend.access.title')) }}

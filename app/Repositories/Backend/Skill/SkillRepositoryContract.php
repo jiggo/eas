@@ -26,8 +26,9 @@ interface SkillRepositoryContract
     /**
      * @param Skill $skill
      * @param $input
+     * @param $statuses
      * @return mixed
      */
-    public function update(Skill $skill, $input);
+    public function update(Skill $skill, $input, $statuses);
 
 }

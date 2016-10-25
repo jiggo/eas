@@ -25,6 +25,7 @@ class CreateNinjasTable extends Migration
             $table->integer('resistance')->default(0);
             $table->string('id_json')->nullable();
             $table->boolean('human')->default(true);
+            $table->boolean('main')->default(false);
             $table->string('summon_color')->nullable();
             $table->timestamp('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
             $table->timestamp('updated_at')->default(DB::raw('CURRENT_TIMESTAMP'));       
