@@ -61,7 +61,7 @@ class AppServiceProvider extends ServiceProvider
              * Load third party local providers and facades
              */
 
-            $this->app->register(\Laracasts\Generators\GeneratorsServiceProvider::class);
+            //$this->app->register(\Laracasts\Generators\GeneratorsServiceProvider::class);
         }
     }
 }
