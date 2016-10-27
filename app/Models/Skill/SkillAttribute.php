@@ -41,7 +41,7 @@ trait SkillAttribute
 		$label = "";
 		
 		foreach($this->ninja as $ninja) {
-			$label .= "<label class='label label-default'>".$ninja->name."</label> ";
+			$label .= "<label class='label label-default' data-search='".$ninja->name."'>".$ninja->name."</label> ";
 		}
 		
 		return $label;

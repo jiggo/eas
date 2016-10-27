@@ -23,7 +23,8 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
 	private $high_combo_queue = array();
 	private $combos = 1;
 	private $hits = 0;
-	
+	private $counter = 1;
+	private $perms = array();
     /**
      * @return mixed
      */
@@ -193,30 +194,36 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
     public function getCombo($input) {    	
     	$this->ninjas = $this->loadData($input);
     	$ids = array();
+
     	foreach($this->ninjas as $key => $ninja)
     		$ids[] = $key;
-    	//dd($this->ninjas);
-    	$this->ninjasLoop($ids, 0);    	    	
+    	$this->pc_permute($ids);
+    	foreach($this->perms as $key => $ids) {
+    		$this->ninjasLoop($ids);    	
+    	}
     	return $this->highest_combo;
     }
     
-    private function ninjasLoop($ids, $i) {
-    	    	
+    private function ninjasLoop($ids) {
+
     	$this->considered = array();
     	$this->high_combo_queue = array();
     	$this->combos = 1;    	
     	$this->hits = 0;
     	
-    	foreach($this->ninjas as $ninja) {
-
+    	foreach($ids as $id) {
+			$ninja = $this->ninjas[$id];
+			
     		/************** Mistery **************/
     		if(isset($ninja["mistery"])) {
+    			    			
+    			//echo "Mistery of ".$ninja['name']."\n";    			
 	    		$this->considered = array();
 	    		$this->high_combo_queue = array();
 	    		$this->combos = 1;
 	    		$this->hits = 0;
-	    		$this->findNext($ninja, $ninja["mistery"]);
-	    		echo $this->hits;
+	    		$this->findNext($ninja, $ninja["mistery"], $ids);
+	    		//echo "hits: ".$this->hits."\n";
 	    		if($this->hits >= 10) {
 	    			foreach($this->high_combo_queue as $key => $value) {
 	    				$this->combos++;
@@ -226,11 +233,13 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
 
     		/************** Standard **************/
     		if(isset($ninja["standard"])) {
+    			//echo "Standard of ".$ninja['name']."\n";
 		    	$this->considered = array();
 		    	$this->high_combo_queue = array();
 		    	$this->combos = 1;
 	    		$this->hits = 0;
-	    		$this->findNext($ninja, $ninja["standard"]);
+	    		$this->findNext($ninja, $ninja["standard"], $ids);
+	    		//echo "hits: ".$this->hits."\n";
 	    		if($this->hits >= 10) {
 	    			foreach($this->high_combo_queue as $key => $value) {
 	    				$this->combos++;
@@ -238,19 +247,13 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
 	    		}
     		}
 
-    		if($this->combos > $this->highest_combo)
-    			$this->highest_combo = $this->combos;
-    	
-    		if($i < count($ids)) {
-    			$i++;
-    			array_push($ids, array_shift($ids));
-    			$this->ninjasLoop($ids, $i);
+    		if($this->combos > $this->highest_combo) {
+    			$this->highest_combo = $this->combos;    		
     		}
     	}
-    	
     }
     
-    private function findNext($current, $attack) {
+    private function findNext($current, $attack, $ids) {
        
     	$toReturn = array();
     	$summon_times = 0;
@@ -258,7 +261,8 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
     		return $toReturn;
     
     	$i = 0;
-    	foreach($this->ninjas as $ninja_key => $ninja) {
+    	foreach($ids as $ninja_key) {
+    		$ninja = $this->ninjas[$ninja_key];
     		foreach($attack["hurt_statuses"] as $create_key => $create) {
     			if(isset($ninja["chases"])) {
 	    			foreach($ninja["chases"] as $chase_key => $chase) {
@@ -269,7 +273,7 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
 		    						if($create["id"] == $pursuit["id"])
 		    						{
 		    							$this->combos++;
-
+										//echo "Found Match: ".$current['name']." with ".$ninja['name']." - ".$create["alias"]."\n";
 		    							if((!$ninja["human"] && $ninja["summon_color"] == 'yellow' && $summon_times > 2) || $ninja["human"]) {
 		    								$this->considered[] = array('ninja_key' => $ninja_key, 'chase_key' => $chase_key);
 		    							}
@@ -281,7 +285,7 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
 		    								$this->hits += $attack["hurt_num"];
 		    								
 		    							$this->hits += $chase["hurt_num"];
-		    							$toReturn = array_merge($toReturn, $this->findNext($ninja, $chase));
+		    							$toReturn = array_merge($toReturn, $this->findNext($ninja, $chase, $ids));
 		    							break;
 		    						}
 		    		    		    
@@ -312,11 +316,26 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
     	foreach($this->considered as $cons_key => $cons_value) {
     		if($cons_value['ninja_key'] == $ninja_key && $cons_value['chase_key'] == $chase_key) {
     			$return = true;
-    			break;
     		}
     	}
     	return $return;
     }
+    
+    private function pc_permute($items, $perms = array( )) {
+
+	    if (empty($items)) { 
+	    	$this->perms[] = $perms;
+	    }  else {
+	    	$return = array();
+	        for ($i = count($items) - 1; $i >= 0; --$i) {
+	             $newitems = $items;
+	             $newperms = $perms;
+	             list($foo) = array_splice($newitems, $i, 1);
+	             array_unshift($newperms, $foo);
+	             $this->pc_permute($newitems, $newperms);
+	         }
+	    }
+	}
     
     private function loadData($input) {    	
     	$ninjas = array();

@@ -75,9 +75,13 @@
                     {data: 'type_id', name: 'type_id'},
                     {data: 'owner', name: 'owner'},                                     
                     {data: 'actions', name: 'actions'}
-                ],
+                ],                
                 order: [[1, "asc"]],
-                searchDelay: 500
+                searchDelay: 500,
+                createdRow: function(row, data, dataIndex) {
+                    var a = $(row).find('td:eq(4)').html();
+                    $(row).find('td:eq(4)').attr('data-search', $(a).attr('data-search'));
+                }
             });
         });
     </script>

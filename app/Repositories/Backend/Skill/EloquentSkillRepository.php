@@ -104,11 +104,9 @@ class EloquentSkillRepository implements SkillRepositoryContract
      */
     public function update(Skill $skill, $input, $statuses)
     {   
-    
-    		$skill->name = $input['name'];
         
     		DB::transaction(function() use ($skill, $input, $statuses) {
-    			if ($skill->save()) {
+    			if ($skill->update($input)) {
     				//Remove all skills first
     				$skill->chases()->sync([]);
     				$skill->hurts()->sync([]);

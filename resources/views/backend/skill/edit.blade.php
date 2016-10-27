@@ -29,7 +29,13 @@
                         {{ Form::text('name', null, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.skills.name')]) }}
                     </div><!--col-lg-10-->
                 </div><!--form control-->	
-                
+                <div class="form-group">
+                    {{ Form::label('hurt_num', trans('validation.attributes.backend.skills.hurt_num'), ['class' => 'col-lg-2 control-label']) }}
+
+                    <div class="col-lg-10">
+                        {{ Form::text('hurt_num', null, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.skills.hurt_num')]) }}
+                    </div><!--col-lg-10-->
+                </div><!--form control-->	
                 <div class="form-group">
                     {{ Form::label('associated-chases', trans('validation.attributes.backend.skills.associated-chases'), ['class' => 'col-lg-2 control-label']) }}
 
