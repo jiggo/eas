@@ -194,7 +194,7 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
     public function getCombo($input) {    	
     	$this->ninjas = $this->loadData($input);
     	$ids = array();
-
+dd(print_r($this->ninjas));
     	foreach($this->ninjas as $key => $ninja)
     		$ids[] = $key;
     	$this->pc_permute($ids);
@@ -408,6 +408,7 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
     			 
     			$ninjas[$id["id"]]["name"] = $ninja->name;
     			$ninjas[$id["id"]]["human"] = $ninja->human;
+    			$ninjas[$id["id"]]["summon_color"] = $ninja->summon_color;
     			$ninjas[$id["id"]]["attributes"]["life"] = $ninja->life;
     			$ninjas[$id["id"]]["attributes"]["attack"] = $ninja->attack;
     			$ninjas[$id["id"]]["attributes"]["defense"] = $ninja->defense;
@@ -494,6 +495,7 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
 	    		
 	    		$ninjas[$id]["name"] = $ninja->name;
 	    		$ninjas[$id]["human"] = $ninja->human;
+	    		$ninjas[$id]["summon_color"] = $ninja->summon_color;
 	    		$ninjas[$id]["attributes"]["life"] = $ninja->life;
 	    		$ninjas[$id]["attributes"]["attack"] = $ninja->attack;
 	    		$ninjas[$id]["attributes"]["defense"] = $ninja->defense;
