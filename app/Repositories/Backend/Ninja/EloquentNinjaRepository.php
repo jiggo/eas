@@ -194,7 +194,7 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
     public function getCombo($input) {    	
     	$this->ninjas = $this->loadData($input);
     	$ids = array();
-dd(print_r($this->ninjas));
+
     	foreach($this->ninjas as $key => $ninja)
     		$ids[] = $key;
     	$this->pc_permute($ids);
