@@ -19,6 +19,15 @@ class SkillsStatusesTableSeeder extends Seeder
         \DB::table('skills_statuses')->insert(array (
             0 => 
             array (
+                'id' => 29,
+                'status_id' => 1,
+                'skill_id' => 616,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 11:31:41',
+                'updated_at' => '2016-10-27 11:31:41',
+            ),
+            1 => 
+            array (
                 'id' => 146,
                 'status_id' => 1,
                 'skill_id' => 139,
@@ -26,7 +35,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            1 => 
+            2 => 
             array (
                 'id' => 147,
                 'status_id' => 3,
@@ -35,7 +44,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            2 => 
+            3 => 
             array (
                 'id' => 148,
                 'status_id' => 9,
@@ -44,7 +53,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            3 => 
+            4 => 
             array (
                 'id' => 149,
                 'status_id' => 9,
@@ -53,7 +62,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            4 => 
+            5 => 
             array (
                 'id' => 150,
                 'status_id' => 2,
@@ -62,7 +71,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            5 => 
+            6 => 
             array (
                 'id' => 151,
                 'status_id' => 1,
@@ -71,7 +80,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            6 => 
+            7 => 
             array (
                 'id' => 152,
                 'status_id' => 2,
@@ -80,7 +89,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            7 => 
+            8 => 
             array (
                 'id' => 153,
                 'status_id' => 9,
@@ -89,7 +98,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            8 => 
+            9 => 
             array (
                 'id' => 154,
                 'status_id' => 3,
@@ -98,7 +107,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            9 => 
+            10 => 
             array (
                 'id' => 155,
                 'status_id' => 9,
@@ -107,7 +116,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            10 => 
+            11 => 
             array (
                 'id' => 156,
                 'status_id' => 1,
@@ -116,7 +125,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            11 => 
+            12 => 
             array (
                 'id' => 157,
                 'status_id' => 12,
@@ -125,7 +134,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            12 => 
+            13 => 
             array (
                 'id' => 158,
                 'status_id' => 6,
@@ -134,7 +143,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            13 => 
+            14 => 
             array (
                 'id' => 159,
                 'status_id' => 1,
@@ -143,7 +152,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            14 => 
+            15 => 
             array (
                 'id' => 160,
                 'status_id' => 3,
@@ -152,7 +161,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            15 => 
+            16 => 
             array (
                 'id' => 161,
                 'status_id' => 13,
@@ -161,7 +170,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            16 => 
+            17 => 
             array (
                 'id' => 162,
                 'status_id' => 4,
@@ -170,7 +179,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            17 => 
+            18 => 
             array (
                 'id' => 163,
                 'status_id' => 4,
@@ -179,7 +188,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            18 => 
+            19 => 
             array (
                 'id' => 164,
                 'status_id' => 2,
@@ -188,7 +197,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            19 => 
+            20 => 
             array (
                 'id' => 165,
                 'status_id' => 9,
@@ -197,7 +206,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            20 => 
+            21 => 
             array (
                 'id' => 166,
                 'status_id' => 3,
@@ -206,7 +215,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            21 => 
+            22 => 
             array (
                 'id' => 167,
                 'status_id' => 9,
@@ -215,7 +224,16 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            22 => 
+            23 => 
+            array (
+                'id' => 40,
+                'status_id' => 2,
+                'skill_id' => 11,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:39:03',
+                'updated_at' => '2016-10-27 16:39:03',
+            ),
+            24 => 
             array (
                 'id' => 171,
                 'status_id' => 2,
@@ -224,7 +242,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            23 => 
+            25 => 
             array (
                 'id' => 172,
                 'status_id' => 1,
@@ -233,7 +251,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            24 => 
+            26 => 
             array (
                 'id' => 173,
                 'status_id' => 6,
@@ -242,7 +260,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            25 => 
+            27 => 
             array (
                 'id' => 174,
                 'status_id' => 5,
@@ -251,7 +269,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            26 => 
+            28 => 
             array (
                 'id' => 175,
                 'status_id' => 6,
@@ -260,7 +278,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            27 => 
+            29 => 
             array (
                 'id' => 176,
                 'status_id' => 1,
@@ -269,7 +287,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            28 => 
+            30 => 
             array (
                 'id' => 177,
                 'status_id' => 1,
@@ -278,7 +296,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            29 => 
+            31 => 
             array (
                 'id' => 178,
                 'status_id' => 13,
@@ -287,7 +305,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            30 => 
+            32 => 
             array (
                 'id' => 179,
                 'status_id' => 9,
@@ -296,7 +314,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            31 => 
+            33 => 
             array (
                 'id' => 180,
                 'status_id' => 6,
@@ -305,7 +323,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            32 => 
+            34 => 
             array (
                 'id' => 181,
                 'status_id' => 2,
@@ -314,7 +332,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            33 => 
+            35 => 
             array (
                 'id' => 182,
                 'status_id' => 12,
@@ -323,7 +341,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            34 => 
+            36 => 
             array (
                 'id' => 183,
                 'status_id' => 1,
@@ -332,7 +350,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            35 => 
+            37 => 
             array (
                 'id' => 184,
                 'status_id' => 2,
@@ -341,7 +359,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            36 => 
+            38 => 
             array (
                 'id' => 185,
                 'status_id' => 12,
@@ -350,7 +368,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            37 => 
+            39 => 
             array (
                 'id' => 186,
                 'status_id' => 5,
@@ -359,7 +377,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            38 => 
+            40 => 
             array (
                 'id' => 187,
                 'status_id' => 1,
@@ -368,7 +386,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            39 => 
+            41 => 
             array (
                 'id' => 188,
                 'status_id' => 1,
@@ -377,7 +395,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            40 => 
+            42 => 
             array (
                 'id' => 189,
                 'status_id' => 1,
@@ -386,7 +404,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            41 => 
+            43 => 
             array (
                 'id' => 190,
                 'status_id' => 5,
@@ -395,7 +413,25 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            42 => 
+            44 => 
+            array (
+                'id' => 41,
+                'status_id' => 2,
+                'skill_id' => 11,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:39:03',
+                'updated_at' => '2016-10-27 16:39:03',
+            ),
+            45 => 
+            array (
+                'id' => 50,
+                'status_id' => 2,
+                'skill_id' => 16,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:41:37',
+                'updated_at' => '2016-10-27 16:41:37',
+            ),
+            46 => 
             array (
                 'id' => 193,
                 'status_id' => 3,
@@ -404,7 +440,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            43 => 
+            47 => 
             array (
                 'id' => 194,
                 'status_id' => 1,
@@ -413,7 +449,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            44 => 
+            48 => 
             array (
                 'id' => 195,
                 'status_id' => 3,
@@ -422,7 +458,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            45 => 
+            49 => 
             array (
                 'id' => 196,
                 'status_id' => 3,
@@ -431,7 +467,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            46 => 
+            50 => 
             array (
                 'id' => 197,
                 'status_id' => 9,
@@ -440,7 +476,16 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            47 => 
+            51 => 
+            array (
+                'id' => 51,
+                'status_id' => 4,
+                'skill_id' => 16,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:41:37',
+                'updated_at' => '2016-10-27 16:41:37',
+            ),
+            52 => 
             array (
                 'id' => 200,
                 'status_id' => 2,
@@ -449,7 +494,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            48 => 
+            53 => 
             array (
                 'id' => 201,
                 'status_id' => 2,
@@ -458,7 +503,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            49 => 
+            54 => 
             array (
                 'id' => 202,
                 'status_id' => 3,
@@ -467,7 +512,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            50 => 
+            55 => 
             array (
                 'id' => 203,
                 'status_id' => 1,
@@ -476,7 +521,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            51 => 
+            56 => 
             array (
                 'id' => 204,
                 'status_id' => 3,
@@ -485,7 +530,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            52 => 
+            57 => 
             array (
                 'id' => 205,
                 'status_id' => 1,
@@ -494,7 +539,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            53 => 
+            58 => 
             array (
                 'id' => 206,
                 'status_id' => 3,
@@ -503,7 +548,25 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            54 => 
+            59 => 
+            array (
+                'id' => 68,
+                'status_id' => 1,
+                'skill_id' => 26,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:49:56',
+                'updated_at' => '2016-10-27 16:49:56',
+            ),
+            60 => 
+            array (
+                'id' => 69,
+                'status_id' => 3,
+                'skill_id' => 26,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:49:56',
+                'updated_at' => '2016-10-27 16:49:56',
+            ),
+            61 => 
             array (
                 'id' => 209,
                 'status_id' => 13,
@@ -512,7 +575,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            55 => 
+            62 => 
             array (
                 'id' => 210,
                 'status_id' => 3,
@@ -521,7 +584,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            56 => 
+            63 => 
             array (
                 'id' => 211,
                 'status_id' => 2,
@@ -530,7 +593,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            57 => 
+            64 => 
             array (
                 'id' => 212,
                 'status_id' => 1,
@@ -539,7 +602,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            58 => 
+            65 => 
             array (
                 'id' => 213,
                 'status_id' => 2,
@@ -548,7 +611,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            59 => 
+            66 => 
             array (
                 'id' => 214,
                 'status_id' => 9,
@@ -557,7 +620,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            60 => 
+            67 => 
             array (
                 'id' => 215,
                 'status_id' => 2,
@@ -566,7 +629,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            61 => 
+            68 => 
             array (
                 'id' => 216,
                 'status_id' => 3,
@@ -575,7 +638,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            62 => 
+            69 => 
             array (
                 'id' => 217,
                 'status_id' => 9,
@@ -584,7 +647,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            63 => 
+            70 => 
             array (
                 'id' => 218,
                 'status_id' => 9,
@@ -593,7 +656,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            64 => 
+            71 => 
             array (
                 'id' => 219,
                 'status_id' => 1,
@@ -602,7 +665,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            65 => 
+            72 => 
             array (
                 'id' => 220,
                 'status_id' => 4,
@@ -611,7 +674,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            66 => 
+            73 => 
             array (
                 'id' => 221,
                 'status_id' => 1,
@@ -620,7 +683,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            67 => 
+            74 => 
             array (
                 'id' => 222,
                 'status_id' => 4,
@@ -629,7 +692,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            68 => 
+            75 => 
             array (
                 'id' => 223,
                 'status_id' => 4,
@@ -638,7 +701,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            69 => 
+            76 => 
             array (
                 'id' => 224,
                 'status_id' => 2,
@@ -647,7 +710,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            70 => 
+            77 => 
             array (
                 'id' => 225,
                 'status_id' => 1,
@@ -656,7 +719,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            71 => 
+            78 => 
             array (
                 'id' => 226,
                 'status_id' => 1,
@@ -665,7 +728,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            72 => 
+            79 => 
             array (
                 'id' => 227,
                 'status_id' => 1,
@@ -674,7 +737,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            73 => 
+            80 => 
             array (
                 'id' => 228,
                 'status_id' => 5,
@@ -683,7 +746,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            74 => 
+            81 => 
             array (
                 'id' => 229,
                 'status_id' => 6,
@@ -692,7 +755,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            75 => 
+            82 => 
             array (
                 'id' => 230,
                 'status_id' => 1,
@@ -701,7 +764,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            76 => 
+            83 => 
             array (
                 'id' => 231,
                 'status_id' => 2,
@@ -710,7 +773,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            77 => 
+            84 => 
             array (
                 'id' => 232,
                 'status_id' => 3,
@@ -719,7 +782,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            78 => 
+            85 => 
             array (
                 'id' => 233,
                 'status_id' => 4,
@@ -728,7 +791,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            79 => 
+            86 => 
             array (
                 'id' => 234,
                 'status_id' => 4,
@@ -737,7 +800,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            80 => 
+            87 => 
             array (
                 'id' => 235,
                 'status_id' => 3,
@@ -746,7 +809,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            81 => 
+            88 => 
             array (
                 'id' => 236,
                 'status_id' => 2,
@@ -755,7 +818,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            82 => 
+            89 => 
             array (
                 'id' => 237,
                 'status_id' => 6,
@@ -764,7 +827,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            83 => 
+            90 => 
             array (
                 'id' => 238,
                 'status_id' => 1,
@@ -773,7 +836,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            84 => 
+            91 => 
             array (
                 'id' => 239,
                 'status_id' => 4,
@@ -782,7 +845,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            85 => 
+            92 => 
             array (
                 'id' => 240,
                 'status_id' => 4,
@@ -791,7 +854,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            86 => 
+            93 => 
             array (
                 'id' => 241,
                 'status_id' => 4,
@@ -800,7 +863,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            87 => 
+            94 => 
             array (
                 'id' => 242,
                 'status_id' => 4,
@@ -809,7 +872,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            88 => 
+            95 => 
             array (
                 'id' => 243,
                 'status_id' => 3,
@@ -818,7 +881,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            89 => 
+            96 => 
             array (
                 'id' => 244,
                 'status_id' => 3,
@@ -827,7 +890,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            90 => 
+            97 => 
             array (
                 'id' => 245,
                 'status_id' => 6,
@@ -836,7 +899,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            91 => 
+            98 => 
             array (
                 'id' => 246,
                 'status_id' => 4,
@@ -845,7 +908,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            92 => 
+            99 => 
             array (
                 'id' => 247,
                 'status_id' => 2,
@@ -854,7 +917,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            93 => 
+            100 => 
             array (
                 'id' => 248,
                 'status_id' => 3,
@@ -863,7 +926,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            94 => 
+            101 => 
             array (
                 'id' => 249,
                 'status_id' => 2,
@@ -872,7 +935,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            95 => 
+            102 => 
             array (
                 'id' => 250,
                 'status_id' => 3,
@@ -881,7 +944,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            96 => 
+            103 => 
             array (
                 'id' => 251,
                 'status_id' => 13,
@@ -890,7 +953,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            97 => 
+            104 => 
             array (
                 'id' => 252,
                 'status_id' => 1,
@@ -899,7 +962,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            98 => 
+            105 => 
             array (
                 'id' => 253,
                 'status_id' => 3,
@@ -908,7 +971,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            99 => 
+            106 => 
             array (
                 'id' => 254,
                 'status_id' => 13,
@@ -917,7 +980,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            100 => 
+            107 => 
             array (
                 'id' => 255,
                 'status_id' => 6,
@@ -926,7 +989,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            101 => 
+            108 => 
             array (
                 'id' => 256,
                 'status_id' => 2,
@@ -935,7 +998,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            102 => 
+            109 => 
             array (
                 'id' => 257,
                 'status_id' => 2,
@@ -944,7 +1007,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            103 => 
+            110 => 
             array (
                 'id' => 258,
                 'status_id' => 3,
@@ -953,7 +1016,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            104 => 
+            111 => 
             array (
                 'id' => 259,
                 'status_id' => 6,
@@ -962,7 +1025,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            105 => 
+            112 => 
             array (
                 'id' => 260,
                 'status_id' => 6,
@@ -971,7 +1034,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            106 => 
+            113 => 
             array (
                 'id' => 261,
                 'status_id' => 3,
@@ -980,7 +1043,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            107 => 
+            114 => 
             array (
                 'id' => 262,
                 'status_id' => 1,
@@ -989,7 +1052,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            108 => 
+            115 => 
             array (
                 'id' => 263,
                 'status_id' => 3,
@@ -998,7 +1061,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            109 => 
+            116 => 
             array (
                 'id' => 264,
                 'status_id' => 4,
@@ -1007,7 +1070,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            110 => 
+            117 => 
             array (
                 'id' => 265,
                 'status_id' => 4,
@@ -1016,7 +1079,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            111 => 
+            118 => 
             array (
                 'id' => 266,
                 'status_id' => 3,
@@ -1025,7 +1088,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            112 => 
+            119 => 
             array (
                 'id' => 267,
                 'status_id' => 9,
@@ -1034,7 +1097,16 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            113 => 
+            120 => 
+            array (
+                'id' => 76,
+                'status_id' => 4,
+                'skill_id' => 30,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:52:15',
+                'updated_at' => '2016-10-27 16:52:15',
+            ),
+            121 => 
             array (
                 'id' => 269,
                 'status_id' => 1,
@@ -1043,7 +1115,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            114 => 
+            122 => 
             array (
                 'id' => 270,
                 'status_id' => 1,
@@ -1052,7 +1124,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            115 => 
+            123 => 
             array (
                 'id' => 271,
                 'status_id' => 12,
@@ -1061,7 +1133,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            116 => 
+            124 => 
             array (
                 'id' => 272,
                 'status_id' => 2,
@@ -1070,7 +1142,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            117 => 
+            125 => 
             array (
                 'id' => 273,
                 'status_id' => 1,
@@ -1079,7 +1151,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            118 => 
+            126 => 
             array (
                 'id' => 274,
                 'status_id' => 1,
@@ -1088,7 +1160,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            119 => 
+            127 => 
             array (
                 'id' => 275,
                 'status_id' => 1,
@@ -1097,7 +1169,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            120 => 
+            128 => 
             array (
                 'id' => 276,
                 'status_id' => 1,
@@ -1106,7 +1178,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            121 => 
+            129 => 
             array (
                 'id' => 277,
                 'status_id' => 3,
@@ -1115,7 +1187,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            122 => 
+            130 => 
             array (
                 'id' => 278,
                 'status_id' => 1,
@@ -1124,7 +1196,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            123 => 
+            131 => 
             array (
                 'id' => 279,
                 'status_id' => 1,
@@ -1133,7 +1205,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            124 => 
+            132 => 
             array (
                 'id' => 280,
                 'status_id' => 2,
@@ -1142,7 +1214,25 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            125 => 
+            133 => 
+            array (
+                'id' => 77,
+                'status_id' => 1,
+                'skill_id' => 30,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:52:15',
+                'updated_at' => '2016-10-27 16:52:15',
+            ),
+            134 => 
+            array (
+                'id' => 82,
+                'status_id' => 1,
+                'skill_id' => 33,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:57:00',
+                'updated_at' => '2016-10-27 16:57:00',
+            ),
+            135 => 
             array (
                 'id' => 281,
                 'status_id' => 1,
@@ -1151,7 +1241,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            126 => 
+            136 => 
             array (
                 'id' => 282,
                 'status_id' => 13,
@@ -1160,7 +1250,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            127 => 
+            137 => 
             array (
                 'id' => 283,
                 'status_id' => 9,
@@ -1169,7 +1259,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            128 => 
+            138 => 
             array (
                 'id' => 284,
                 'status_id' => 1,
@@ -1178,7 +1268,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            129 => 
+            139 => 
             array (
                 'id' => 285,
                 'status_id' => 3,
@@ -1187,7 +1277,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            130 => 
+            140 => 
             array (
                 'id' => 286,
                 'status_id' => 1,
@@ -1196,7 +1286,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            131 => 
+            141 => 
             array (
                 'id' => 287,
                 'status_id' => 3,
@@ -1205,7 +1295,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            132 => 
+            142 => 
             array (
                 'id' => 288,
                 'status_id' => 9,
@@ -1214,7 +1304,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            133 => 
+            143 => 
             array (
                 'id' => 289,
                 'status_id' => 13,
@@ -1223,7 +1313,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            134 => 
+            144 => 
             array (
                 'id' => 290,
                 'status_id' => 2,
@@ -1232,7 +1322,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            135 => 
+            145 => 
             array (
                 'id' => 291,
                 'status_id' => 2,
@@ -1241,7 +1331,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            136 => 
+            146 => 
             array (
                 'id' => 292,
                 'status_id' => 12,
@@ -1250,7 +1340,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            137 => 
+            147 => 
             array (
                 'id' => 293,
                 'status_id' => 1,
@@ -1259,7 +1349,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            138 => 
+            148 => 
             array (
                 'id' => 294,
                 'status_id' => 1,
@@ -1268,7 +1358,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            139 => 
+            149 => 
             array (
                 'id' => 295,
                 'status_id' => 1,
@@ -1277,7 +1367,25 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            140 => 
+            150 => 
+            array (
+                'id' => 42,
+                'status_id' => 4,
+                'skill_id' => 12,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:39:46',
+                'updated_at' => '2016-10-27 16:39:46',
+            ),
+            151 => 
+            array (
+                'id' => 43,
+                'status_id' => 3,
+                'skill_id' => 12,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:39:46',
+                'updated_at' => '2016-10-27 16:39:46',
+            ),
+            152 => 
             array (
                 'id' => 300,
                 'status_id' => 13,
@@ -1286,7 +1394,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            141 => 
+            153 => 
             array (
                 'id' => 301,
                 'status_id' => 1,
@@ -1295,7 +1403,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            142 => 
+            154 => 
             array (
                 'id' => 302,
                 'status_id' => 2,
@@ -1304,7 +1412,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            143 => 
+            155 => 
             array (
                 'id' => 303,
                 'status_id' => 2,
@@ -1313,7 +1421,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            144 => 
+            156 => 
             array (
                 'id' => 304,
                 'status_id' => 1,
@@ -1322,7 +1430,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            145 => 
+            157 => 
             array (
                 'id' => 305,
                 'status_id' => 3,
@@ -1331,7 +1439,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            146 => 
+            158 => 
             array (
                 'id' => 306,
                 'status_id' => 4,
@@ -1340,7 +1448,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            147 => 
+            159 => 
             array (
                 'id' => 307,
                 'status_id' => 4,
@@ -1349,7 +1457,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            148 => 
+            160 => 
             array (
                 'id' => 308,
                 'status_id' => 3,
@@ -1358,7 +1466,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            149 => 
+            161 => 
             array (
                 'id' => 309,
                 'status_id' => 1,
@@ -1367,7 +1475,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            150 => 
+            162 => 
             array (
                 'id' => 310,
                 'status_id' => 13,
@@ -1376,7 +1484,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            151 => 
+            163 => 
             array (
                 'id' => 311,
                 'status_id' => 9,
@@ -1385,7 +1493,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            152 => 
+            164 => 
             array (
                 'id' => 312,
                 'status_id' => 1,
@@ -1394,7 +1502,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            153 => 
+            165 => 
             array (
                 'id' => 313,
                 'status_id' => 1,
@@ -1403,7 +1511,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            154 => 
+            166 => 
             array (
                 'id' => 314,
                 'status_id' => 1,
@@ -1412,7 +1520,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            155 => 
+            167 => 
             array (
                 'id' => 315,
                 'status_id' => 1,
@@ -1421,7 +1529,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            156 => 
+            168 => 
             array (
                 'id' => 316,
                 'status_id' => 13,
@@ -1430,7 +1538,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            157 => 
+            169 => 
             array (
                 'id' => 317,
                 'status_id' => 2,
@@ -1439,7 +1547,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            158 => 
+            170 => 
             array (
                 'id' => 318,
                 'status_id' => 5,
@@ -1448,7 +1556,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            159 => 
+            171 => 
             array (
                 'id' => 319,
                 'status_id' => 2,
@@ -1457,7 +1565,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            160 => 
+            172 => 
             array (
                 'id' => 320,
                 'status_id' => 3,
@@ -1466,7 +1574,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            161 => 
+            173 => 
             array (
                 'id' => 321,
                 'status_id' => 2,
@@ -1475,7 +1583,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            162 => 
+            174 => 
             array (
                 'id' => 322,
                 'status_id' => 1,
@@ -1484,7 +1592,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            163 => 
+            175 => 
             array (
                 'id' => 323,
                 'status_id' => 1,
@@ -1493,7 +1601,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            164 => 
+            176 => 
             array (
                 'id' => 324,
                 'status_id' => 1,
@@ -1502,7 +1610,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            165 => 
+            177 => 
             array (
                 'id' => 325,
                 'status_id' => 3,
@@ -1511,7 +1619,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            166 => 
+            178 => 
             array (
                 'id' => 326,
                 'status_id' => 6,
@@ -1520,7 +1628,25 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            167 => 
+            179 => 
+            array (
+                'id' => 52,
+                'status_id' => 2,
+                'skill_id' => 17,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:42:05',
+                'updated_at' => '2016-10-27 16:42:05',
+            ),
+            180 => 
+            array (
+                'id' => 53,
+                'status_id' => 3,
+                'skill_id' => 17,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:42:05',
+                'updated_at' => '2016-10-27 16:42:05',
+            ),
+            181 => 
             array (
                 'id' => 329,
                 'status_id' => 4,
@@ -1529,7 +1655,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            168 => 
+            182 => 
             array (
                 'id' => 330,
                 'status_id' => 5,
@@ -1538,7 +1664,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            169 => 
+            183 => 
             array (
                 'id' => 331,
                 'status_id' => 5,
@@ -1547,7 +1673,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            170 => 
+            184 => 
             array (
                 'id' => 332,
                 'status_id' => 9,
@@ -1556,7 +1682,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            171 => 
+            185 => 
             array (
                 'id' => 333,
                 'status_id' => 4,
@@ -1565,7 +1691,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            172 => 
+            186 => 
             array (
                 'id' => 334,
                 'status_id' => 1,
@@ -1574,7 +1700,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            173 => 
+            187 => 
             array (
                 'id' => 335,
                 'status_id' => 3,
@@ -1583,7 +1709,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            174 => 
+            188 => 
             array (
                 'id' => 336,
                 'status_id' => 2,
@@ -1592,7 +1718,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            175 => 
+            189 => 
             array (
                 'id' => 337,
                 'status_id' => 1,
@@ -1601,7 +1727,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            176 => 
+            190 => 
             array (
                 'id' => 338,
                 'status_id' => 13,
@@ -1610,7 +1736,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            177 => 
+            191 => 
             array (
                 'id' => 339,
                 'status_id' => 2,
@@ -1619,7 +1745,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            178 => 
+            192 => 
             array (
                 'id' => 340,
                 'status_id' => 12,
@@ -1628,7 +1754,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            179 => 
+            193 => 
             array (
                 'id' => 341,
                 'status_id' => 1,
@@ -1637,7 +1763,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            180 => 
+            194 => 
             array (
                 'id' => 342,
                 'status_id' => 3,
@@ -1646,7 +1772,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            181 => 
+            195 => 
             array (
                 'id' => 343,
                 'status_id' => 12,
@@ -1655,7 +1781,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            182 => 
+            196 => 
             array (
                 'id' => 344,
                 'status_id' => 2,
@@ -1664,7 +1790,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            183 => 
+            197 => 
             array (
                 'id' => 345,
                 'status_id' => 3,
@@ -1673,7 +1799,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            184 => 
+            198 => 
             array (
                 'id' => 346,
                 'status_id' => 5,
@@ -1682,7 +1808,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            185 => 
+            199 => 
             array (
                 'id' => 347,
                 'status_id' => 1,
@@ -1691,7 +1817,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            186 => 
+            200 => 
             array (
                 'id' => 348,
                 'status_id' => 5,
@@ -1700,7 +1826,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            187 => 
+            201 => 
             array (
                 'id' => 349,
                 'status_id' => 4,
@@ -1709,7 +1835,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            188 => 
+            202 => 
             array (
                 'id' => 350,
                 'status_id' => 2,
@@ -1718,7 +1844,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            189 => 
+            203 => 
             array (
                 'id' => 351,
                 'status_id' => 2,
@@ -1727,7 +1853,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            190 => 
+            204 => 
             array (
                 'id' => 352,
                 'status_id' => 12,
@@ -1736,7 +1862,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            191 => 
+            205 => 
             array (
                 'id' => 353,
                 'status_id' => 13,
@@ -1745,7 +1871,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            192 => 
+            206 => 
             array (
                 'id' => 354,
                 'status_id' => 1,
@@ -1754,7 +1880,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            193 => 
+            207 => 
             array (
                 'id' => 355,
                 'status_id' => 1,
@@ -1763,7 +1889,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            194 => 
+            208 => 
             array (
                 'id' => 356,
                 'status_id' => 1,
@@ -1772,7 +1898,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            195 => 
+            209 => 
             array (
                 'id' => 357,
                 'status_id' => 2,
@@ -1781,7 +1907,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            196 => 
+            210 => 
             array (
                 'id' => 358,
                 'status_id' => 2,
@@ -1790,7 +1916,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            197 => 
+            211 => 
             array (
                 'id' => 359,
                 'status_id' => 1,
@@ -1799,7 +1925,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            198 => 
+            212 => 
             array (
                 'id' => 360,
                 'status_id' => 2,
@@ -1808,7 +1934,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            199 => 
+            213 => 
             array (
                 'id' => 361,
                 'status_id' => 1,
@@ -1817,7 +1943,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            200 => 
+            214 => 
             array (
                 'id' => 362,
                 'status_id' => 9,
@@ -1826,7 +1952,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            201 => 
+            215 => 
             array (
                 'id' => 363,
                 'status_id' => 4,
@@ -1835,7 +1961,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            202 => 
+            216 => 
             array (
                 'id' => 364,
                 'status_id' => 4,
@@ -1844,7 +1970,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            203 => 
+            217 => 
             array (
                 'id' => 365,
                 'status_id' => 4,
@@ -1853,7 +1979,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            204 => 
+            218 => 
             array (
                 'id' => 366,
                 'status_id' => 1,
@@ -1862,7 +1988,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            205 => 
+            219 => 
             array (
                 'id' => 367,
                 'status_id' => 1,
@@ -1871,7 +1997,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            206 => 
+            220 => 
             array (
                 'id' => 368,
                 'status_id' => 3,
@@ -1880,7 +2006,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            207 => 
+            221 => 
             array (
                 'id' => 369,
                 'status_id' => 1,
@@ -1889,7 +2015,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            208 => 
+            222 => 
             array (
                 'id' => 370,
                 'status_id' => 2,
@@ -1898,7 +2024,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            209 => 
+            223 => 
             array (
                 'id' => 371,
                 'status_id' => 1,
@@ -1907,7 +2033,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            210 => 
+            224 => 
             array (
                 'id' => 372,
                 'status_id' => 13,
@@ -1916,7 +2042,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            211 => 
+            225 => 
             array (
                 'id' => 373,
                 'status_id' => 4,
@@ -1925,7 +2051,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            212 => 
+            226 => 
             array (
                 'id' => 374,
                 'status_id' => 6,
@@ -1934,7 +2060,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            213 => 
+            227 => 
             array (
                 'id' => 375,
                 'status_id' => 1,
@@ -1943,7 +2069,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            214 => 
+            228 => 
             array (
                 'id' => 376,
                 'status_id' => 3,
@@ -1952,7 +2078,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            215 => 
+            229 => 
             array (
                 'id' => 377,
                 'status_id' => 3,
@@ -1961,7 +2087,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            216 => 
+            230 => 
             array (
                 'id' => 378,
                 'status_id' => 6,
@@ -1970,7 +2096,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            217 => 
+            231 => 
             array (
                 'id' => 379,
                 'status_id' => 1,
@@ -1979,7 +2105,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            218 => 
+            232 => 
             array (
                 'id' => 380,
                 'status_id' => 1,
@@ -1988,7 +2114,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            219 => 
+            233 => 
             array (
                 'id' => 381,
                 'status_id' => 1,
@@ -1997,7 +2123,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            220 => 
+            234 => 
             array (
                 'id' => 382,
                 'status_id' => 3,
@@ -2006,7 +2132,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            221 => 
+            235 => 
             array (
                 'id' => 383,
                 'status_id' => 1,
@@ -2015,7 +2141,25 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            222 => 
+            236 => 
+            array (
+                'id' => 61,
+                'status_id' => 14,
+                'skill_id' => 22,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:48:02',
+                'updated_at' => '2016-10-27 16:48:02',
+            ),
+            237 => 
+            array (
+                'id' => 70,
+                'status_id' => 1,
+                'skill_id' => 27,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:50:19',
+                'updated_at' => '2016-10-27 16:50:19',
+            ),
+            238 => 
             array (
                 'id' => 386,
                 'status_id' => 5,
@@ -2024,7 +2168,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            223 => 
+            239 => 
             array (
                 'id' => 387,
                 'status_id' => 2,
@@ -2033,7 +2177,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            224 => 
+            240 => 
             array (
                 'id' => 388,
                 'status_id' => 4,
@@ -2042,7 +2186,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            225 => 
+            241 => 
             array (
                 'id' => 389,
                 'status_id' => 12,
@@ -2051,7 +2195,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            226 => 
+            242 => 
             array (
                 'id' => 390,
                 'status_id' => 3,
@@ -2060,7 +2204,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            227 => 
+            243 => 
             array (
                 'id' => 391,
                 'status_id' => 1,
@@ -2069,7 +2213,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            228 => 
+            244 => 
             array (
                 'id' => 392,
                 'status_id' => 2,
@@ -2078,7 +2222,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            229 => 
+            245 => 
             array (
                 'id' => 393,
                 'status_id' => 12,
@@ -2087,7 +2231,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            230 => 
+            246 => 
             array (
                 'id' => 394,
                 'status_id' => 1,
@@ -2096,7 +2240,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            231 => 
+            247 => 
             array (
                 'id' => 395,
                 'status_id' => 4,
@@ -2105,7 +2249,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            232 => 
+            248 => 
             array (
                 'id' => 396,
                 'status_id' => 4,
@@ -2114,7 +2258,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            233 => 
+            249 => 
             array (
                 'id' => 397,
                 'status_id' => 2,
@@ -2123,7 +2267,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            234 => 
+            250 => 
             array (
                 'id' => 398,
                 'status_id' => 4,
@@ -2132,7 +2276,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            235 => 
+            251 => 
             array (
                 'id' => 399,
                 'status_id' => 4,
@@ -2141,7 +2285,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            236 => 
+            252 => 
             array (
                 'id' => 400,
                 'status_id' => 13,
@@ -2150,7 +2294,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            237 => 
+            253 => 
             array (
                 'id' => 401,
                 'status_id' => 6,
@@ -2159,7 +2303,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            238 => 
+            254 => 
             array (
                 'id' => 402,
                 'status_id' => 1,
@@ -2168,7 +2312,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            239 => 
+            255 => 
             array (
                 'id' => 403,
                 'status_id' => 4,
@@ -2177,7 +2321,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            240 => 
+            256 => 
             array (
                 'id' => 404,
                 'status_id' => 3,
@@ -2186,7 +2330,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            241 => 
+            257 => 
             array (
                 'id' => 405,
                 'status_id' => 2,
@@ -2195,7 +2339,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            242 => 
+            258 => 
             array (
                 'id' => 406,
                 'status_id' => 3,
@@ -2204,7 +2348,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            243 => 
+            259 => 
             array (
                 'id' => 407,
                 'status_id' => 3,
@@ -2213,7 +2357,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            244 => 
+            260 => 
             array (
                 'id' => 408,
                 'status_id' => 4,
@@ -2222,7 +2366,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            245 => 
+            261 => 
             array (
                 'id' => 409,
                 'status_id' => 1,
@@ -2231,7 +2375,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            246 => 
+            262 => 
             array (
                 'id' => 410,
                 'status_id' => 3,
@@ -2240,7 +2384,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            247 => 
+            263 => 
             array (
                 'id' => 411,
                 'status_id' => 13,
@@ -2249,7 +2393,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            248 => 
+            264 => 
             array (
                 'id' => 412,
                 'status_id' => 1,
@@ -2258,7 +2402,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            249 => 
+            265 => 
             array (
                 'id' => 413,
                 'status_id' => 13,
@@ -2267,7 +2411,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            250 => 
+            266 => 
             array (
                 'id' => 414,
                 'status_id' => 2,
@@ -2276,7 +2420,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            251 => 
+            267 => 
             array (
                 'id' => 415,
                 'status_id' => 1,
@@ -2285,7 +2429,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            252 => 
+            268 => 
             array (
                 'id' => 416,
                 'status_id' => 13,
@@ -2294,7 +2438,25 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            253 => 
+            269 => 
+            array (
+                'id' => 71,
+                'status_id' => 2,
+                'skill_id' => 27,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:50:19',
+                'updated_at' => '2016-10-27 16:50:19',
+            ),
+            270 => 
+            array (
+                'id' => 78,
+                'status_id' => 1,
+                'skill_id' => 31,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:52:36',
+                'updated_at' => '2016-10-27 16:52:36',
+            ),
+            271 => 
             array (
                 'id' => 417,
                 'status_id' => 1,
@@ -2303,7 +2465,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            254 => 
+            272 => 
             array (
                 'id' => 418,
                 'status_id' => 2,
@@ -2312,7 +2474,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            255 => 
+            273 => 
             array (
                 'id' => 419,
                 'status_id' => 1,
@@ -2321,7 +2483,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            256 => 
+            274 => 
             array (
                 'id' => 420,
                 'status_id' => 11,
@@ -2330,7 +2492,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            257 => 
+            275 => 
             array (
                 'id' => 421,
                 'status_id' => 11,
@@ -2339,7 +2501,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            258 => 
+            276 => 
             array (
                 'id' => 422,
                 'status_id' => 1,
@@ -2348,7 +2510,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            259 => 
+            277 => 
             array (
                 'id' => 423,
                 'status_id' => 11,
@@ -2357,7 +2519,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            260 => 
+            278 => 
             array (
                 'id' => 424,
                 'status_id' => 4,
@@ -2366,7 +2528,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            261 => 
+            279 => 
             array (
                 'id' => 425,
                 'status_id' => 6,
@@ -2375,7 +2537,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            262 => 
+            280 => 
             array (
                 'id' => 426,
                 'status_id' => 1,
@@ -2384,7 +2546,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            263 => 
+            281 => 
             array (
                 'id' => 427,
                 'status_id' => 2,
@@ -2393,7 +2555,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            264 => 
+            282 => 
             array (
                 'id' => 428,
                 'status_id' => 4,
@@ -2402,7 +2564,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            265 => 
+            283 => 
             array (
                 'id' => 429,
                 'status_id' => 1,
@@ -2411,7 +2573,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            266 => 
+            284 => 
             array (
                 'id' => 430,
                 'status_id' => 13,
@@ -2420,7 +2582,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            267 => 
+            285 => 
             array (
                 'id' => 431,
                 'status_id' => 3,
@@ -2429,7 +2591,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            268 => 
+            286 => 
             array (
                 'id' => 432,
                 'status_id' => 13,
@@ -2438,7 +2600,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            269 => 
+            287 => 
             array (
                 'id' => 433,
                 'status_id' => 4,
@@ -2447,7 +2609,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            270 => 
+            288 => 
             array (
                 'id' => 434,
                 'status_id' => 3,
@@ -2456,7 +2618,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            271 => 
+            289 => 
             array (
                 'id' => 435,
                 'status_id' => 1,
@@ -2465,7 +2627,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            272 => 
+            290 => 
             array (
                 'id' => 436,
                 'status_id' => 1,
@@ -2474,7 +2636,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            273 => 
+            291 => 
             array (
                 'id' => 437,
                 'status_id' => 3,
@@ -2483,7 +2645,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            274 => 
+            292 => 
             array (
                 'id' => 438,
                 'status_id' => 9,
@@ -2492,7 +2654,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            275 => 
+            293 => 
             array (
                 'id' => 439,
                 'status_id' => 1,
@@ -2501,7 +2663,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            276 => 
+            294 => 
             array (
                 'id' => 440,
                 'status_id' => 1,
@@ -2510,7 +2672,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            277 => 
+            295 => 
             array (
                 'id' => 441,
                 'status_id' => 1,
@@ -2519,7 +2681,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            278 => 
+            296 => 
             array (
                 'id' => 442,
                 'status_id' => 4,
@@ -2528,7 +2690,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            279 => 
+            297 => 
             array (
                 'id' => 443,
                 'status_id' => 9,
@@ -2537,7 +2699,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            280 => 
+            298 => 
             array (
                 'id' => 444,
                 'status_id' => 2,
@@ -2546,7 +2708,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            281 => 
+            299 => 
             array (
                 'id' => 445,
                 'status_id' => 2,
@@ -2555,7 +2717,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            282 => 
+            300 => 
             array (
                 'id' => 446,
                 'status_id' => 2,
@@ -2564,7 +2726,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            283 => 
+            301 => 
             array (
                 'id' => 447,
                 'status_id' => 4,
@@ -2573,7 +2735,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            284 => 
+            302 => 
             array (
                 'id' => 448,
                 'status_id' => 4,
@@ -2582,7 +2744,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            285 => 
+            303 => 
             array (
                 'id' => 449,
                 'status_id' => 1,
@@ -2591,7 +2753,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            286 => 
+            304 => 
             array (
                 'id' => 450,
                 'status_id' => 13,
@@ -2600,7 +2762,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            287 => 
+            305 => 
             array (
                 'id' => 451,
                 'status_id' => 1,
@@ -2609,7 +2771,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            288 => 
+            306 => 
             array (
                 'id' => 452,
                 'status_id' => 4,
@@ -2618,7 +2780,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            289 => 
+            307 => 
             array (
                 'id' => 453,
                 'status_id' => 1,
@@ -2627,7 +2789,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            290 => 
+            308 => 
             array (
                 'id' => 455,
                 'status_id' => 3,
@@ -2636,7 +2798,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            291 => 
+            309 => 
             array (
                 'id' => 456,
                 'status_id' => 5,
@@ -2645,7 +2807,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            292 => 
+            310 => 
             array (
                 'id' => 457,
                 'status_id' => 1,
@@ -2654,7 +2816,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            293 => 
+            311 => 
             array (
                 'id' => 458,
                 'status_id' => 3,
@@ -2663,7 +2825,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            294 => 
+            312 => 
             array (
                 'id' => 459,
                 'status_id' => 1,
@@ -2672,7 +2834,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            295 => 
+            313 => 
             array (
                 'id' => 460,
                 'status_id' => 3,
@@ -2681,7 +2843,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            296 => 
+            314 => 
             array (
                 'id' => 461,
                 'status_id' => 13,
@@ -2690,7 +2852,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            297 => 
+            315 => 
             array (
                 'id' => 462,
                 'status_id' => 13,
@@ -2699,7 +2861,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            298 => 
+            316 => 
             array (
                 'id' => 463,
                 'status_id' => 2,
@@ -2708,7 +2870,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            299 => 
+            317 => 
             array (
                 'id' => 464,
                 'status_id' => 2,
@@ -2717,7 +2879,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            300 => 
+            318 => 
             array (
                 'id' => 465,
                 'status_id' => 4,
@@ -2726,7 +2888,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            301 => 
+            319 => 
             array (
                 'id' => 466,
                 'status_id' => 2,
@@ -2735,7 +2897,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            302 => 
+            320 => 
             array (
                 'id' => 467,
                 'status_id' => 1,
@@ -2744,7 +2906,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            303 => 
+            321 => 
             array (
                 'id' => 469,
                 'status_id' => 1,
@@ -2753,7 +2915,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            304 => 
+            322 => 
             array (
                 'id' => 470,
                 'status_id' => 3,
@@ -2762,7 +2924,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            305 => 
+            323 => 
             array (
                 'id' => 471,
                 'status_id' => 2,
@@ -2771,7 +2933,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            306 => 
+            324 => 
             array (
                 'id' => 472,
                 'status_id' => 9,
@@ -2780,7 +2942,25 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            307 => 
+            325 => 
+            array (
+                'id' => 44,
+                'status_id' => 4,
+                'skill_id' => 13,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:40:13',
+                'updated_at' => '2016-10-27 16:40:13',
+            ),
+            326 => 
+            array (
+                'id' => 45,
+                'status_id' => 2,
+                'skill_id' => 13,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:40:13',
+                'updated_at' => '2016-10-27 16:40:13',
+            ),
+            327 => 
             array (
                 'id' => 475,
                 'status_id' => 1,
@@ -2789,7 +2969,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            308 => 
+            328 => 
             array (
                 'id' => 476,
                 'status_id' => 1,
@@ -2798,7 +2978,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            309 => 
+            329 => 
             array (
                 'id' => 477,
                 'status_id' => 2,
@@ -2807,7 +2987,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            310 => 
+            330 => 
             array (
                 'id' => 478,
                 'status_id' => 3,
@@ -2816,7 +2996,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            311 => 
+            331 => 
             array (
                 'id' => 479,
                 'status_id' => 4,
@@ -2825,7 +3005,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            312 => 
+            332 => 
             array (
                 'id' => 480,
                 'status_id' => 13,
@@ -2834,7 +3014,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            313 => 
+            333 => 
             array (
                 'id' => 481,
                 'status_id' => 2,
@@ -2843,7 +3023,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            314 => 
+            334 => 
             array (
                 'id' => 482,
                 'status_id' => 2,
@@ -2852,7 +3032,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            315 => 
+            335 => 
             array (
                 'id' => 483,
                 'status_id' => 13,
@@ -2861,7 +3041,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            316 => 
+            336 => 
             array (
                 'id' => 484,
                 'status_id' => 3,
@@ -2870,7 +3050,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            317 => 
+            337 => 
             array (
                 'id' => 485,
                 'status_id' => 1,
@@ -2879,7 +3059,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            318 => 
+            338 => 
             array (
                 'id' => 486,
                 'status_id' => 1,
@@ -2888,7 +3068,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            319 => 
+            339 => 
             array (
                 'id' => 487,
                 'status_id' => 1,
@@ -2897,7 +3077,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            320 => 
+            340 => 
             array (
                 'id' => 488,
                 'status_id' => 4,
@@ -2906,7 +3086,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            321 => 
+            341 => 
             array (
                 'id' => 489,
                 'status_id' => 1,
@@ -2915,7 +3095,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            322 => 
+            342 => 
             array (
                 'id' => 490,
                 'status_id' => 6,
@@ -2924,7 +3104,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            323 => 
+            343 => 
             array (
                 'id' => 491,
                 'status_id' => 13,
@@ -2933,7 +3113,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            324 => 
+            344 => 
             array (
                 'id' => 492,
                 'status_id' => 3,
@@ -2942,7 +3122,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            325 => 
+            345 => 
             array (
                 'id' => 493,
                 'status_id' => 3,
@@ -2951,7 +3131,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            326 => 
+            346 => 
             array (
                 'id' => 494,
                 'status_id' => 4,
@@ -2960,7 +3140,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            327 => 
+            347 => 
             array (
                 'id' => 495,
                 'status_id' => 1,
@@ -2969,7 +3149,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            328 => 
+            348 => 
             array (
                 'id' => 496,
                 'status_id' => 1,
@@ -2978,7 +3158,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            329 => 
+            349 => 
             array (
                 'id' => 497,
                 'status_id' => 4,
@@ -2987,7 +3167,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            330 => 
+            350 => 
             array (
                 'id' => 498,
                 'status_id' => 2,
@@ -2996,7 +3176,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            331 => 
+            351 => 
             array (
                 'id' => 499,
                 'status_id' => 4,
@@ -3005,7 +3185,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            332 => 
+            352 => 
             array (
                 'id' => 500,
                 'status_id' => 1,
@@ -3014,7 +3194,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            333 => 
+            353 => 
             array (
                 'id' => 501,
                 'status_id' => 9,
@@ -3023,7 +3203,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            334 => 
+            354 => 
             array (
                 'id' => 502,
                 'status_id' => 1,
@@ -3032,7 +3212,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            335 => 
+            355 => 
             array (
                 'id' => 503,
                 'status_id' => 4,
@@ -3041,7 +3221,16 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            336 => 
+            356 => 
+            array (
+                'id' => 54,
+                'status_id' => 3,
+                'skill_id' => 18,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:42:33',
+                'updated_at' => '2016-10-27 16:42:33',
+            ),
+            357 => 
             array (
                 'id' => 505,
                 'status_id' => 4,
@@ -3050,7 +3239,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            337 => 
+            358 => 
             array (
                 'id' => 506,
                 'status_id' => 1,
@@ -3059,7 +3248,16 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            338 => 
+            359 => 
+            array (
+                'id' => 55,
+                'status_id' => 2,
+                'skill_id' => 18,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:42:33',
+                'updated_at' => '2016-10-27 16:42:33',
+            ),
+            360 => 
             array (
                 'id' => 508,
                 'status_id' => 5,
@@ -3068,7 +3266,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            339 => 
+            361 => 
             array (
                 'id' => 509,
                 'status_id' => 4,
@@ -3077,7 +3275,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            340 => 
+            362 => 
             array (
                 'id' => 510,
                 'status_id' => 9,
@@ -3086,7 +3284,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            341 => 
+            363 => 
             array (
                 'id' => 511,
                 'status_id' => 1,
@@ -3095,7 +3293,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            342 => 
+            364 => 
             array (
                 'id' => 512,
                 'status_id' => 3,
@@ -3104,7 +3302,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            343 => 
+            365 => 
             array (
                 'id' => 513,
                 'status_id' => 9,
@@ -3113,7 +3311,16 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            344 => 
+            366 => 
+            array (
+                'id' => 62,
+                'status_id' => 4,
+                'skill_id' => 23,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:48:31',
+                'updated_at' => '2016-10-27 16:48:31',
+            ),
+            367 => 
             array (
                 'id' => 515,
                 'status_id' => 6,
@@ -3122,7 +3329,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            345 => 
+            368 => 
             array (
                 'id' => 516,
                 'status_id' => 2,
@@ -3131,7 +3338,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            346 => 
+            369 => 
             array (
                 'id' => 517,
                 'status_id' => 9,
@@ -3140,7 +3347,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            347 => 
+            370 => 
             array (
                 'id' => 518,
                 'status_id' => 9,
@@ -3149,7 +3356,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            348 => 
+            371 => 
             array (
                 'id' => 519,
                 'status_id' => 1,
@@ -3158,7 +3365,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            349 => 
+            372 => 
             array (
                 'id' => 520,
                 'status_id' => 1,
@@ -3167,7 +3374,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            350 => 
+            373 => 
             array (
                 'id' => 521,
                 'status_id' => 1,
@@ -3176,7 +3383,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            351 => 
+            374 => 
             array (
                 'id' => 522,
                 'status_id' => 1,
@@ -3185,7 +3392,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            352 => 
+            375 => 
             array (
                 'id' => 523,
                 'status_id' => 5,
@@ -3194,7 +3401,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            353 => 
+            376 => 
             array (
                 'id' => 524,
                 'status_id' => 9,
@@ -3203,7 +3410,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            354 => 
+            377 => 
             array (
                 'id' => 525,
                 'status_id' => 9,
@@ -3212,7 +3419,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            355 => 
+            378 => 
             array (
                 'id' => 526,
                 'status_id' => 1,
@@ -3221,7 +3428,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            356 => 
+            379 => 
             array (
                 'id' => 527,
                 'status_id' => 2,
@@ -3230,7 +3437,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            357 => 
+            380 => 
             array (
                 'id' => 528,
                 'status_id' => 1,
@@ -3239,7 +3446,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            358 => 
+            381 => 
             array (
                 'id' => 529,
                 'status_id' => 9,
@@ -3248,7 +3455,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            359 => 
+            382 => 
             array (
                 'id' => 530,
                 'status_id' => 1,
@@ -3257,7 +3464,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            360 => 
+            383 => 
             array (
                 'id' => 531,
                 'status_id' => 13,
@@ -3266,7 +3473,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            361 => 
+            384 => 
             array (
                 'id' => 532,
                 'status_id' => 4,
@@ -3275,7 +3482,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            362 => 
+            385 => 
             array (
                 'id' => 533,
                 'status_id' => 2,
@@ -3284,7 +3491,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            363 => 
+            386 => 
             array (
                 'id' => 534,
                 'status_id' => 5,
@@ -3293,7 +3500,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            364 => 
+            387 => 
             array (
                 'id' => 535,
                 'status_id' => 1,
@@ -3302,7 +3509,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            365 => 
+            388 => 
             array (
                 'id' => 536,
                 'status_id' => 2,
@@ -3311,7 +3518,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            366 => 
+            389 => 
             array (
                 'id' => 537,
                 'status_id' => 4,
@@ -3320,7 +3527,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            367 => 
+            390 => 
             array (
                 'id' => 538,
                 'status_id' => 2,
@@ -3329,7 +3536,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            368 => 
+            391 => 
             array (
                 'id' => 539,
                 'status_id' => 4,
@@ -3338,7 +3545,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            369 => 
+            392 => 
             array (
                 'id' => 540,
                 'status_id' => 1,
@@ -3347,7 +3554,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            370 => 
+            393 => 
             array (
                 'id' => 541,
                 'status_id' => 2,
@@ -3356,7 +3563,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            371 => 
+            394 => 
             array (
                 'id' => 542,
                 'status_id' => 1,
@@ -3365,7 +3572,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            372 => 
+            395 => 
             array (
                 'id' => 543,
                 'status_id' => 1,
@@ -3374,7 +3581,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            373 => 
+            396 => 
             array (
                 'id' => 544,
                 'status_id' => 13,
@@ -3383,7 +3590,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            374 => 
+            397 => 
             array (
                 'id' => 545,
                 'status_id' => 1,
@@ -3392,7 +3599,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            375 => 
+            398 => 
             array (
                 'id' => 546,
                 'status_id' => 2,
@@ -3401,7 +3608,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            376 => 
+            399 => 
             array (
                 'id' => 547,
                 'status_id' => 1,
@@ -3410,7 +3617,16 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            377 => 
+            400 => 
+            array (
+                'id' => 63,
+                'status_id' => 4,
+                'skill_id' => 23,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:48:31',
+                'updated_at' => '2016-10-27 16:48:31',
+            ),
+            401 => 
             array (
                 'id' => 549,
                 'status_id' => 3,
@@ -3419,7 +3635,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            378 => 
+            402 => 
             array (
                 'id' => 550,
                 'status_id' => 4,
@@ -3428,7 +3644,43 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            379 => 
+            403 => 
+            array (
+                'id' => 72,
+                'status_id' => 5,
+                'skill_id' => 28,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:50:59',
+                'updated_at' => '2016-10-27 16:50:59',
+            ),
+            404 => 
+            array (
+                'id' => 73,
+                'status_id' => 6,
+                'skill_id' => 28,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:50:59',
+                'updated_at' => '2016-10-27 16:50:59',
+            ),
+            405 => 
+            array (
+                'id' => 79,
+                'status_id' => 4,
+                'skill_id' => 31,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:52:36',
+                'updated_at' => '2016-10-27 16:52:36',
+            ),
+            406 => 
+            array (
+                'id' => 83,
+                'status_id' => 2,
+                'skill_id' => 33,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:57:00',
+                'updated_at' => '2016-10-27 16:57:00',
+            ),
+            407 => 
             array (
                 'id' => 553,
                 'status_id' => 3,
@@ -3437,7 +3689,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            380 => 
+            408 => 
             array (
                 'id' => 554,
                 'status_id' => 2,
@@ -3446,7 +3698,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            381 => 
+            409 => 
             array (
                 'id' => 555,
                 'status_id' => 3,
@@ -3455,7 +3707,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            382 => 
+            410 => 
             array (
                 'id' => 556,
                 'status_id' => 2,
@@ -3464,7 +3716,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            383 => 
+            411 => 
             array (
                 'id' => 557,
                 'status_id' => 2,
@@ -3473,7 +3725,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            384 => 
+            412 => 
             array (
                 'id' => 558,
                 'status_id' => 4,
@@ -3482,7 +3734,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            385 => 
+            413 => 
             array (
                 'id' => 559,
                 'status_id' => 2,
@@ -3491,7 +3743,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            386 => 
+            414 => 
             array (
                 'id' => 560,
                 'status_id' => 2,
@@ -3500,7 +3752,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            387 => 
+            415 => 
             array (
                 'id' => 561,
                 'status_id' => 4,
@@ -3509,7 +3761,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            388 => 
+            416 => 
             array (
                 'id' => 562,
                 'status_id' => 4,
@@ -3518,7 +3770,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            389 => 
+            417 => 
             array (
                 'id' => 563,
                 'status_id' => 3,
@@ -3527,7 +3779,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            390 => 
+            418 => 
             array (
                 'id' => 564,
                 'status_id' => 2,
@@ -3536,7 +3788,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            391 => 
+            419 => 
             array (
                 'id' => 565,
                 'status_id' => 9,
@@ -3545,7 +3797,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            392 => 
+            420 => 
             array (
                 'id' => 566,
                 'status_id' => 4,
@@ -3554,7 +3806,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            393 => 
+            421 => 
             array (
                 'id' => 567,
                 'status_id' => 3,
@@ -3563,7 +3815,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            394 => 
+            422 => 
             array (
                 'id' => 568,
                 'status_id' => 4,
@@ -3572,7 +3824,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            395 => 
+            423 => 
             array (
                 'id' => 569,
                 'status_id' => 6,
@@ -3581,7 +3833,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            396 => 
+            424 => 
             array (
                 'id' => 570,
                 'status_id' => 2,
@@ -3590,7 +3842,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            397 => 
+            425 => 
             array (
                 'id' => 571,
                 'status_id' => 3,
@@ -3599,7 +3851,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            398 => 
+            426 => 
             array (
                 'id' => 572,
                 'status_id' => 3,
@@ -3608,7 +3860,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            399 => 
+            427 => 
             array (
                 'id' => 573,
                 'status_id' => 4,
@@ -3617,7 +3869,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            400 => 
+            428 => 
             array (
                 'id' => 574,
                 'status_id' => 9,
@@ -3626,7 +3878,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            401 => 
+            429 => 
             array (
                 'id' => 575,
                 'status_id' => 2,
@@ -3635,7 +3887,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            402 => 
+            430 => 
             array (
                 'id' => 576,
                 'status_id' => 2,
@@ -3644,7 +3896,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            403 => 
+            431 => 
             array (
                 'id' => 577,
                 'status_id' => 3,
@@ -3653,7 +3905,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            404 => 
+            432 => 
             array (
                 'id' => 578,
                 'status_id' => 4,
@@ -3662,7 +3914,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            405 => 
+            433 => 
             array (
                 'id' => 579,
                 'status_id' => 3,
@@ -3671,7 +3923,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            406 => 
+            434 => 
             array (
                 'id' => 580,
                 'status_id' => 9,
@@ -3680,7 +3932,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            407 => 
+            435 => 
             array (
                 'id' => 582,
                 'status_id' => 1,
@@ -3689,7 +3941,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            408 => 
+            436 => 
             array (
                 'id' => 583,
                 'status_id' => 3,
@@ -3698,7 +3950,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            409 => 
+            437 => 
             array (
                 'id' => 584,
                 'status_id' => 12,
@@ -3707,7 +3959,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            410 => 
+            438 => 
             array (
                 'id' => 585,
                 'status_id' => 2,
@@ -3716,7 +3968,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            411 => 
+            439 => 
             array (
                 'id' => 586,
                 'status_id' => 3,
@@ -3725,7 +3977,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            412 => 
+            440 => 
             array (
                 'id' => 587,
                 'status_id' => 9,
@@ -3734,7 +3986,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            413 => 
+            441 => 
             array (
                 'id' => 588,
                 'status_id' => 2,
@@ -3743,7 +3995,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            414 => 
+            442 => 
             array (
                 'id' => 589,
                 'status_id' => 4,
@@ -3752,7 +4004,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            415 => 
+            443 => 
             array (
                 'id' => 590,
                 'status_id' => 3,
@@ -3761,7 +4013,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            416 => 
+            444 => 
             array (
                 'id' => 591,
                 'status_id' => 1,
@@ -3770,7 +4022,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            417 => 
+            445 => 
             array (
                 'id' => 592,
                 'status_id' => 4,
@@ -3779,7 +4031,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            418 => 
+            446 => 
             array (
                 'id' => 593,
                 'status_id' => 1,
@@ -3788,7 +4040,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            419 => 
+            447 => 
             array (
                 'id' => 594,
                 'status_id' => 11,
@@ -3797,7 +4049,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            420 => 
+            448 => 
             array (
                 'id' => 595,
                 'status_id' => 9,
@@ -3806,7 +4058,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            421 => 
+            449 => 
             array (
                 'id' => 596,
                 'status_id' => 2,
@@ -3815,7 +4067,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            422 => 
+            450 => 
             array (
                 'id' => 597,
                 'status_id' => 1,
@@ -3824,7 +4076,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            423 => 
+            451 => 
             array (
                 'id' => 598,
                 'status_id' => 2,
@@ -3833,7 +4085,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            424 => 
+            452 => 
             array (
                 'id' => 599,
                 'status_id' => 11,
@@ -3842,7 +4094,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            425 => 
+            453 => 
             array (
                 'id' => 600,
                 'status_id' => 4,
@@ -3851,7 +4103,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            426 => 
+            454 => 
             array (
                 'id' => 601,
                 'status_id' => 13,
@@ -3860,7 +4112,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            427 => 
+            455 => 
             array (
                 'id' => 602,
                 'status_id' => 3,
@@ -3869,7 +4121,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            428 => 
+            456 => 
             array (
                 'id' => 603,
                 'status_id' => 2,
@@ -3878,7 +4130,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            429 => 
+            457 => 
             array (
                 'id' => 604,
                 'status_id' => 3,
@@ -3887,7 +4139,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            430 => 
+            458 => 
             array (
                 'id' => 605,
                 'status_id' => 2,
@@ -3896,7 +4148,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            431 => 
+            459 => 
             array (
                 'id' => 606,
                 'status_id' => 1,
@@ -3905,7 +4157,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            432 => 
+            460 => 
             array (
                 'id' => 607,
                 'status_id' => 4,
@@ -3914,7 +4166,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            433 => 
+            461 => 
             array (
                 'id' => 608,
                 'status_id' => 4,
@@ -3923,7 +4175,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            434 => 
+            462 => 
             array (
                 'id' => 609,
                 'status_id' => 2,
@@ -3932,7 +4184,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            435 => 
+            463 => 
             array (
                 'id' => 610,
                 'status_id' => 4,
@@ -3941,7 +4193,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            436 => 
+            464 => 
             array (
                 'id' => 611,
                 'status_id' => 1,
@@ -3950,7 +4202,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            437 => 
+            465 => 
             array (
                 'id' => 612,
                 'status_id' => 5,
@@ -3959,7 +4211,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            438 => 
+            466 => 
             array (
                 'id' => 613,
                 'status_id' => 2,
@@ -3968,7 +4220,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            439 => 
+            467 => 
             array (
                 'id' => 614,
                 'status_id' => 9,
@@ -3977,7 +4229,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            440 => 
+            468 => 
             array (
                 'id' => 615,
                 'status_id' => 5,
@@ -3986,7 +4238,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            441 => 
+            469 => 
             array (
                 'id' => 616,
                 'status_id' => 2,
@@ -3995,7 +4247,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            442 => 
+            470 => 
             array (
                 'id' => 617,
                 'status_id' => 2,
@@ -4004,7 +4256,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            443 => 
+            471 => 
             array (
                 'id' => 618,
                 'status_id' => 3,
@@ -4013,7 +4265,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            444 => 
+            472 => 
             array (
                 'id' => 619,
                 'status_id' => 13,
@@ -4022,7 +4274,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            445 => 
+            473 => 
             array (
                 'id' => 620,
                 'status_id' => 3,
@@ -4031,7 +4283,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            446 => 
+            474 => 
             array (
                 'id' => 621,
                 'status_id' => 3,
@@ -4040,7 +4292,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            447 => 
+            475 => 
             array (
                 'id' => 622,
                 'status_id' => 12,
@@ -4049,7 +4301,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            448 => 
+            476 => 
             array (
                 'id' => 623,
                 'status_id' => 2,
@@ -4058,7 +4310,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            449 => 
+            477 => 
             array (
                 'id' => 624,
                 'status_id' => 3,
@@ -4067,7 +4319,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            450 => 
+            478 => 
             array (
                 'id' => 625,
                 'status_id' => 12,
@@ -4076,7 +4328,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            451 => 
+            479 => 
             array (
                 'id' => 626,
                 'status_id' => 1,
@@ -4085,7 +4337,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            452 => 
+            480 => 
             array (
                 'id' => 627,
                 'status_id' => 3,
@@ -4094,7 +4346,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            453 => 
+            481 => 
             array (
                 'id' => 628,
                 'status_id' => 1,
@@ -4103,7 +4355,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            454 => 
+            482 => 
             array (
                 'id' => 629,
                 'status_id' => 1,
@@ -4112,7 +4364,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            455 => 
+            483 => 
             array (
                 'id' => 630,
                 'status_id' => 13,
@@ -4121,7 +4373,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            456 => 
+            484 => 
             array (
                 'id' => 632,
                 'status_id' => 2,
@@ -4130,7 +4382,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            457 => 
+            485 => 
             array (
                 'id' => 633,
                 'status_id' => 1,
@@ -4139,7 +4391,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            458 => 
+            486 => 
             array (
                 'id' => 634,
                 'status_id' => 4,
@@ -4148,7 +4400,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            459 => 
+            487 => 
             array (
                 'id' => 635,
                 'status_id' => 3,
@@ -4157,7 +4409,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            460 => 
+            488 => 
             array (
                 'id' => 636,
                 'status_id' => 4,
@@ -4166,7 +4418,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            461 => 
+            489 => 
             array (
                 'id' => 637,
                 'status_id' => 9,
@@ -4175,7 +4427,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            462 => 
+            490 => 
             array (
                 'id' => 638,
                 'status_id' => 4,
@@ -4184,7 +4436,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            463 => 
+            491 => 
             array (
                 'id' => 639,
                 'status_id' => 2,
@@ -4193,7 +4445,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            464 => 
+            492 => 
             array (
                 'id' => 640,
                 'status_id' => 4,
@@ -4202,7 +4454,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            465 => 
+            493 => 
             array (
                 'id' => 641,
                 'status_id' => 2,
@@ -4211,7 +4463,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            466 => 
+            494 => 
             array (
                 'id' => 642,
                 'status_id' => 4,
@@ -4220,7 +4472,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            467 => 
+            495 => 
             array (
                 'id' => 643,
                 'status_id' => 2,
@@ -4229,7 +4481,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            468 => 
+            496 => 
             array (
                 'id' => 644,
                 'status_id' => 1,
@@ -4238,7 +4490,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            469 => 
+            497 => 
             array (
                 'id' => 645,
                 'status_id' => 4,
@@ -4247,7 +4499,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            470 => 
+            498 => 
             array (
                 'id' => 646,
                 'status_id' => 4,
@@ -4256,7 +4508,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            471 => 
+            499 => 
             array (
                 'id' => 647,
                 'status_id' => 1,
@@ -4265,7 +4517,9 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            472 => 
+        ));
+        \DB::table('skills_statuses')->insert(array (
+            0 => 
             array (
                 'id' => 648,
                 'status_id' => 9,
@@ -4274,7 +4528,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            473 => 
+            1 => 
             array (
                 'id' => 649,
                 'status_id' => 4,
@@ -4283,7 +4537,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            474 => 
+            2 => 
             array (
                 'id' => 650,
                 'status_id' => 2,
@@ -4292,7 +4546,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            475 => 
+            3 => 
             array (
                 'id' => 651,
                 'status_id' => 3,
@@ -4301,7 +4555,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            476 => 
+            4 => 
             array (
                 'id' => 652,
                 'status_id' => 4,
@@ -4310,7 +4564,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            477 => 
+            5 => 
             array (
                 'id' => 653,
                 'status_id' => 9,
@@ -4319,7 +4573,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            478 => 
+            6 => 
             array (
                 'id' => 654,
                 'status_id' => 5,
@@ -4328,7 +4582,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            479 => 
+            7 => 
             array (
                 'id' => 655,
                 'status_id' => 2,
@@ -4337,7 +4591,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            480 => 
+            8 => 
             array (
                 'id' => 656,
                 'status_id' => 2,
@@ -4346,7 +4600,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            481 => 
+            9 => 
             array (
                 'id' => 657,
                 'status_id' => 1,
@@ -4355,7 +4609,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            482 => 
+            10 => 
             array (
                 'id' => 658,
                 'status_id' => 13,
@@ -4364,7 +4618,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            483 => 
+            11 => 
             array (
                 'id' => 659,
                 'status_id' => 3,
@@ -4373,7 +4627,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            484 => 
+            12 => 
             array (
                 'id' => 660,
                 'status_id' => 1,
@@ -4382,7 +4636,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            485 => 
+            13 => 
             array (
                 'id' => 661,
                 'status_id' => 3,
@@ -4391,7 +4645,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            486 => 
+            14 => 
             array (
                 'id' => 662,
                 'status_id' => 9,
@@ -4400,7 +4654,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            487 => 
+            15 => 
             array (
                 'id' => 663,
                 'status_id' => 9,
@@ -4409,7 +4663,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            488 => 
+            16 => 
             array (
                 'id' => 664,
                 'status_id' => 2,
@@ -4418,7 +4672,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            489 => 
+            17 => 
             array (
                 'id' => 665,
                 'status_id' => 2,
@@ -4427,7 +4681,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            490 => 
+            18 => 
             array (
                 'id' => 666,
                 'status_id' => 3,
@@ -4436,7 +4690,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            491 => 
+            19 => 
             array (
                 'id' => 667,
                 'status_id' => 12,
@@ -4445,7 +4699,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            492 => 
+            20 => 
             array (
                 'id' => 668,
                 'status_id' => 1,
@@ -4454,7 +4708,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            493 => 
+            21 => 
             array (
                 'id' => 669,
                 'status_id' => 4,
@@ -4463,7 +4717,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            494 => 
+            22 => 
             array (
                 'id' => 670,
                 'status_id' => 1,
@@ -4472,7 +4726,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            495 => 
+            23 => 
             array (
                 'id' => 671,
                 'status_id' => 2,
@@ -4481,7 +4735,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            496 => 
+            24 => 
             array (
                 'id' => 672,
                 'status_id' => 1,
@@ -4490,7 +4744,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            497 => 
+            25 => 
             array (
                 'id' => 673,
                 'status_id' => 4,
@@ -4499,7 +4753,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            498 => 
+            26 => 
             array (
                 'id' => 674,
                 'status_id' => 2,
@@ -4508,7 +4762,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            499 => 
+            27 => 
             array (
                 'id' => 675,
                 'status_id' => 11,
@@ -4517,9 +4771,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-        ));
-        \DB::table('skills_statuses')->insert(array (
-            0 => 
+            28 => 
             array (
                 'id' => 676,
                 'status_id' => 3,
@@ -4528,7 +4780,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            1 => 
+            29 => 
             array (
                 'id' => 677,
                 'status_id' => 3,
@@ -4537,7 +4789,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            2 => 
+            30 => 
             array (
                 'id' => 678,
                 'status_id' => 2,
@@ -4546,7 +4798,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            3 => 
+            31 => 
             array (
                 'id' => 679,
                 'status_id' => 5,
@@ -4555,7 +4807,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            4 => 
+            32 => 
             array (
                 'id' => 680,
                 'status_id' => 4,
@@ -4564,7 +4816,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            5 => 
+            33 => 
             array (
                 'id' => 681,
                 'status_id' => 2,
@@ -4573,7 +4825,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            6 => 
+            34 => 
             array (
                 'id' => 682,
                 'status_id' => 2,
@@ -4582,7 +4834,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            7 => 
+            35 => 
             array (
                 'id' => 683,
                 'status_id' => 1,
@@ -4591,7 +4843,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            8 => 
+            36 => 
             array (
                 'id' => 684,
                 'status_id' => 13,
@@ -4600,7 +4852,79 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            9 => 
+            37 => 
+            array (
+                'id' => 46,
+                'status_id' => 4,
+                'skill_id' => 14,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:40:38',
+                'updated_at' => '2016-10-27 16:40:38',
+            ),
+            38 => 
+            array (
+                'id' => 47,
+                'status_id' => 1,
+                'skill_id' => 14,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:40:38',
+                'updated_at' => '2016-10-27 16:40:38',
+            ),
+            39 => 
+            array (
+                'id' => 56,
+                'status_id' => 3,
+                'skill_id' => 19,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:43:14',
+                'updated_at' => '2016-10-27 16:43:14',
+            ),
+            40 => 
+            array (
+                'id' => 57,
+                'status_id' => 1,
+                'skill_id' => 19,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:43:14',
+                'updated_at' => '2016-10-27 16:43:14',
+            ),
+            41 => 
+            array (
+                'id' => 64,
+                'status_id' => 1,
+                'skill_id' => 24,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:48:51',
+                'updated_at' => '2016-10-27 16:48:51',
+            ),
+            42 => 
+            array (
+                'id' => 65,
+                'status_id' => 1,
+                'skill_id' => 24,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:48:51',
+                'updated_at' => '2016-10-27 16:48:51',
+            ),
+            43 => 
+            array (
+                'id' => 38,
+                'status_id' => 1,
+                'skill_id' => 9,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:36:51',
+                'updated_at' => '2016-10-27 16:36:51',
+            ),
+            44 => 
+            array (
+                'id' => 39,
+                'status_id' => 4,
+                'skill_id' => 9,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:36:51',
+                'updated_at' => '2016-10-27 16:36:51',
+            ),
+            45 => 
             array (
                 'id' => 691,
                 'status_id' => 9,
@@ -4609,7 +4933,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            10 => 
+            46 => 
             array (
                 'id' => 692,
                 'status_id' => 1,
@@ -4618,7 +4942,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            11 => 
+            47 => 
             array (
                 'id' => 693,
                 'status_id' => 13,
@@ -4627,7 +4951,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            12 => 
+            48 => 
             array (
                 'id' => 694,
                 'status_id' => 4,
@@ -4636,7 +4960,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            13 => 
+            49 => 
             array (
                 'id' => 695,
                 'status_id' => 1,
@@ -4645,7 +4969,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            14 => 
+            50 => 
             array (
                 'id' => 696,
                 'status_id' => 2,
@@ -4654,7 +4978,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            15 => 
+            51 => 
             array (
                 'id' => 697,
                 'status_id' => 3,
@@ -4663,7 +4987,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            16 => 
+            52 => 
             array (
                 'id' => 698,
                 'status_id' => 1,
@@ -4672,7 +4996,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            17 => 
+            53 => 
             array (
                 'id' => 699,
                 'status_id' => 3,
@@ -4681,7 +5005,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            18 => 
+            54 => 
             array (
                 'id' => 700,
                 'status_id' => 2,
@@ -4690,7 +5014,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            19 => 
+            55 => 
             array (
                 'id' => 701,
                 'status_id' => 4,
@@ -4699,7 +5023,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            20 => 
+            56 => 
             array (
                 'id' => 702,
                 'status_id' => 2,
@@ -4708,7 +5032,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            21 => 
+            57 => 
             array (
                 'id' => 703,
                 'status_id' => 2,
@@ -4717,7 +5041,16 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            22 => 
+            58 => 
+            array (
+                'id' => 48,
+                'status_id' => 2,
+                'skill_id' => 15,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:41:14',
+                'updated_at' => '2016-10-27 16:41:14',
+            ),
+            59 => 
             array (
                 'id' => 705,
                 'status_id' => 1,
@@ -4726,7 +5059,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            23 => 
+            60 => 
             array (
                 'id' => 706,
                 'status_id' => 1,
@@ -4735,7 +5068,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            24 => 
+            61 => 
             array (
                 'id' => 707,
                 'status_id' => 1,
@@ -4744,7 +5077,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            25 => 
+            62 => 
             array (
                 'id' => 708,
                 'status_id' => 1,
@@ -4753,7 +5086,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            26 => 
+            63 => 
             array (
                 'id' => 709,
                 'status_id' => 5,
@@ -4762,7 +5095,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            27 => 
+            64 => 
             array (
                 'id' => 710,
                 'status_id' => 2,
@@ -4771,7 +5104,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            28 => 
+            65 => 
             array (
                 'id' => 711,
                 'status_id' => 3,
@@ -4780,7 +5113,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            29 => 
+            66 => 
             array (
                 'id' => 712,
                 'status_id' => 3,
@@ -4789,7 +5122,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            30 => 
+            67 => 
             array (
                 'id' => 713,
                 'status_id' => 4,
@@ -4798,7 +5131,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            31 => 
+            68 => 
             array (
                 'id' => 714,
                 'status_id' => 6,
@@ -4807,7 +5140,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            32 => 
+            69 => 
             array (
                 'id' => 715,
                 'status_id' => 5,
@@ -4816,7 +5149,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            33 => 
+            70 => 
             array (
                 'id' => 716,
                 'status_id' => 4,
@@ -4825,7 +5158,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            34 => 
+            71 => 
             array (
                 'id' => 717,
                 'status_id' => 3,
@@ -4834,7 +5167,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            35 => 
+            72 => 
             array (
                 'id' => 718,
                 'status_id' => 3,
@@ -4843,7 +5176,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            36 => 
+            73 => 
             array (
                 'id' => 719,
                 'status_id' => 2,
@@ -4852,7 +5185,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            37 => 
+            74 => 
             array (
                 'id' => 720,
                 'status_id' => 11,
@@ -4861,7 +5194,16 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            38 => 
+            75 => 
+            array (
+                'id' => 49,
+                'status_id' => 1,
+                'skill_id' => 15,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:41:14',
+                'updated_at' => '2016-10-27 16:41:14',
+            ),
+            76 => 
             array (
                 'id' => 722,
                 'status_id' => 1,
@@ -4870,7 +5212,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            39 => 
+            77 => 
             array (
                 'id' => 723,
                 'status_id' => 3,
@@ -4879,7 +5221,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            40 => 
+            78 => 
             array (
                 'id' => 724,
                 'status_id' => 1,
@@ -4888,7 +5230,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            41 => 
+            79 => 
             array (
                 'id' => 725,
                 'status_id' => 1,
@@ -4897,7 +5239,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            42 => 
+            80 => 
             array (
                 'id' => 726,
                 'status_id' => 1,
@@ -4906,7 +5248,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            43 => 
+            81 => 
             array (
                 'id' => 727,
                 'status_id' => 2,
@@ -4915,7 +5257,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            44 => 
+            82 => 
             array (
                 'id' => 728,
                 'status_id' => 4,
@@ -4924,7 +5266,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            45 => 
+            83 => 
             array (
                 'id' => 729,
                 'status_id' => 12,
@@ -4933,7 +5275,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            46 => 
+            84 => 
             array (
                 'id' => 730,
                 'status_id' => 4,
@@ -4942,7 +5284,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            47 => 
+            85 => 
             array (
                 'id' => 731,
                 'status_id' => 12,
@@ -4951,7 +5293,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            48 => 
+            86 => 
             array (
                 'id' => 732,
                 'status_id' => 2,
@@ -4960,7 +5302,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            49 => 
+            87 => 
             array (
                 'id' => 733,
                 'status_id' => 2,
@@ -4969,7 +5311,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            50 => 
+            88 => 
             array (
                 'id' => 734,
                 'status_id' => 1,
@@ -4978,7 +5320,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            51 => 
+            89 => 
             array (
                 'id' => 735,
                 'status_id' => 1,
@@ -4987,7 +5329,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            52 => 
+            90 => 
             array (
                 'id' => 736,
                 'status_id' => 4,
@@ -4996,7 +5338,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            53 => 
+            91 => 
             array (
                 'id' => 737,
                 'status_id' => 6,
@@ -5005,7 +5347,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            54 => 
+            92 => 
             array (
                 'id' => 738,
                 'status_id' => 1,
@@ -5014,7 +5356,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            55 => 
+            93 => 
             array (
                 'id' => 739,
                 'status_id' => 3,
@@ -5023,7 +5365,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            56 => 
+            94 => 
             array (
                 'id' => 740,
                 'status_id' => 6,
@@ -5032,7 +5374,25 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            57 => 
+            95 => 
+            array (
+                'id' => 58,
+                'status_id' => 3,
+                'skill_id' => 20,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:43:36',
+                'updated_at' => '2016-10-27 16:43:36',
+            ),
+            96 => 
+            array (
+                'id' => 59,
+                'status_id' => 4,
+                'skill_id' => 20,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:43:36',
+                'updated_at' => '2016-10-27 16:43:36',
+            ),
+            97 => 
             array (
                 'id' => 743,
                 'status_id' => 4,
@@ -5041,7 +5401,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            58 => 
+            98 => 
             array (
                 'id' => 744,
                 'status_id' => 1,
@@ -5050,7 +5410,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            59 => 
+            99 => 
             array (
                 'id' => 745,
                 'status_id' => 4,
@@ -5059,7 +5419,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            60 => 
+            100 => 
             array (
                 'id' => 746,
                 'status_id' => 12,
@@ -5068,7 +5428,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            61 => 
+            101 => 
             array (
                 'id' => 747,
                 'status_id' => 13,
@@ -5077,7 +5437,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            62 => 
+            102 => 
             array (
                 'id' => 748,
                 'status_id' => 4,
@@ -5086,7 +5446,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            63 => 
+            103 => 
             array (
                 'id' => 749,
                 'status_id' => 6,
@@ -5095,7 +5455,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            64 => 
+            104 => 
             array (
                 'id' => 750,
                 'status_id' => 3,
@@ -5104,7 +5464,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            65 => 
+            105 => 
             array (
                 'id' => 751,
                 'status_id' => 3,
@@ -5113,7 +5473,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            66 => 
+            106 => 
             array (
                 'id' => 752,
                 'status_id' => 4,
@@ -5122,7 +5482,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            67 => 
+            107 => 
             array (
                 'id' => 753,
                 'status_id' => 1,
@@ -5131,7 +5491,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            68 => 
+            108 => 
             array (
                 'id' => 754,
                 'status_id' => 9,
@@ -5140,7 +5500,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            69 => 
+            109 => 
             array (
                 'id' => 755,
                 'status_id' => 2,
@@ -5149,7 +5509,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            70 => 
+            110 => 
             array (
                 'id' => 756,
                 'status_id' => 2,
@@ -5158,7 +5518,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            71 => 
+            111 => 
             array (
                 'id' => 757,
                 'status_id' => 1,
@@ -5167,7 +5527,16 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            72 => 
+            112 => 
+            array (
+                'id' => 66,
+                'status_id' => 3,
+                'skill_id' => 25,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:49:26',
+                'updated_at' => '2016-10-27 16:49:26',
+            ),
+            113 => 
             array (
                 'id' => 759,
                 'status_id' => 1,
@@ -5176,7 +5545,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            73 => 
+            114 => 
             array (
                 'id' => 760,
                 'status_id' => 2,
@@ -5185,7 +5554,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            74 => 
+            115 => 
             array (
                 'id' => 761,
                 'status_id' => 4,
@@ -5194,7 +5563,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            75 => 
+            116 => 
             array (
                 'id' => 762,
                 'status_id' => 5,
@@ -5203,7 +5572,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            76 => 
+            117 => 
             array (
                 'id' => 763,
                 'status_id' => 1,
@@ -5212,7 +5581,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            77 => 
+            118 => 
             array (
                 'id' => 764,
                 'status_id' => 4,
@@ -5221,7 +5590,25 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            78 => 
+            119 => 
+            array (
+                'id' => 67,
+                'status_id' => 3,
+                'skill_id' => 25,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:49:26',
+                'updated_at' => '2016-10-27 16:49:26',
+            ),
+            120 => 
+            array (
+                'id' => 74,
+                'status_id' => 4,
+                'skill_id' => 29,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:51:33',
+                'updated_at' => '2016-10-27 16:51:33',
+            ),
+            121 => 
             array (
                 'id' => 767,
                 'status_id' => 5,
@@ -5230,7 +5617,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            79 => 
+            122 => 
             array (
                 'id' => 768,
                 'status_id' => 5,
@@ -5239,7 +5626,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-23 16:09:32',
                 'updated_at' => '2016-10-23 16:09:32',
             ),
-            80 => 
+            123 => 
             array (
                 'id' => 1,
                 'status_id' => 1,
@@ -5248,7 +5635,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 17:54:20',
                 'updated_at' => '2016-10-25 17:54:20',
             ),
-            81 => 
+            124 => 
             array (
                 'id' => 2,
                 'status_id' => 3,
@@ -5257,7 +5644,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 17:54:27',
                 'updated_at' => '2016-10-25 17:54:27',
             ),
-            82 => 
+            125 => 
             array (
                 'id' => 3,
                 'status_id' => 3,
@@ -5266,16 +5653,52 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 18:01:46',
                 'updated_at' => '2016-10-25 18:01:46',
             ),
-            83 => 
+            126 => 
             array (
-                'id' => 11,
-                'status_id' => 4,
-                'skill_id' => 337,
+                'id' => 75,
+                'status_id' => 3,
+                'skill_id' => 29,
                 'chase_create' => 2,
-                'created_at' => '2016-10-25 18:55:26',
-                'updated_at' => '2016-10-25 18:55:26',
+                'created_at' => '2016-10-27 16:51:33',
+                'updated_at' => '2016-10-27 16:51:33',
             ),
-            84 => 
+            127 => 
+            array (
+                'id' => 84,
+                'status_id' => 2,
+                'skill_id' => 34,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:57:19',
+                'updated_at' => '2016-10-27 16:57:19',
+            ),
+            128 => 
+            array (
+                'id' => 85,
+                'status_id' => 1,
+                'skill_id' => 34,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:57:19',
+                'updated_at' => '2016-10-27 16:57:19',
+            ),
+            129 => 
+            array (
+                'id' => 86,
+                'status_id' => 2,
+                'skill_id' => 35,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:57:51',
+                'updated_at' => '2016-10-27 16:57:51',
+            ),
+            130 => 
+            array (
+                'id' => 87,
+                'status_id' => 4,
+                'skill_id' => 35,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:57:51',
+                'updated_at' => '2016-10-27 16:57:51',
+            ),
+            131 => 
             array (
                 'id' => 12,
                 'status_id' => 2,
@@ -5284,7 +5707,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 18:56:16',
                 'updated_at' => '2016-10-25 18:56:16',
             ),
-            85 => 
+            132 => 
             array (
                 'id' => 13,
                 'status_id' => 1,
@@ -5293,7 +5716,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 18:56:55',
                 'updated_at' => '2016-10-25 18:56:55',
             ),
-            86 => 
+            133 => 
             array (
                 'id' => 14,
                 'status_id' => 12,
@@ -5302,7 +5725,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 18:57:35',
                 'updated_at' => '2016-10-25 18:57:35',
             ),
-            87 => 
+            134 => 
             array (
                 'id' => 15,
                 'status_id' => 4,
@@ -5311,7 +5734,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 18:58:50',
                 'updated_at' => '2016-10-25 18:58:50',
             ),
-            88 => 
+            135 => 
             array (
                 'id' => 16,
                 'status_id' => 3,
@@ -5320,7 +5743,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 18:58:50',
                 'updated_at' => '2016-10-25 18:58:50',
             ),
-            89 => 
+            136 => 
             array (
                 'id' => 17,
                 'status_id' => 5,
@@ -5329,7 +5752,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 18:58:50',
                 'updated_at' => '2016-10-25 18:58:50',
             ),
-            90 => 
+            137 => 
             array (
                 'id' => 18,
                 'status_id' => 8,
@@ -5338,7 +5761,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 18:58:50',
                 'updated_at' => '2016-10-25 18:58:50',
             ),
-            91 => 
+            138 => 
             array (
                 'id' => 19,
                 'status_id' => 3,
@@ -5347,7 +5770,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 18:59:14',
                 'updated_at' => '2016-10-25 18:59:14',
             ),
-            92 => 
+            139 => 
             array (
                 'id' => 20,
                 'status_id' => 4,
@@ -5356,7 +5779,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 19:01:13',
                 'updated_at' => '2016-10-25 19:01:13',
             ),
-            93 => 
+            140 => 
             array (
                 'id' => 21,
                 'status_id' => 3,
@@ -5365,7 +5788,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 19:01:13',
                 'updated_at' => '2016-10-25 19:01:13',
             ),
-            94 => 
+            141 => 
             array (
                 'id' => 22,
                 'status_id' => 9,
@@ -5374,7 +5797,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 19:01:13',
                 'updated_at' => '2016-10-25 19:01:13',
             ),
-            95 => 
+            142 => 
             array (
                 'id' => 23,
                 'status_id' => 1,
@@ -5383,7 +5806,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 19:03:36',
                 'updated_at' => '2016-10-25 19:03:36',
             ),
-            96 => 
+            143 => 
             array (
                 'id' => 24,
                 'status_id' => 3,
@@ -5392,7 +5815,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 19:04:09',
                 'updated_at' => '2016-10-25 19:04:09',
             ),
-            97 => 
+            144 => 
             array (
                 'id' => 25,
                 'status_id' => 2,
@@ -5401,7 +5824,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 19:04:09',
                 'updated_at' => '2016-10-25 19:04:09',
             ),
-            98 => 
+            145 => 
             array (
                 'id' => 26,
                 'status_id' => 3,
@@ -5410,7 +5833,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 19:08:01',
                 'updated_at' => '2016-10-25 19:08:01',
             ),
-            99 => 
+            146 => 
             array (
                 'id' => 27,
                 'status_id' => 1,
@@ -5419,7 +5842,7 @@ class SkillsStatusesTableSeeder extends Seeder
                 'created_at' => '2016-10-25 19:08:01',
                 'updated_at' => '2016-10-25 19:08:01',
             ),
-            100 => 
+            147 => 
             array (
                 'id' => 28,
                 'status_id' => 8,
@@ -5427,6 +5850,159 @@ class SkillsStatusesTableSeeder extends Seeder
                 'chase_create' => 2,
                 'created_at' => '2016-10-25 19:08:01',
                 'updated_at' => '2016-10-25 19:08:01',
+            ),
+            148 => 
+            array (
+                'id' => 88,
+                'status_id' => 2,
+                'skill_id' => 36,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:58:10',
+                'updated_at' => '2016-10-27 16:58:10',
+            ),
+            149 => 
+            array (
+                'id' => 89,
+                'status_id' => 3,
+                'skill_id' => 36,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:58:10',
+                'updated_at' => '2016-10-27 16:58:10',
+            ),
+            150 => 
+            array (
+                'id' => 90,
+                'status_id' => 3,
+                'skill_id' => 37,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:58:36',
+                'updated_at' => '2016-10-27 16:58:36',
+            ),
+            151 => 
+            array (
+                'id' => 91,
+                'status_id' => 2,
+                'skill_id' => 37,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:58:36',
+                'updated_at' => '2016-10-27 16:58:36',
+            ),
+            152 => 
+            array (
+                'id' => 92,
+                'status_id' => 3,
+                'skill_id' => 38,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:58:53',
+                'updated_at' => '2016-10-27 16:58:53',
+            ),
+            153 => 
+            array (
+                'id' => 93,
+                'status_id' => 1,
+                'skill_id' => 38,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:58:53',
+                'updated_at' => '2016-10-27 16:58:53',
+            ),
+            154 => 
+            array (
+                'id' => 94,
+                'status_id' => 3,
+                'skill_id' => 39,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:59:18',
+                'updated_at' => '2016-10-27 16:59:18',
+            ),
+            155 => 
+            array (
+                'id' => 95,
+                'status_id' => 4,
+                'skill_id' => 39,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 16:59:18',
+                'updated_at' => '2016-10-27 16:59:18',
+            ),
+            156 => 
+            array (
+                'id' => 96,
+                'status_id' => 5,
+                'skill_id' => 40,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 16:59:54',
+                'updated_at' => '2016-10-27 16:59:54',
+            ),
+            157 => 
+            array (
+                'id' => 97,
+                'status_id' => 4,
+                'skill_id' => 41,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 17:15:04',
+                'updated_at' => '2016-10-27 17:15:04',
+            ),
+            158 => 
+            array (
+                'id' => 98,
+                'status_id' => 2,
+                'skill_id' => 41,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 17:15:04',
+                'updated_at' => '2016-10-27 17:15:04',
+            ),
+            159 => 
+            array (
+                'id' => 99,
+                'status_id' => 1,
+                'skill_id' => 32,
+                'chase_create' => 1,
+                'created_at' => '2016-10-27 17:18:52',
+                'updated_at' => '2016-10-27 17:18:52',
+            ),
+            160 => 
+            array (
+                'id' => 100,
+                'status_id' => 3,
+                'skill_id' => 32,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 17:18:52',
+                'updated_at' => '2016-10-27 17:18:52',
+            ),
+            161 => 
+            array (
+                'id' => 101,
+                'status_id' => 1,
+                'skill_id' => 42,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 17:27:25',
+                'updated_at' => '2016-10-27 17:27:25',
+            ),
+            162 => 
+            array (
+                'id' => 102,
+                'status_id' => 8,
+                'skill_id' => 42,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 17:27:25',
+                'updated_at' => '2016-10-27 17:27:25',
+            ),
+            163 => 
+            array (
+                'id' => 103,
+                'status_id' => 3,
+                'skill_id' => 43,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 17:29:44',
+                'updated_at' => '2016-10-27 17:29:44',
+            ),
+            164 => 
+            array (
+                'id' => 104,
+                'status_id' => 4,
+                'skill_id' => 337,
+                'chase_create' => 2,
+                'created_at' => '2016-10-27 17:32:21',
+                'updated_at' => '2016-10-27 17:32:21',
             ),
         ));
         

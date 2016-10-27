@@ -37,6 +37,13 @@
                     </div><!--col-lg-10-->
                 </div><!--form control-->	
                 <div class="form-group">
+                    {{ Form::label('type_id', trans('validation.attributes.backend.skills.type_id'), ['class' => 'col-lg-2 control-label']) }}
+
+                    <div class="col-lg-10">
+                        {{ Form::select('type_id', $skill_types, $skill->type_id, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.skills.type_id')]) }}
+                    </div><!--col-lg-10-->
+                </div><!--form control-->
+                <div class="form-group">
                     {{ Form::label('associated-chases', trans('validation.attributes.backend.skills.associated-chases'), ['class' => 'col-lg-2 control-label']) }}
 
                     <div class="col-lg-10">

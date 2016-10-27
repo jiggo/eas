@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Backend\Skill;
 
 use App\Models\Skill\Skill;
+use App\Models\SkillType\SkillType;
 use App\Http\Controllers\Controller;
 use Yajra\Datatables\Facades\Datatables;
 use App\Http\Requests\Backend\Skill\StoreSkillRequest;
@@ -70,7 +71,8 @@ class SkillController extends Controller
     public function create(ManageSkillRequest $request)
     {
         return view('backend.skill.create')
-            ->withStatuses($this->statuses->getAllStatuses('id', 'asc', true)->pluck('name', 'id'));
+            ->withStatuses($this->statuses->getAllStatuses('id', 'asc', true)->pluck('name', 'id'))
+        	->withSkillTypes(SkillType::all()->pluck('name', 'id'));
     }
 
 	/**
@@ -94,7 +96,8 @@ class SkillController extends Controller
             ->withSkill($skill)
             ->withChases($skill->chases->lists('id')->all())
             ->withHurts($skill->hurts->lists('id')->all())
-            ->withStatuses($this->statuses->getAllStatuses('id', 'asc', true)->pluck('name', 'id'));
+            ->withStatuses($this->statuses->getAllStatuses('id', 'asc', true)->pluck('name', 'id'))
+        	->withSkillTypes(SkillType::all()->pluck('name', 'id'));
     }
 
 	/**

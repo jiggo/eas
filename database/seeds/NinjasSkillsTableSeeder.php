@@ -1803,13 +1803,53 @@ class NinjasSkillsTableSeeder extends Seeder
             ),
             223 => 
             array (
+                'id' => 20,
+                'ninja_id' => 1,
+                'skill_id' => 12,
+                'created_at' => '2016-10-27 17:01:28',
+                'updated_at' => '2016-10-27 17:01:28',
+            ),
+            224 => 
+            array (
+                'id' => 22,
+                'ninja_id' => 2,
+                'skill_id' => 13,
+                'created_at' => '2016-10-27 17:04:48',
+                'updated_at' => '2016-10-27 17:04:48',
+            ),
+            225 => 
+            array (
+                'id' => 24,
+                'ninja_id' => 4,
+                'skill_id' => 15,
+                'created_at' => '2016-10-27 17:06:08',
+                'updated_at' => '2016-10-27 17:06:08',
+            ),
+            226 => 
+            array (
+                'id' => 26,
+                'ninja_id' => 6,
+                'skill_id' => 17,
+                'created_at' => '2016-10-27 17:06:53',
+                'updated_at' => '2016-10-27 17:06:53',
+            ),
+            227 => 
+            array (
+                'id' => 28,
+                'ninja_id' => 8,
+                'skill_id' => 19,
+                'created_at' => '2016-10-27 17:10:16',
+                'updated_at' => '2016-10-27 17:10:16',
+            ),
+            228 => 
+            array (
                 'id' => 387,
                 'ninja_id' => 316,
                 'skill_id' => 340,
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            224 => 
+            229 => 
             array (
                 'id' => 388,
                 'ninja_id' => 316,
@@ -1817,7 +1857,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            225 => 
+            230 => 
             array (
                 'id' => 389,
                 'ninja_id' => 316,
@@ -1825,7 +1865,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            226 => 
+            231 => 
             array (
                 'id' => 390,
                 'ninja_id' => 316,
@@ -1833,7 +1873,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            227 => 
+            232 => 
             array (
                 'id' => 391,
                 'ninja_id' => 316,
@@ -1841,7 +1881,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            228 => 
+            233 => 
             array (
                 'id' => 392,
                 'ninja_id' => 317,
@@ -1849,7 +1889,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            229 => 
+            234 => 
             array (
                 'id' => 393,
                 'ninja_id' => 317,
@@ -1857,7 +1897,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            230 => 
+            235 => 
             array (
                 'id' => 394,
                 'ninja_id' => 317,
@@ -1865,7 +1905,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            231 => 
+            236 => 
             array (
                 'id' => 395,
                 'ninja_id' => 317,
@@ -1873,7 +1913,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            232 => 
+            237 => 
             array (
                 'id' => 396,
                 'ninja_id' => 317,
@@ -1881,7 +1921,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            233 => 
+            238 => 
             array (
                 'id' => 397,
                 'ninja_id' => 318,
@@ -1889,7 +1929,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            234 => 
+            239 => 
             array (
                 'id' => 398,
                 'ninja_id' => 318,
@@ -1897,7 +1937,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            235 => 
+            240 => 
             array (
                 'id' => 399,
                 'ninja_id' => 318,
@@ -1905,7 +1945,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            236 => 
+            241 => 
             array (
                 'id' => 400,
                 'ninja_id' => 318,
@@ -1913,7 +1953,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            237 => 
+            242 => 
             array (
                 'id' => 401,
                 'ninja_id' => 318,
@@ -1921,7 +1961,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            238 => 
+            243 => 
             array (
                 'id' => 402,
                 'ninja_id' => 319,
@@ -1929,7 +1969,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            239 => 
+            244 => 
             array (
                 'id' => 403,
                 'ninja_id' => 319,
@@ -1937,7 +1977,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            240 => 
+            245 => 
             array (
                 'id' => 404,
                 'ninja_id' => 319,
@@ -1945,7 +1985,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            241 => 
+            246 => 
             array (
                 'id' => 405,
                 'ninja_id' => 319,
@@ -1953,7 +1993,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            242 => 
+            247 => 
             array (
                 'id' => 406,
                 'ninja_id' => 319,
@@ -1961,7 +2001,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            243 => 
+            248 => 
             array (
                 'id' => 407,
                 'ninja_id' => 320,
@@ -1969,7 +2009,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            244 => 
+            249 => 
             array (
                 'id' => 408,
                 'ninja_id' => 320,
@@ -1977,7 +2017,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            245 => 
+            250 => 
             array (
                 'id' => 409,
                 'ninja_id' => 320,
@@ -1985,7 +2025,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            246 => 
+            251 => 
             array (
                 'id' => 410,
                 'ninja_id' => 320,
@@ -1993,7 +2033,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            247 => 
+            252 => 
             array (
                 'id' => 411,
                 'ninja_id' => 320,
@@ -2001,7 +2041,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            248 => 
+            253 => 
             array (
                 'id' => 412,
                 'ninja_id' => 321,
@@ -2009,7 +2049,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            249 => 
+            254 => 
             array (
                 'id' => 413,
                 'ninja_id' => 321,
@@ -2017,7 +2057,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            250 => 
+            255 => 
             array (
                 'id' => 414,
                 'ninja_id' => 321,
@@ -2025,7 +2065,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            251 => 
+            256 => 
             array (
                 'id' => 415,
                 'ninja_id' => 321,
@@ -2033,7 +2073,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            252 => 
+            257 => 
             array (
                 'id' => 416,
                 'ninja_id' => 321,
@@ -2041,7 +2081,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            253 => 
+            258 => 
             array (
                 'id' => 417,
                 'ninja_id' => 322,
@@ -2049,7 +2089,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            254 => 
+            259 => 
             array (
                 'id' => 418,
                 'ninja_id' => 322,
@@ -2057,7 +2097,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            255 => 
+            260 => 
             array (
                 'id' => 419,
                 'ninja_id' => 322,
@@ -2065,7 +2105,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            256 => 
+            261 => 
             array (
                 'id' => 420,
                 'ninja_id' => 322,
@@ -2073,7 +2113,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            257 => 
+            262 => 
             array (
                 'id' => 421,
                 'ninja_id' => 323,
@@ -2081,7 +2121,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            258 => 
+            263 => 
             array (
                 'id' => 422,
                 'ninja_id' => 323,
@@ -2089,7 +2129,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            259 => 
+            264 => 
             array (
                 'id' => 423,
                 'ninja_id' => 323,
@@ -2097,7 +2137,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            260 => 
+            265 => 
             array (
                 'id' => 424,
                 'ninja_id' => 323,
@@ -2105,7 +2145,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            261 => 
+            266 => 
             array (
                 'id' => 425,
                 'ninja_id' => 323,
@@ -2113,7 +2153,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            262 => 
+            267 => 
             array (
                 'id' => 426,
                 'ninja_id' => 324,
@@ -2121,7 +2161,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            263 => 
+            268 => 
             array (
                 'id' => 427,
                 'ninja_id' => 324,
@@ -2129,7 +2169,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            264 => 
+            269 => 
             array (
                 'id' => 428,
                 'ninja_id' => 324,
@@ -2137,7 +2177,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            265 => 
+            270 => 
             array (
                 'id' => 429,
                 'ninja_id' => 324,
@@ -2145,7 +2185,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            266 => 
+            271 => 
             array (
                 'id' => 430,
                 'ninja_id' => 324,
@@ -2153,7 +2193,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            267 => 
+            272 => 
             array (
                 'id' => 431,
                 'ninja_id' => 325,
@@ -2161,7 +2201,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            268 => 
+            273 => 
             array (
                 'id' => 432,
                 'ninja_id' => 325,
@@ -2169,7 +2209,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            269 => 
+            274 => 
             array (
                 'id' => 433,
                 'ninja_id' => 325,
@@ -2177,7 +2217,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            270 => 
+            275 => 
             array (
                 'id' => 434,
                 'ninja_id' => 325,
@@ -2185,7 +2225,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            271 => 
+            276 => 
             array (
                 'id' => 435,
                 'ninja_id' => 325,
@@ -2193,7 +2233,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            272 => 
+            277 => 
             array (
                 'id' => 436,
                 'ninja_id' => 326,
@@ -2201,7 +2241,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            273 => 
+            278 => 
             array (
                 'id' => 437,
                 'ninja_id' => 326,
@@ -2209,7 +2249,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            274 => 
+            279 => 
             array (
                 'id' => 438,
                 'ninja_id' => 326,
@@ -2217,7 +2257,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            275 => 
+            280 => 
             array (
                 'id' => 439,
                 'ninja_id' => 326,
@@ -2225,7 +2265,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            276 => 
+            281 => 
             array (
                 'id' => 440,
                 'ninja_id' => 326,
@@ -2233,7 +2273,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            277 => 
+            282 => 
             array (
                 'id' => 441,
                 'ninja_id' => 327,
@@ -2241,7 +2281,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            278 => 
+            283 => 
             array (
                 'id' => 442,
                 'ninja_id' => 327,
@@ -2249,7 +2289,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            279 => 
+            284 => 
             array (
                 'id' => 443,
                 'ninja_id' => 327,
@@ -2257,7 +2297,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            280 => 
+            285 => 
             array (
                 'id' => 444,
                 'ninja_id' => 327,
@@ -2265,7 +2305,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            281 => 
+            286 => 
             array (
                 'id' => 445,
                 'ninja_id' => 327,
@@ -2273,7 +2313,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            282 => 
+            287 => 
             array (
                 'id' => 446,
                 'ninja_id' => 328,
@@ -2281,7 +2321,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            283 => 
+            288 => 
             array (
                 'id' => 447,
                 'ninja_id' => 328,
@@ -2289,7 +2329,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            284 => 
+            289 => 
             array (
                 'id' => 448,
                 'ninja_id' => 328,
@@ -2297,7 +2337,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            285 => 
+            290 => 
             array (
                 'id' => 449,
                 'ninja_id' => 328,
@@ -2305,7 +2345,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            286 => 
+            291 => 
             array (
                 'id' => 450,
                 'ninja_id' => 328,
@@ -2313,7 +2353,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            287 => 
+            292 => 
             array (
                 'id' => 451,
                 'ninja_id' => 329,
@@ -2321,7 +2361,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            288 => 
+            293 => 
             array (
                 'id' => 452,
                 'ninja_id' => 329,
@@ -2329,7 +2369,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            289 => 
+            294 => 
             array (
                 'id' => 453,
                 'ninja_id' => 329,
@@ -2337,7 +2377,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            290 => 
+            295 => 
             array (
                 'id' => 454,
                 'ninja_id' => 329,
@@ -2345,7 +2385,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            291 => 
+            296 => 
             array (
                 'id' => 455,
                 'ninja_id' => 329,
@@ -2353,7 +2393,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            292 => 
+            297 => 
             array (
                 'id' => 456,
                 'ninja_id' => 330,
@@ -2361,7 +2401,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            293 => 
+            298 => 
             array (
                 'id' => 457,
                 'ninja_id' => 330,
@@ -2369,7 +2409,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            294 => 
+            299 => 
             array (
                 'id' => 458,
                 'ninja_id' => 330,
@@ -2377,7 +2417,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            295 => 
+            300 => 
             array (
                 'id' => 459,
                 'ninja_id' => 330,
@@ -2385,7 +2425,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            296 => 
+            301 => 
             array (
                 'id' => 460,
                 'ninja_id' => 330,
@@ -2393,7 +2433,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            297 => 
+            302 => 
             array (
                 'id' => 461,
                 'ninja_id' => 331,
@@ -2401,7 +2441,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            298 => 
+            303 => 
             array (
                 'id' => 462,
                 'ninja_id' => 331,
@@ -2409,7 +2449,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            299 => 
+            304 => 
             array (
                 'id' => 463,
                 'ninja_id' => 331,
@@ -2417,7 +2457,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            300 => 
+            305 => 
             array (
                 'id' => 464,
                 'ninja_id' => 331,
@@ -2425,7 +2465,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            301 => 
+            306 => 
             array (
                 'id' => 465,
                 'ninja_id' => 331,
@@ -2433,7 +2473,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            302 => 
+            307 => 
             array (
                 'id' => 466,
                 'ninja_id' => 332,
@@ -2441,7 +2481,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            303 => 
+            308 => 
             array (
                 'id' => 467,
                 'ninja_id' => 332,
@@ -2449,7 +2489,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            304 => 
+            309 => 
             array (
                 'id' => 468,
                 'ninja_id' => 332,
@@ -2457,7 +2497,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            305 => 
+            310 => 
             array (
                 'id' => 469,
                 'ninja_id' => 332,
@@ -2465,7 +2505,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            306 => 
+            311 => 
             array (
                 'id' => 470,
                 'ninja_id' => 333,
@@ -2473,7 +2513,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            307 => 
+            312 => 
             array (
                 'id' => 471,
                 'ninja_id' => 333,
@@ -2481,7 +2521,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            308 => 
+            313 => 
             array (
                 'id' => 472,
                 'ninja_id' => 333,
@@ -2489,7 +2529,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            309 => 
+            314 => 
             array (
                 'id' => 473,
                 'ninja_id' => 333,
@@ -2497,7 +2537,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            310 => 
+            315 => 
             array (
                 'id' => 474,
                 'ninja_id' => 334,
@@ -2505,7 +2545,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            311 => 
+            316 => 
             array (
                 'id' => 475,
                 'ninja_id' => 334,
@@ -2513,7 +2553,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            312 => 
+            317 => 
             array (
                 'id' => 476,
                 'ninja_id' => 334,
@@ -2521,7 +2561,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            313 => 
+            318 => 
             array (
                 'id' => 477,
                 'ninja_id' => 334,
@@ -2529,7 +2569,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            314 => 
+            319 => 
             array (
                 'id' => 478,
                 'ninja_id' => 334,
@@ -2537,7 +2577,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            315 => 
+            320 => 
             array (
                 'id' => 479,
                 'ninja_id' => 335,
@@ -2545,7 +2585,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            316 => 
+            321 => 
             array (
                 'id' => 480,
                 'ninja_id' => 335,
@@ -2553,7 +2593,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            317 => 
+            322 => 
             array (
                 'id' => 481,
                 'ninja_id' => 335,
@@ -2561,7 +2601,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            318 => 
+            323 => 
             array (
                 'id' => 482,
                 'ninja_id' => 335,
@@ -2569,7 +2609,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            319 => 
+            324 => 
             array (
                 'id' => 483,
                 'ninja_id' => 335,
@@ -2577,7 +2617,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            320 => 
+            325 => 
             array (
                 'id' => 484,
                 'ninja_id' => 336,
@@ -2585,7 +2625,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            321 => 
+            326 => 
             array (
                 'id' => 485,
                 'ninja_id' => 336,
@@ -2593,7 +2633,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            322 => 
+            327 => 
             array (
                 'id' => 486,
                 'ninja_id' => 336,
@@ -2601,7 +2641,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            323 => 
+            328 => 
             array (
                 'id' => 487,
                 'ninja_id' => 336,
@@ -2609,7 +2649,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            324 => 
+            329 => 
             array (
                 'id' => 488,
                 'ninja_id' => 337,
@@ -2617,7 +2657,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            325 => 
+            330 => 
             array (
                 'id' => 489,
                 'ninja_id' => 337,
@@ -2625,7 +2665,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            326 => 
+            331 => 
             array (
                 'id' => 490,
                 'ninja_id' => 337,
@@ -2633,7 +2673,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            327 => 
+            332 => 
             array (
                 'id' => 491,
                 'ninja_id' => 337,
@@ -2641,7 +2681,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            328 => 
+            333 => 
             array (
                 'id' => 492,
                 'ninja_id' => 337,
@@ -2649,7 +2689,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            329 => 
+            334 => 
             array (
                 'id' => 493,
                 'ninja_id' => 338,
@@ -2657,7 +2697,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            330 => 
+            335 => 
             array (
                 'id' => 494,
                 'ninja_id' => 338,
@@ -2665,7 +2705,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            331 => 
+            336 => 
             array (
                 'id' => 495,
                 'ninja_id' => 338,
@@ -2673,7 +2713,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            332 => 
+            337 => 
             array (
                 'id' => 496,
                 'ninja_id' => 338,
@@ -2681,7 +2721,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            333 => 
+            338 => 
             array (
                 'id' => 497,
                 'ninja_id' => 338,
@@ -2689,7 +2729,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            334 => 
+            339 => 
             array (
                 'id' => 498,
                 'ninja_id' => 339,
@@ -2697,7 +2737,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            335 => 
+            340 => 
             array (
                 'id' => 499,
                 'ninja_id' => 339,
@@ -2705,7 +2745,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            336 => 
+            341 => 
             array (
                 'id' => 500,
                 'ninja_id' => 339,
@@ -2713,7 +2753,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            337 => 
+            342 => 
             array (
                 'id' => 501,
                 'ninja_id' => 339,
@@ -2721,7 +2761,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            338 => 
+            343 => 
             array (
                 'id' => 502,
                 'ninja_id' => 339,
@@ -2729,7 +2769,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            339 => 
+            344 => 
             array (
                 'id' => 503,
                 'ninja_id' => 340,
@@ -2737,7 +2777,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            340 => 
+            345 => 
             array (
                 'id' => 504,
                 'ninja_id' => 340,
@@ -2745,7 +2785,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            341 => 
+            346 => 
             array (
                 'id' => 505,
                 'ninja_id' => 340,
@@ -2753,7 +2793,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            342 => 
+            347 => 
             array (
                 'id' => 506,
                 'ninja_id' => 340,
@@ -2761,7 +2801,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            343 => 
+            348 => 
             array (
                 'id' => 507,
                 'ninja_id' => 340,
@@ -2769,7 +2809,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            344 => 
+            349 => 
             array (
                 'id' => 508,
                 'ninja_id' => 341,
@@ -2777,7 +2817,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            345 => 
+            350 => 
             array (
                 'id' => 509,
                 'ninja_id' => 341,
@@ -2785,7 +2825,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            346 => 
+            351 => 
             array (
                 'id' => 510,
                 'ninja_id' => 341,
@@ -2793,7 +2833,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            347 => 
+            352 => 
             array (
                 'id' => 511,
                 'ninja_id' => 341,
@@ -2801,7 +2841,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            348 => 
+            353 => 
             array (
                 'id' => 512,
                 'ninja_id' => 341,
@@ -2809,7 +2849,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            349 => 
+            354 => 
             array (
                 'id' => 513,
                 'ninja_id' => 342,
@@ -2817,7 +2857,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            350 => 
+            355 => 
             array (
                 'id' => 514,
                 'ninja_id' => 342,
@@ -2825,7 +2865,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            351 => 
+            356 => 
             array (
                 'id' => 515,
                 'ninja_id' => 342,
@@ -2833,7 +2873,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            352 => 
+            357 => 
             array (
                 'id' => 516,
                 'ninja_id' => 343,
@@ -2841,7 +2881,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            353 => 
+            358 => 
             array (
                 'id' => 517,
                 'ninja_id' => 343,
@@ -2849,7 +2889,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            354 => 
+            359 => 
             array (
                 'id' => 518,
                 'ninja_id' => 343,
@@ -2857,7 +2897,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            355 => 
+            360 => 
             array (
                 'id' => 519,
                 'ninja_id' => 343,
@@ -2865,7 +2905,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            356 => 
+            361 => 
             array (
                 'id' => 520,
                 'ninja_id' => 343,
@@ -2873,7 +2913,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            357 => 
+            362 => 
             array (
                 'id' => 521,
                 'ninja_id' => 344,
@@ -2881,7 +2921,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            358 => 
+            363 => 
             array (
                 'id' => 522,
                 'ninja_id' => 344,
@@ -2889,7 +2929,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            359 => 
+            364 => 
             array (
                 'id' => 523,
                 'ninja_id' => 344,
@@ -2897,7 +2937,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            360 => 
+            365 => 
             array (
                 'id' => 524,
                 'ninja_id' => 344,
@@ -2905,7 +2945,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            361 => 
+            366 => 
             array (
                 'id' => 525,
                 'ninja_id' => 344,
@@ -2913,7 +2953,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            362 => 
+            367 => 
             array (
                 'id' => 526,
                 'ninja_id' => 345,
@@ -2921,7 +2961,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            363 => 
+            368 => 
             array (
                 'id' => 527,
                 'ninja_id' => 345,
@@ -2929,7 +2969,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            364 => 
+            369 => 
             array (
                 'id' => 528,
                 'ninja_id' => 345,
@@ -2937,7 +2977,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            365 => 
+            370 => 
             array (
                 'id' => 529,
                 'ninja_id' => 345,
@@ -2945,7 +2985,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            366 => 
+            371 => 
             array (
                 'id' => 530,
                 'ninja_id' => 345,
@@ -2953,7 +2993,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            367 => 
+            372 => 
             array (
                 'id' => 531,
                 'ninja_id' => 346,
@@ -2961,7 +3001,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            368 => 
+            373 => 
             array (
                 'id' => 532,
                 'ninja_id' => 346,
@@ -2969,7 +3009,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            369 => 
+            374 => 
             array (
                 'id' => 533,
                 'ninja_id' => 346,
@@ -2977,7 +3017,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            370 => 
+            375 => 
             array (
                 'id' => 534,
                 'ninja_id' => 346,
@@ -2985,7 +3025,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            371 => 
+            376 => 
             array (
                 'id' => 535,
                 'ninja_id' => 346,
@@ -2993,7 +3033,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            372 => 
+            377 => 
             array (
                 'id' => 536,
                 'ninja_id' => 347,
@@ -3001,7 +3041,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            373 => 
+            378 => 
             array (
                 'id' => 537,
                 'ninja_id' => 347,
@@ -3009,7 +3049,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            374 => 
+            379 => 
             array (
                 'id' => 538,
                 'ninja_id' => 347,
@@ -3017,7 +3057,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            375 => 
+            380 => 
             array (
                 'id' => 539,
                 'ninja_id' => 347,
@@ -3025,7 +3065,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            376 => 
+            381 => 
             array (
                 'id' => 540,
                 'ninja_id' => 347,
@@ -3033,7 +3073,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            377 => 
+            382 => 
             array (
                 'id' => 541,
                 'ninja_id' => 348,
@@ -3041,7 +3081,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            378 => 
+            383 => 
             array (
                 'id' => 542,
                 'ninja_id' => 348,
@@ -3049,7 +3089,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            379 => 
+            384 => 
             array (
                 'id' => 543,
                 'ninja_id' => 348,
@@ -3057,7 +3097,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            380 => 
+            385 => 
             array (
                 'id' => 544,
                 'ninja_id' => 348,
@@ -3065,7 +3105,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            381 => 
+            386 => 
             array (
                 'id' => 545,
                 'ninja_id' => 348,
@@ -3073,7 +3113,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            382 => 
+            387 => 
             array (
                 'id' => 546,
                 'ninja_id' => 349,
@@ -3081,7 +3121,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            383 => 
+            388 => 
             array (
                 'id' => 547,
                 'ninja_id' => 349,
@@ -3089,7 +3129,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            384 => 
+            389 => 
             array (
                 'id' => 548,
                 'ninja_id' => 349,
@@ -3097,7 +3137,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            385 => 
+            390 => 
             array (
                 'id' => 549,
                 'ninja_id' => 349,
@@ -3105,7 +3145,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            386 => 
+            391 => 
             array (
                 'id' => 550,
                 'ninja_id' => 349,
@@ -3113,7 +3153,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            387 => 
+            392 => 
             array (
                 'id' => 551,
                 'ninja_id' => 350,
@@ -3121,7 +3161,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            388 => 
+            393 => 
             array (
                 'id' => 552,
                 'ninja_id' => 350,
@@ -3129,7 +3169,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            389 => 
+            394 => 
             array (
                 'id' => 553,
                 'ninja_id' => 350,
@@ -3137,7 +3177,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            390 => 
+            395 => 
             array (
                 'id' => 554,
                 'ninja_id' => 350,
@@ -3145,7 +3185,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            391 => 
+            396 => 
             array (
                 'id' => 555,
                 'ninja_id' => 350,
@@ -3153,7 +3193,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            392 => 
+            397 => 
             array (
                 'id' => 556,
                 'ninja_id' => 351,
@@ -3161,7 +3201,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            393 => 
+            398 => 
             array (
                 'id' => 557,
                 'ninja_id' => 351,
@@ -3169,7 +3209,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            394 => 
+            399 => 
             array (
                 'id' => 558,
                 'ninja_id' => 351,
@@ -3177,7 +3217,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            395 => 
+            400 => 
             array (
                 'id' => 559,
                 'ninja_id' => 351,
@@ -3185,7 +3225,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            396 => 
+            401 => 
             array (
                 'id' => 560,
                 'ninja_id' => 351,
@@ -3193,7 +3233,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            397 => 
+            402 => 
             array (
                 'id' => 561,
                 'ninja_id' => 352,
@@ -3201,7 +3241,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            398 => 
+            403 => 
             array (
                 'id' => 562,
                 'ninja_id' => 352,
@@ -3209,7 +3249,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            399 => 
+            404 => 
             array (
                 'id' => 563,
                 'ninja_id' => 352,
@@ -3217,7 +3257,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            400 => 
+            405 => 
             array (
                 'id' => 564,
                 'ninja_id' => 352,
@@ -3225,7 +3265,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            401 => 
+            406 => 
             array (
                 'id' => 565,
                 'ninja_id' => 352,
@@ -3233,7 +3273,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            402 => 
+            407 => 
             array (
                 'id' => 566,
                 'ninja_id' => 353,
@@ -3241,7 +3281,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            403 => 
+            408 => 
             array (
                 'id' => 567,
                 'ninja_id' => 353,
@@ -3249,7 +3289,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            404 => 
+            409 => 
             array (
                 'id' => 568,
                 'ninja_id' => 353,
@@ -3257,7 +3297,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            405 => 
+            410 => 
             array (
                 'id' => 569,
                 'ninja_id' => 353,
@@ -3265,7 +3305,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            406 => 
+            411 => 
             array (
                 'id' => 570,
                 'ninja_id' => 353,
@@ -3273,7 +3313,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            407 => 
+            412 => 
             array (
                 'id' => 571,
                 'ninja_id' => 354,
@@ -3281,7 +3321,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            408 => 
+            413 => 
             array (
                 'id' => 572,
                 'ninja_id' => 354,
@@ -3289,7 +3329,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            409 => 
+            414 => 
             array (
                 'id' => 573,
                 'ninja_id' => 354,
@@ -3297,7 +3337,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            410 => 
+            415 => 
             array (
                 'id' => 574,
                 'ninja_id' => 354,
@@ -3305,7 +3345,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            411 => 
+            416 => 
             array (
                 'id' => 575,
                 'ninja_id' => 354,
@@ -3313,7 +3353,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            412 => 
+            417 => 
             array (
                 'id' => 576,
                 'ninja_id' => 355,
@@ -3321,7 +3361,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            413 => 
+            418 => 
             array (
                 'id' => 577,
                 'ninja_id' => 355,
@@ -3329,7 +3369,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            414 => 
+            419 => 
             array (
                 'id' => 578,
                 'ninja_id' => 355,
@@ -3337,7 +3377,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            415 => 
+            420 => 
             array (
                 'id' => 579,
                 'ninja_id' => 355,
@@ -3345,7 +3385,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            416 => 
+            421 => 
             array (
                 'id' => 580,
                 'ninja_id' => 356,
@@ -3353,7 +3393,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            417 => 
+            422 => 
             array (
                 'id' => 581,
                 'ninja_id' => 356,
@@ -3361,7 +3401,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            418 => 
+            423 => 
             array (
                 'id' => 582,
                 'ninja_id' => 356,
@@ -3369,7 +3409,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            419 => 
+            424 => 
             array (
                 'id' => 583,
                 'ninja_id' => 356,
@@ -3377,7 +3417,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            420 => 
+            425 => 
             array (
                 'id' => 584,
                 'ninja_id' => 356,
@@ -3385,7 +3425,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            421 => 
+            426 => 
             array (
                 'id' => 585,
                 'ninja_id' => 357,
@@ -3393,7 +3433,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            422 => 
+            427 => 
             array (
                 'id' => 586,
                 'ninja_id' => 357,
@@ -3401,7 +3441,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            423 => 
+            428 => 
             array (
                 'id' => 587,
                 'ninja_id' => 357,
@@ -3409,7 +3449,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            424 => 
+            429 => 
             array (
                 'id' => 588,
                 'ninja_id' => 357,
@@ -3417,7 +3457,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            425 => 
+            430 => 
             array (
                 'id' => 589,
                 'ninja_id' => 357,
@@ -3425,7 +3465,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            426 => 
+            431 => 
             array (
                 'id' => 590,
                 'ninja_id' => 358,
@@ -3433,7 +3473,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            427 => 
+            432 => 
             array (
                 'id' => 591,
                 'ninja_id' => 358,
@@ -3441,7 +3481,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            428 => 
+            433 => 
             array (
                 'id' => 592,
                 'ninja_id' => 358,
@@ -3449,7 +3489,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            429 => 
+            434 => 
             array (
                 'id' => 593,
                 'ninja_id' => 358,
@@ -3457,7 +3497,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            430 => 
+            435 => 
             array (
                 'id' => 594,
                 'ninja_id' => 358,
@@ -3465,7 +3505,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            431 => 
+            436 => 
             array (
                 'id' => 595,
                 'ninja_id' => 359,
@@ -3473,7 +3513,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            432 => 
+            437 => 
             array (
                 'id' => 596,
                 'ninja_id' => 359,
@@ -3481,7 +3521,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            433 => 
+            438 => 
             array (
                 'id' => 597,
                 'ninja_id' => 359,
@@ -3489,7 +3529,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            434 => 
+            439 => 
             array (
                 'id' => 598,
                 'ninja_id' => 359,
@@ -3497,7 +3537,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            435 => 
+            440 => 
             array (
                 'id' => 599,
                 'ninja_id' => 359,
@@ -3505,7 +3545,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            436 => 
+            441 => 
             array (
                 'id' => 600,
                 'ninja_id' => 360,
@@ -3513,7 +3553,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            437 => 
+            442 => 
             array (
                 'id' => 601,
                 'ninja_id' => 360,
@@ -3521,7 +3561,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            438 => 
+            443 => 
             array (
                 'id' => 602,
                 'ninja_id' => 360,
@@ -3529,7 +3569,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            439 => 
+            444 => 
             array (
                 'id' => 603,
                 'ninja_id' => 360,
@@ -3537,7 +3577,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            440 => 
+            445 => 
             array (
                 'id' => 604,
                 'ninja_id' => 360,
@@ -3545,7 +3585,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            441 => 
+            446 => 
             array (
                 'id' => 605,
                 'ninja_id' => 361,
@@ -3553,7 +3593,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            442 => 
+            447 => 
             array (
                 'id' => 606,
                 'ninja_id' => 361,
@@ -3561,7 +3601,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            443 => 
+            448 => 
             array (
                 'id' => 607,
                 'ninja_id' => 361,
@@ -3569,7 +3609,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            444 => 
+            449 => 
             array (
                 'id' => 608,
                 'ninja_id' => 361,
@@ -3577,7 +3617,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            445 => 
+            450 => 
             array (
                 'id' => 609,
                 'ninja_id' => 361,
@@ -3585,7 +3625,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            446 => 
+            451 => 
             array (
                 'id' => 610,
                 'ninja_id' => 362,
@@ -3593,7 +3633,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            447 => 
+            452 => 
             array (
                 'id' => 611,
                 'ninja_id' => 362,
@@ -3601,7 +3641,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            448 => 
+            453 => 
             array (
                 'id' => 612,
                 'ninja_id' => 362,
@@ -3609,7 +3649,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            449 => 
+            454 => 
             array (
                 'id' => 613,
                 'ninja_id' => 362,
@@ -3617,7 +3657,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            450 => 
+            455 => 
             array (
                 'id' => 614,
                 'ninja_id' => 362,
@@ -3625,7 +3665,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            451 => 
+            456 => 
             array (
                 'id' => 615,
                 'ninja_id' => 363,
@@ -3633,7 +3673,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            452 => 
+            457 => 
             array (
                 'id' => 616,
                 'ninja_id' => 363,
@@ -3641,7 +3681,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            453 => 
+            458 => 
             array (
                 'id' => 617,
                 'ninja_id' => 363,
@@ -3649,7 +3689,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            454 => 
+            459 => 
             array (
                 'id' => 618,
                 'ninja_id' => 363,
@@ -3657,7 +3697,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            455 => 
+            460 => 
             array (
                 'id' => 619,
                 'ninja_id' => 363,
@@ -3665,7 +3705,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            456 => 
+            461 => 
             array (
                 'id' => 620,
                 'ninja_id' => 364,
@@ -3673,7 +3713,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            457 => 
+            462 => 
             array (
                 'id' => 621,
                 'ninja_id' => 364,
@@ -3681,7 +3721,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            458 => 
+            463 => 
             array (
                 'id' => 622,
                 'ninja_id' => 364,
@@ -3689,7 +3729,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            459 => 
+            464 => 
             array (
                 'id' => 623,
                 'ninja_id' => 364,
@@ -3697,7 +3737,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            460 => 
+            465 => 
             array (
                 'id' => 624,
                 'ninja_id' => 364,
@@ -3705,7 +3745,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            461 => 
+            466 => 
             array (
                 'id' => 625,
                 'ninja_id' => 365,
@@ -3713,7 +3753,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            462 => 
+            467 => 
             array (
                 'id' => 626,
                 'ninja_id' => 365,
@@ -3721,7 +3761,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            463 => 
+            468 => 
             array (
                 'id' => 627,
                 'ninja_id' => 365,
@@ -3729,7 +3769,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            464 => 
+            469 => 
             array (
                 'id' => 628,
                 'ninja_id' => 365,
@@ -3737,7 +3777,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            465 => 
+            470 => 
             array (
                 'id' => 629,
                 'ninja_id' => 365,
@@ -3745,7 +3785,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            466 => 
+            471 => 
             array (
                 'id' => 630,
                 'ninja_id' => 366,
@@ -3753,7 +3793,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            467 => 
+            472 => 
             array (
                 'id' => 631,
                 'ninja_id' => 366,
@@ -3761,7 +3801,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            468 => 
+            473 => 
             array (
                 'id' => 632,
                 'ninja_id' => 366,
@@ -3769,7 +3809,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            469 => 
+            474 => 
             array (
                 'id' => 633,
                 'ninja_id' => 366,
@@ -3777,7 +3817,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            470 => 
+            475 => 
             array (
                 'id' => 634,
                 'ninja_id' => 366,
@@ -3785,7 +3825,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            471 => 
+            476 => 
             array (
                 'id' => 635,
                 'ninja_id' => 367,
@@ -3793,7 +3833,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            472 => 
+            477 => 
             array (
                 'id' => 636,
                 'ninja_id' => 367,
@@ -3801,7 +3841,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            473 => 
+            478 => 
             array (
                 'id' => 637,
                 'ninja_id' => 367,
@@ -3809,7 +3849,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            474 => 
+            479 => 
             array (
                 'id' => 638,
                 'ninja_id' => 367,
@@ -3817,7 +3857,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            475 => 
+            480 => 
             array (
                 'id' => 639,
                 'ninja_id' => 367,
@@ -3825,7 +3865,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            476 => 
+            481 => 
             array (
                 'id' => 640,
                 'ninja_id' => 368,
@@ -3833,7 +3873,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            477 => 
+            482 => 
             array (
                 'id' => 641,
                 'ninja_id' => 368,
@@ -3841,7 +3881,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            478 => 
+            483 => 
             array (
                 'id' => 642,
                 'ninja_id' => 368,
@@ -3849,7 +3889,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            479 => 
+            484 => 
             array (
                 'id' => 643,
                 'ninja_id' => 368,
@@ -3857,7 +3897,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            480 => 
+            485 => 
             array (
                 'id' => 644,
                 'ninja_id' => 368,
@@ -3865,7 +3905,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            481 => 
+            486 => 
             array (
                 'id' => 645,
                 'ninja_id' => 369,
@@ -3873,7 +3913,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            482 => 
+            487 => 
             array (
                 'id' => 646,
                 'ninja_id' => 369,
@@ -3881,7 +3921,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            483 => 
+            488 => 
             array (
                 'id' => 647,
                 'ninja_id' => 369,
@@ -3889,7 +3929,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            484 => 
+            489 => 
             array (
                 'id' => 648,
                 'ninja_id' => 369,
@@ -3897,7 +3937,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            485 => 
+            490 => 
             array (
                 'id' => 649,
                 'ninja_id' => 369,
@@ -3905,7 +3945,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            486 => 
+            491 => 
             array (
                 'id' => 650,
                 'ninja_id' => 370,
@@ -3913,7 +3953,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            487 => 
+            492 => 
             array (
                 'id' => 651,
                 'ninja_id' => 370,
@@ -3921,7 +3961,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            488 => 
+            493 => 
             array (
                 'id' => 652,
                 'ninja_id' => 370,
@@ -3929,7 +3969,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            489 => 
+            494 => 
             array (
                 'id' => 653,
                 'ninja_id' => 370,
@@ -3937,7 +3977,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            490 => 
+            495 => 
             array (
                 'id' => 654,
                 'ninja_id' => 370,
@@ -3945,7 +3985,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            491 => 
+            496 => 
             array (
                 'id' => 655,
                 'ninja_id' => 371,
@@ -3953,7 +3993,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            492 => 
+            497 => 
             array (
                 'id' => 656,
                 'ninja_id' => 371,
@@ -3961,7 +4001,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            493 => 
+            498 => 
             array (
                 'id' => 657,
                 'ninja_id' => 371,
@@ -3969,7 +4009,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            494 => 
+            499 => 
             array (
                 'id' => 658,
                 'ninja_id' => 371,
@@ -3977,7 +4017,9 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            495 => 
+        ));
+        \DB::table('ninjas_skills')->insert(array (
+            0 => 
             array (
                 'id' => 659,
                 'ninja_id' => 371,
@@ -3985,7 +4027,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            496 => 
+            1 => 
             array (
                 'id' => 660,
                 'ninja_id' => 372,
@@ -3993,7 +4035,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            497 => 
+            2 => 
             array (
                 'id' => 661,
                 'ninja_id' => 372,
@@ -4001,7 +4043,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            498 => 
+            3 => 
             array (
                 'id' => 662,
                 'ninja_id' => 372,
@@ -4009,7 +4051,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            499 => 
+            4 => 
             array (
                 'id' => 663,
                 'ninja_id' => 372,
@@ -4017,9 +4059,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-        ));
-        \DB::table('ninjas_skills')->insert(array (
-            0 => 
+            5 => 
             array (
                 'id' => 664,
                 'ninja_id' => 372,
@@ -4027,7 +4067,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            1 => 
+            6 => 
             array (
                 'id' => 665,
                 'ninja_id' => 373,
@@ -4035,7 +4075,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            2 => 
+            7 => 
             array (
                 'id' => 666,
                 'ninja_id' => 373,
@@ -4043,7 +4083,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            3 => 
+            8 => 
             array (
                 'id' => 667,
                 'ninja_id' => 373,
@@ -4051,7 +4091,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            4 => 
+            9 => 
             array (
                 'id' => 668,
                 'ninja_id' => 373,
@@ -4059,7 +4099,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            5 => 
+            10 => 
             array (
                 'id' => 669,
                 'ninja_id' => 373,
@@ -4067,7 +4107,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            6 => 
+            11 => 
             array (
                 'id' => 670,
                 'ninja_id' => 374,
@@ -4075,7 +4115,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            7 => 
+            12 => 
             array (
                 'id' => 671,
                 'ninja_id' => 374,
@@ -4083,7 +4123,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            8 => 
+            13 => 
             array (
                 'id' => 672,
                 'ninja_id' => 374,
@@ -4091,7 +4131,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            9 => 
+            14 => 
             array (
                 'id' => 673,
                 'ninja_id' => 374,
@@ -4099,7 +4139,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            10 => 
+            15 => 
             array (
                 'id' => 674,
                 'ninja_id' => 374,
@@ -4107,7 +4147,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            11 => 
+            16 => 
             array (
                 'id' => 675,
                 'ninja_id' => 375,
@@ -4115,7 +4155,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            12 => 
+            17 => 
             array (
                 'id' => 676,
                 'ninja_id' => 375,
@@ -4123,7 +4163,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            13 => 
+            18 => 
             array (
                 'id' => 677,
                 'ninja_id' => 375,
@@ -4131,7 +4171,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            14 => 
+            19 => 
             array (
                 'id' => 678,
                 'ninja_id' => 375,
@@ -4139,7 +4179,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            15 => 
+            20 => 
             array (
                 'id' => 679,
                 'ninja_id' => 375,
@@ -4147,7 +4187,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            16 => 
+            21 => 
             array (
                 'id' => 680,
                 'ninja_id' => 376,
@@ -4155,7 +4195,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            17 => 
+            22 => 
             array (
                 'id' => 681,
                 'ninja_id' => 376,
@@ -4163,7 +4203,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            18 => 
+            23 => 
             array (
                 'id' => 682,
                 'ninja_id' => 376,
@@ -4171,7 +4211,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            19 => 
+            24 => 
             array (
                 'id' => 683,
                 'ninja_id' => 376,
@@ -4179,7 +4219,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            20 => 
+            25 => 
             array (
                 'id' => 684,
                 'ninja_id' => 376,
@@ -4187,7 +4227,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            21 => 
+            26 => 
             array (
                 'id' => 685,
                 'ninja_id' => 377,
@@ -4195,7 +4235,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            22 => 
+            27 => 
             array (
                 'id' => 686,
                 'ninja_id' => 377,
@@ -4203,7 +4243,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            23 => 
+            28 => 
             array (
                 'id' => 687,
                 'ninja_id' => 377,
@@ -4211,7 +4251,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            24 => 
+            29 => 
             array (
                 'id' => 688,
                 'ninja_id' => 377,
@@ -4219,7 +4259,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            25 => 
+            30 => 
             array (
                 'id' => 689,
                 'ninja_id' => 377,
@@ -4227,7 +4267,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            26 => 
+            31 => 
             array (
                 'id' => 690,
                 'ninja_id' => 378,
@@ -4235,7 +4275,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            27 => 
+            32 => 
             array (
                 'id' => 691,
                 'ninja_id' => 378,
@@ -4243,7 +4283,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            28 => 
+            33 => 
             array (
                 'id' => 692,
                 'ninja_id' => 378,
@@ -4251,7 +4291,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            29 => 
+            34 => 
             array (
                 'id' => 693,
                 'ninja_id' => 378,
@@ -4259,7 +4299,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            30 => 
+            35 => 
             array (
                 'id' => 694,
                 'ninja_id' => 378,
@@ -4267,7 +4307,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            31 => 
+            36 => 
             array (
                 'id' => 695,
                 'ninja_id' => 379,
@@ -4275,7 +4315,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            32 => 
+            37 => 
             array (
                 'id' => 696,
                 'ninja_id' => 379,
@@ -4283,7 +4323,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            33 => 
+            38 => 
             array (
                 'id' => 697,
                 'ninja_id' => 379,
@@ -4291,7 +4331,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            34 => 
+            39 => 
             array (
                 'id' => 698,
                 'ninja_id' => 379,
@@ -4299,7 +4339,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            35 => 
+            40 => 
             array (
                 'id' => 699,
                 'ninja_id' => 379,
@@ -4307,7 +4347,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            36 => 
+            41 => 
             array (
                 'id' => 700,
                 'ninja_id' => 380,
@@ -4315,7 +4355,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            37 => 
+            42 => 
             array (
                 'id' => 701,
                 'ninja_id' => 380,
@@ -4323,7 +4363,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            38 => 
+            43 => 
             array (
                 'id' => 702,
                 'ninja_id' => 380,
@@ -4331,7 +4371,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            39 => 
+            44 => 
             array (
                 'id' => 703,
                 'ninja_id' => 380,
@@ -4339,7 +4379,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            40 => 
+            45 => 
             array (
                 'id' => 704,
                 'ninja_id' => 380,
@@ -4347,7 +4387,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            41 => 
+            46 => 
             array (
                 'id' => 705,
                 'ninja_id' => 381,
@@ -4355,7 +4395,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            42 => 
+            47 => 
             array (
                 'id' => 706,
                 'ninja_id' => 381,
@@ -4363,7 +4403,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            43 => 
+            48 => 
             array (
                 'id' => 707,
                 'ninja_id' => 381,
@@ -4371,7 +4411,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            44 => 
+            49 => 
             array (
                 'id' => 708,
                 'ninja_id' => 381,
@@ -4379,7 +4419,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            45 => 
+            50 => 
             array (
                 'id' => 709,
                 'ninja_id' => 381,
@@ -4387,7 +4427,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            46 => 
+            51 => 
             array (
                 'id' => 710,
                 'ninja_id' => 382,
@@ -4395,7 +4435,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            47 => 
+            52 => 
             array (
                 'id' => 711,
                 'ninja_id' => 382,
@@ -4403,7 +4443,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            48 => 
+            53 => 
             array (
                 'id' => 712,
                 'ninja_id' => 382,
@@ -4411,7 +4451,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            49 => 
+            54 => 
             array (
                 'id' => 713,
                 'ninja_id' => 382,
@@ -4419,7 +4459,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            50 => 
+            55 => 
             array (
                 'id' => 714,
                 'ninja_id' => 382,
@@ -4427,7 +4467,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            51 => 
+            56 => 
             array (
                 'id' => 715,
                 'ninja_id' => 383,
@@ -4435,7 +4475,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            52 => 
+            57 => 
             array (
                 'id' => 716,
                 'ninja_id' => 383,
@@ -4443,7 +4483,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            53 => 
+            58 => 
             array (
                 'id' => 717,
                 'ninja_id' => 383,
@@ -4451,7 +4491,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            54 => 
+            59 => 
             array (
                 'id' => 718,
                 'ninja_id' => 383,
@@ -4459,7 +4499,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            55 => 
+            60 => 
             array (
                 'id' => 719,
                 'ninja_id' => 383,
@@ -4467,7 +4507,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            56 => 
+            61 => 
             array (
                 'id' => 720,
                 'ninja_id' => 384,
@@ -4475,7 +4515,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            57 => 
+            62 => 
             array (
                 'id' => 721,
                 'ninja_id' => 384,
@@ -4483,7 +4523,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            58 => 
+            63 => 
             array (
                 'id' => 722,
                 'ninja_id' => 384,
@@ -4491,7 +4531,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            59 => 
+            64 => 
             array (
                 'id' => 723,
                 'ninja_id' => 384,
@@ -4499,7 +4539,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            60 => 
+            65 => 
             array (
                 'id' => 724,
                 'ninja_id' => 384,
@@ -4507,7 +4547,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            61 => 
+            66 => 
             array (
                 'id' => 725,
                 'ninja_id' => 385,
@@ -4515,7 +4555,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            62 => 
+            67 => 
             array (
                 'id' => 726,
                 'ninja_id' => 385,
@@ -4523,7 +4563,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            63 => 
+            68 => 
             array (
                 'id' => 727,
                 'ninja_id' => 385,
@@ -4531,7 +4571,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            64 => 
+            69 => 
             array (
                 'id' => 728,
                 'ninja_id' => 385,
@@ -4539,7 +4579,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            65 => 
+            70 => 
             array (
                 'id' => 729,
                 'ninja_id' => 385,
@@ -4547,7 +4587,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            66 => 
+            71 => 
             array (
                 'id' => 730,
                 'ninja_id' => 386,
@@ -4555,7 +4595,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            67 => 
+            72 => 
             array (
                 'id' => 731,
                 'ninja_id' => 386,
@@ -4563,7 +4603,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            68 => 
+            73 => 
             array (
                 'id' => 732,
                 'ninja_id' => 386,
@@ -4571,7 +4611,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            69 => 
+            74 => 
             array (
                 'id' => 733,
                 'ninja_id' => 386,
@@ -4579,7 +4619,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            70 => 
+            75 => 
             array (
                 'id' => 734,
                 'ninja_id' => 386,
@@ -4587,7 +4627,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            71 => 
+            76 => 
             array (
                 'id' => 735,
                 'ninja_id' => 387,
@@ -4595,7 +4635,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            72 => 
+            77 => 
             array (
                 'id' => 736,
                 'ninja_id' => 387,
@@ -4603,7 +4643,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            73 => 
+            78 => 
             array (
                 'id' => 737,
                 'ninja_id' => 387,
@@ -4611,7 +4651,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            74 => 
+            79 => 
             array (
                 'id' => 738,
                 'ninja_id' => 387,
@@ -4619,7 +4659,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            75 => 
+            80 => 
             array (
                 'id' => 739,
                 'ninja_id' => 388,
@@ -4627,7 +4667,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            76 => 
+            81 => 
             array (
                 'id' => 740,
                 'ninja_id' => 388,
@@ -4635,7 +4675,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            77 => 
+            82 => 
             array (
                 'id' => 741,
                 'ninja_id' => 388,
@@ -4643,7 +4683,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            78 => 
+            83 => 
             array (
                 'id' => 742,
                 'ninja_id' => 388,
@@ -4651,7 +4691,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            79 => 
+            84 => 
             array (
                 'id' => 743,
                 'ninja_id' => 388,
@@ -4659,7 +4699,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            80 => 
+            85 => 
             array (
                 'id' => 744,
                 'ninja_id' => 389,
@@ -4667,7 +4707,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            81 => 
+            86 => 
             array (
                 'id' => 745,
                 'ninja_id' => 389,
@@ -4675,7 +4715,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            82 => 
+            87 => 
             array (
                 'id' => 746,
                 'ninja_id' => 389,
@@ -4683,7 +4723,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            83 => 
+            88 => 
             array (
                 'id' => 747,
                 'ninja_id' => 389,
@@ -4691,7 +4731,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            84 => 
+            89 => 
             array (
                 'id' => 748,
                 'ninja_id' => 389,
@@ -4699,7 +4739,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            85 => 
+            90 => 
             array (
                 'id' => 749,
                 'ninja_id' => 390,
@@ -4707,7 +4747,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            86 => 
+            91 => 
             array (
                 'id' => 750,
                 'ninja_id' => 390,
@@ -4715,7 +4755,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            87 => 
+            92 => 
             array (
                 'id' => 751,
                 'ninja_id' => 390,
@@ -4723,7 +4763,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            88 => 
+            93 => 
             array (
                 'id' => 752,
                 'ninja_id' => 390,
@@ -4731,7 +4771,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            89 => 
+            94 => 
             array (
                 'id' => 753,
                 'ninja_id' => 391,
@@ -4739,7 +4779,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            90 => 
+            95 => 
             array (
                 'id' => 754,
                 'ninja_id' => 391,
@@ -4747,7 +4787,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            91 => 
+            96 => 
             array (
                 'id' => 755,
                 'ninja_id' => 391,
@@ -4755,7 +4795,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            92 => 
+            97 => 
             array (
                 'id' => 756,
                 'ninja_id' => 391,
@@ -4763,7 +4803,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            93 => 
+            98 => 
             array (
                 'id' => 757,
                 'ninja_id' => 391,
@@ -4771,7 +4811,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            94 => 
+            99 => 
             array (
                 'id' => 758,
                 'ninja_id' => 392,
@@ -4779,7 +4819,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            95 => 
+            100 => 
             array (
                 'id' => 759,
                 'ninja_id' => 392,
@@ -4787,7 +4827,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            96 => 
+            101 => 
             array (
                 'id' => 760,
                 'ninja_id' => 392,
@@ -4795,7 +4835,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            97 => 
+            102 => 
             array (
                 'id' => 761,
                 'ninja_id' => 392,
@@ -4803,7 +4843,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            98 => 
+            103 => 
             array (
                 'id' => 762,
                 'ninja_id' => 392,
@@ -4811,7 +4851,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            99 => 
+            104 => 
             array (
                 'id' => 763,
                 'ninja_id' => 393,
@@ -4819,7 +4859,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            100 => 
+            105 => 
             array (
                 'id' => 764,
                 'ninja_id' => 393,
@@ -4827,7 +4867,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            101 => 
+            106 => 
             array (
                 'id' => 765,
                 'ninja_id' => 393,
@@ -4835,7 +4875,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            102 => 
+            107 => 
             array (
                 'id' => 766,
                 'ninja_id' => 393,
@@ -4843,7 +4883,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            103 => 
+            108 => 
             array (
                 'id' => 767,
                 'ninja_id' => 393,
@@ -4851,7 +4891,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            104 => 
+            109 => 
             array (
                 'id' => 768,
                 'ninja_id' => 394,
@@ -4859,7 +4899,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            105 => 
+            110 => 
             array (
                 'id' => 769,
                 'ninja_id' => 394,
@@ -4867,7 +4907,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            106 => 
+            111 => 
             array (
                 'id' => 770,
                 'ninja_id' => 394,
@@ -4875,7 +4915,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            107 => 
+            112 => 
             array (
                 'id' => 771,
                 'ninja_id' => 394,
@@ -4883,7 +4923,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            108 => 
+            113 => 
             array (
                 'id' => 772,
                 'ninja_id' => 395,
@@ -4891,7 +4931,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            109 => 
+            114 => 
             array (
                 'id' => 773,
                 'ninja_id' => 395,
@@ -4899,7 +4939,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            110 => 
+            115 => 
             array (
                 'id' => 774,
                 'ninja_id' => 395,
@@ -4907,7 +4947,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            111 => 
+            116 => 
             array (
                 'id' => 775,
                 'ninja_id' => 395,
@@ -4915,7 +4955,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            112 => 
+            117 => 
             array (
                 'id' => 776,
                 'ninja_id' => 395,
@@ -4923,7 +4963,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            113 => 
+            118 => 
             array (
                 'id' => 777,
                 'ninja_id' => 396,
@@ -4931,7 +4971,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            114 => 
+            119 => 
             array (
                 'id' => 778,
                 'ninja_id' => 396,
@@ -4939,7 +4979,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            115 => 
+            120 => 
             array (
                 'id' => 779,
                 'ninja_id' => 396,
@@ -4947,7 +4987,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            116 => 
+            121 => 
             array (
                 'id' => 780,
                 'ninja_id' => 396,
@@ -4955,7 +4995,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            117 => 
+            122 => 
             array (
                 'id' => 781,
                 'ninja_id' => 396,
@@ -4963,7 +5003,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            118 => 
+            123 => 
             array (
                 'id' => 782,
                 'ninja_id' => 397,
@@ -4971,7 +5011,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            119 => 
+            124 => 
             array (
                 'id' => 783,
                 'ninja_id' => 397,
@@ -4979,7 +5019,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            120 => 
+            125 => 
             array (
                 'id' => 784,
                 'ninja_id' => 397,
@@ -4987,7 +5027,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            121 => 
+            126 => 
             array (
                 'id' => 785,
                 'ninja_id' => 397,
@@ -4995,7 +5035,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            122 => 
+            127 => 
             array (
                 'id' => 786,
                 'ninja_id' => 397,
@@ -5003,7 +5043,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            123 => 
+            128 => 
             array (
                 'id' => 787,
                 'ninja_id' => 398,
@@ -5011,7 +5051,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            124 => 
+            129 => 
             array (
                 'id' => 788,
                 'ninja_id' => 398,
@@ -5019,7 +5059,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            125 => 
+            130 => 
             array (
                 'id' => 789,
                 'ninja_id' => 398,
@@ -5027,7 +5067,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            126 => 
+            131 => 
             array (
                 'id' => 790,
                 'ninja_id' => 398,
@@ -5035,7 +5075,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            127 => 
+            132 => 
             array (
                 'id' => 791,
                 'ninja_id' => 398,
@@ -5043,7 +5083,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            128 => 
+            133 => 
             array (
                 'id' => 792,
                 'ninja_id' => 399,
@@ -5051,7 +5091,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            129 => 
+            134 => 
             array (
                 'id' => 793,
                 'ninja_id' => 399,
@@ -5059,7 +5099,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            130 => 
+            135 => 
             array (
                 'id' => 794,
                 'ninja_id' => 399,
@@ -5067,7 +5107,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            131 => 
+            136 => 
             array (
                 'id' => 795,
                 'ninja_id' => 399,
@@ -5075,7 +5115,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            132 => 
+            137 => 
             array (
                 'id' => 796,
                 'ninja_id' => 399,
@@ -5083,7 +5123,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            133 => 
+            138 => 
             array (
                 'id' => 797,
                 'ninja_id' => 400,
@@ -5091,7 +5131,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            134 => 
+            139 => 
             array (
                 'id' => 798,
                 'ninja_id' => 400,
@@ -5099,7 +5139,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            135 => 
+            140 => 
             array (
                 'id' => 799,
                 'ninja_id' => 400,
@@ -5107,7 +5147,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            136 => 
+            141 => 
             array (
                 'id' => 800,
                 'ninja_id' => 400,
@@ -5115,7 +5155,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            137 => 
+            142 => 
             array (
                 'id' => 801,
                 'ninja_id' => 400,
@@ -5123,7 +5163,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            138 => 
+            143 => 
             array (
                 'id' => 802,
                 'ninja_id' => 401,
@@ -5131,7 +5171,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            139 => 
+            144 => 
             array (
                 'id' => 803,
                 'ninja_id' => 401,
@@ -5139,7 +5179,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            140 => 
+            145 => 
             array (
                 'id' => 804,
                 'ninja_id' => 401,
@@ -5147,7 +5187,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            141 => 
+            146 => 
             array (
                 'id' => 805,
                 'ninja_id' => 401,
@@ -5155,7 +5195,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            142 => 
+            147 => 
             array (
                 'id' => 806,
                 'ninja_id' => 402,
@@ -5163,7 +5203,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            143 => 
+            148 => 
             array (
                 'id' => 807,
                 'ninja_id' => 402,
@@ -5171,7 +5211,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            144 => 
+            149 => 
             array (
                 'id' => 808,
                 'ninja_id' => 402,
@@ -5179,7 +5219,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            145 => 
+            150 => 
             array (
                 'id' => 809,
                 'ninja_id' => 402,
@@ -5187,7 +5227,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            146 => 
+            151 => 
             array (
                 'id' => 810,
                 'ninja_id' => 402,
@@ -5195,7 +5235,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            147 => 
+            152 => 
             array (
                 'id' => 811,
                 'ninja_id' => 403,
@@ -5203,7 +5243,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            148 => 
+            153 => 
             array (
                 'id' => 812,
                 'ninja_id' => 403,
@@ -5211,7 +5251,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            149 => 
+            154 => 
             array (
                 'id' => 813,
                 'ninja_id' => 403,
@@ -5219,7 +5259,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            150 => 
+            155 => 
             array (
                 'id' => 814,
                 'ninja_id' => 403,
@@ -5227,7 +5267,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            151 => 
+            156 => 
             array (
                 'id' => 815,
                 'ninja_id' => 404,
@@ -5235,7 +5275,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            152 => 
+            157 => 
             array (
                 'id' => 816,
                 'ninja_id' => 404,
@@ -5243,7 +5283,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            153 => 
+            158 => 
             array (
                 'id' => 817,
                 'ninja_id' => 404,
@@ -5251,7 +5291,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            154 => 
+            159 => 
             array (
                 'id' => 818,
                 'ninja_id' => 404,
@@ -5259,7 +5299,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            155 => 
+            160 => 
             array (
                 'id' => 819,
                 'ninja_id' => 404,
@@ -5267,7 +5307,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            156 => 
+            161 => 
             array (
                 'id' => 820,
                 'ninja_id' => 405,
@@ -5275,7 +5315,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            157 => 
+            162 => 
             array (
                 'id' => 821,
                 'ninja_id' => 405,
@@ -5283,7 +5323,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            158 => 
+            163 => 
             array (
                 'id' => 822,
                 'ninja_id' => 405,
@@ -5291,7 +5331,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            159 => 
+            164 => 
             array (
                 'id' => 823,
                 'ninja_id' => 405,
@@ -5299,7 +5339,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            160 => 
+            165 => 
             array (
                 'id' => 824,
                 'ninja_id' => 406,
@@ -5307,7 +5347,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            161 => 
+            166 => 
             array (
                 'id' => 825,
                 'ninja_id' => 406,
@@ -5315,7 +5355,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            162 => 
+            167 => 
             array (
                 'id' => 826,
                 'ninja_id' => 406,
@@ -5323,7 +5363,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            163 => 
+            168 => 
             array (
                 'id' => 827,
                 'ninja_id' => 406,
@@ -5331,7 +5371,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            164 => 
+            169 => 
             array (
                 'id' => 828,
                 'ninja_id' => 406,
@@ -5339,7 +5379,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            165 => 
+            170 => 
             array (
                 'id' => 829,
                 'ninja_id' => 407,
@@ -5347,7 +5387,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            166 => 
+            171 => 
             array (
                 'id' => 830,
                 'ninja_id' => 407,
@@ -5355,7 +5395,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            167 => 
+            172 => 
             array (
                 'id' => 831,
                 'ninja_id' => 407,
@@ -5363,7 +5403,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            168 => 
+            173 => 
             array (
                 'id' => 832,
                 'ninja_id' => 407,
@@ -5371,7 +5411,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            169 => 
+            174 => 
             array (
                 'id' => 833,
                 'ninja_id' => 407,
@@ -5379,7 +5419,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            170 => 
+            175 => 
             array (
                 'id' => 834,
                 'ninja_id' => 408,
@@ -5387,7 +5427,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            171 => 
+            176 => 
             array (
                 'id' => 835,
                 'ninja_id' => 408,
@@ -5395,7 +5435,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            172 => 
+            177 => 
             array (
                 'id' => 836,
                 'ninja_id' => 408,
@@ -5403,7 +5443,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            173 => 
+            178 => 
             array (
                 'id' => 837,
                 'ninja_id' => 408,
@@ -5411,7 +5451,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            174 => 
+            179 => 
             array (
                 'id' => 838,
                 'ninja_id' => 408,
@@ -5419,7 +5459,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            175 => 
+            180 => 
             array (
                 'id' => 839,
                 'ninja_id' => 409,
@@ -5427,7 +5467,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            176 => 
+            181 => 
             array (
                 'id' => 840,
                 'ninja_id' => 409,
@@ -5435,7 +5475,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            177 => 
+            182 => 
             array (
                 'id' => 841,
                 'ninja_id' => 409,
@@ -5443,7 +5483,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            178 => 
+            183 => 
             array (
                 'id' => 842,
                 'ninja_id' => 409,
@@ -5451,7 +5491,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            179 => 
+            184 => 
             array (
                 'id' => 843,
                 'ninja_id' => 409,
@@ -5459,7 +5499,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            180 => 
+            185 => 
             array (
                 'id' => 844,
                 'ninja_id' => 410,
@@ -5467,7 +5507,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            181 => 
+            186 => 
             array (
                 'id' => 845,
                 'ninja_id' => 410,
@@ -5475,7 +5515,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            182 => 
+            187 => 
             array (
                 'id' => 846,
                 'ninja_id' => 410,
@@ -5483,7 +5523,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            183 => 
+            188 => 
             array (
                 'id' => 847,
                 'ninja_id' => 410,
@@ -5491,7 +5531,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            184 => 
+            189 => 
             array (
                 'id' => 848,
                 'ninja_id' => 410,
@@ -5499,7 +5539,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            185 => 
+            190 => 
             array (
                 'id' => 849,
                 'ninja_id' => 411,
@@ -5507,7 +5547,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            186 => 
+            191 => 
             array (
                 'id' => 850,
                 'ninja_id' => 411,
@@ -5515,7 +5555,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            187 => 
+            192 => 
             array (
                 'id' => 851,
                 'ninja_id' => 411,
@@ -5523,7 +5563,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            188 => 
+            193 => 
             array (
                 'id' => 852,
                 'ninja_id' => 411,
@@ -5531,7 +5571,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            189 => 
+            194 => 
             array (
                 'id' => 853,
                 'ninja_id' => 411,
@@ -5539,7 +5579,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            190 => 
+            195 => 
             array (
                 'id' => 854,
                 'ninja_id' => 412,
@@ -5547,7 +5587,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            191 => 
+            196 => 
             array (
                 'id' => 855,
                 'ninja_id' => 412,
@@ -5555,7 +5595,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            192 => 
+            197 => 
             array (
                 'id' => 856,
                 'ninja_id' => 412,
@@ -5563,7 +5603,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            193 => 
+            198 => 
             array (
                 'id' => 857,
                 'ninja_id' => 412,
@@ -5571,7 +5611,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            194 => 
+            199 => 
             array (
                 'id' => 858,
                 'ninja_id' => 412,
@@ -5579,7 +5619,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            195 => 
+            200 => 
             array (
                 'id' => 859,
                 'ninja_id' => 413,
@@ -5587,7 +5627,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            196 => 
+            201 => 
             array (
                 'id' => 860,
                 'ninja_id' => 413,
@@ -5595,7 +5635,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            197 => 
+            202 => 
             array (
                 'id' => 861,
                 'ninja_id' => 413,
@@ -5603,7 +5643,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            198 => 
+            203 => 
             array (
                 'id' => 862,
                 'ninja_id' => 413,
@@ -5611,7 +5651,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            199 => 
+            204 => 
             array (
                 'id' => 863,
                 'ninja_id' => 413,
@@ -5619,7 +5659,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            200 => 
+            205 => 
             array (
                 'id' => 864,
                 'ninja_id' => 414,
@@ -5627,7 +5667,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            201 => 
+            206 => 
             array (
                 'id' => 865,
                 'ninja_id' => 414,
@@ -5635,7 +5675,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            202 => 
+            207 => 
             array (
                 'id' => 866,
                 'ninja_id' => 414,
@@ -5643,7 +5683,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            203 => 
+            208 => 
             array (
                 'id' => 867,
                 'ninja_id' => 414,
@@ -5651,7 +5691,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            204 => 
+            209 => 
             array (
                 'id' => 868,
                 'ninja_id' => 414,
@@ -5659,7 +5699,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            205 => 
+            210 => 
             array (
                 'id' => 869,
                 'ninja_id' => 415,
@@ -5667,7 +5707,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            206 => 
+            211 => 
             array (
                 'id' => 870,
                 'ninja_id' => 415,
@@ -5675,7 +5715,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            207 => 
+            212 => 
             array (
                 'id' => 871,
                 'ninja_id' => 415,
@@ -5683,7 +5723,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            208 => 
+            213 => 
             array (
                 'id' => 872,
                 'ninja_id' => 415,
@@ -5691,7 +5731,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            209 => 
+            214 => 
             array (
                 'id' => 873,
                 'ninja_id' => 415,
@@ -5699,7 +5739,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            210 => 
+            215 => 
             array (
                 'id' => 874,
                 'ninja_id' => 416,
@@ -5707,7 +5747,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            211 => 
+            216 => 
             array (
                 'id' => 875,
                 'ninja_id' => 416,
@@ -5715,7 +5755,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            212 => 
+            217 => 
             array (
                 'id' => 876,
                 'ninja_id' => 416,
@@ -5723,7 +5763,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            213 => 
+            218 => 
             array (
                 'id' => 877,
                 'ninja_id' => 416,
@@ -5731,7 +5771,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            214 => 
+            219 => 
             array (
                 'id' => 878,
                 'ninja_id' => 416,
@@ -5739,7 +5779,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            215 => 
+            220 => 
             array (
                 'id' => 879,
                 'ninja_id' => 417,
@@ -5747,7 +5787,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            216 => 
+            221 => 
             array (
                 'id' => 880,
                 'ninja_id' => 417,
@@ -5755,7 +5795,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            217 => 
+            222 => 
             array (
                 'id' => 881,
                 'ninja_id' => 417,
@@ -5763,7 +5803,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            218 => 
+            223 => 
             array (
                 'id' => 882,
                 'ninja_id' => 417,
@@ -5771,7 +5811,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            219 => 
+            224 => 
             array (
                 'id' => 883,
                 'ninja_id' => 417,
@@ -5779,7 +5819,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            220 => 
+            225 => 
             array (
                 'id' => 884,
                 'ninja_id' => 418,
@@ -5787,7 +5827,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            221 => 
+            226 => 
             array (
                 'id' => 885,
                 'ninja_id' => 418,
@@ -5795,7 +5835,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            222 => 
+            227 => 
             array (
                 'id' => 886,
                 'ninja_id' => 418,
@@ -5803,7 +5843,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            223 => 
+            228 => 
             array (
                 'id' => 887,
                 'ninja_id' => 418,
@@ -5811,7 +5851,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            224 => 
+            229 => 
             array (
                 'id' => 888,
                 'ninja_id' => 418,
@@ -5819,7 +5859,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            225 => 
+            230 => 
             array (
                 'id' => 889,
                 'ninja_id' => 419,
@@ -5827,7 +5867,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            226 => 
+            231 => 
             array (
                 'id' => 890,
                 'ninja_id' => 419,
@@ -5835,7 +5875,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            227 => 
+            232 => 
             array (
                 'id' => 891,
                 'ninja_id' => 419,
@@ -5843,7 +5883,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            228 => 
+            233 => 
             array (
                 'id' => 892,
                 'ninja_id' => 419,
@@ -5851,7 +5891,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            229 => 
+            234 => 
             array (
                 'id' => 893,
                 'ninja_id' => 419,
@@ -5859,7 +5899,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            230 => 
+            235 => 
             array (
                 'id' => 894,
                 'ninja_id' => 420,
@@ -5867,7 +5907,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            231 => 
+            236 => 
             array (
                 'id' => 895,
                 'ninja_id' => 420,
@@ -5875,7 +5915,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            232 => 
+            237 => 
             array (
                 'id' => 896,
                 'ninja_id' => 420,
@@ -5883,7 +5923,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            233 => 
+            238 => 
             array (
                 'id' => 897,
                 'ninja_id' => 420,
@@ -5891,7 +5931,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            234 => 
+            239 => 
             array (
                 'id' => 898,
                 'ninja_id' => 420,
@@ -5899,7 +5939,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            235 => 
+            240 => 
             array (
                 'id' => 899,
                 'ninja_id' => 421,
@@ -5907,7 +5947,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            236 => 
+            241 => 
             array (
                 'id' => 900,
                 'ninja_id' => 421,
@@ -5915,7 +5955,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            237 => 
+            242 => 
             array (
                 'id' => 901,
                 'ninja_id' => 421,
@@ -5923,7 +5963,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            238 => 
+            243 => 
             array (
                 'id' => 902,
                 'ninja_id' => 421,
@@ -5931,7 +5971,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            239 => 
+            244 => 
             array (
                 'id' => 903,
                 'ninja_id' => 421,
@@ -5939,7 +5979,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            240 => 
+            245 => 
             array (
                 'id' => 904,
                 'ninja_id' => 422,
@@ -5947,7 +5987,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            241 => 
+            246 => 
             array (
                 'id' => 905,
                 'ninja_id' => 422,
@@ -5955,7 +5995,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            242 => 
+            247 => 
             array (
                 'id' => 906,
                 'ninja_id' => 422,
@@ -5963,7 +6003,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            243 => 
+            248 => 
             array (
                 'id' => 907,
                 'ninja_id' => 422,
@@ -5971,7 +6011,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            244 => 
+            249 => 
             array (
                 'id' => 908,
                 'ninja_id' => 422,
@@ -5979,7 +6019,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            245 => 
+            250 => 
             array (
                 'id' => 909,
                 'ninja_id' => 423,
@@ -5987,7 +6027,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            246 => 
+            251 => 
             array (
                 'id' => 910,
                 'ninja_id' => 423,
@@ -5995,7 +6035,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            247 => 
+            252 => 
             array (
                 'id' => 911,
                 'ninja_id' => 423,
@@ -6003,7 +6043,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            248 => 
+            253 => 
             array (
                 'id' => 912,
                 'ninja_id' => 423,
@@ -6011,7 +6051,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            249 => 
+            254 => 
             array (
                 'id' => 913,
                 'ninja_id' => 424,
@@ -6019,7 +6059,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            250 => 
+            255 => 
             array (
                 'id' => 914,
                 'ninja_id' => 424,
@@ -6027,7 +6067,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            251 => 
+            256 => 
             array (
                 'id' => 915,
                 'ninja_id' => 424,
@@ -6035,7 +6075,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            252 => 
+            257 => 
             array (
                 'id' => 916,
                 'ninja_id' => 424,
@@ -6043,7 +6083,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            253 => 
+            258 => 
             array (
                 'id' => 917,
                 'ninja_id' => 424,
@@ -6051,7 +6091,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            254 => 
+            259 => 
             array (
                 'id' => 918,
                 'ninja_id' => 425,
@@ -6059,7 +6099,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            255 => 
+            260 => 
             array (
                 'id' => 919,
                 'ninja_id' => 425,
@@ -6067,7 +6107,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            256 => 
+            261 => 
             array (
                 'id' => 920,
                 'ninja_id' => 425,
@@ -6075,7 +6115,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            257 => 
+            262 => 
             array (
                 'id' => 921,
                 'ninja_id' => 425,
@@ -6083,7 +6123,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            258 => 
+            263 => 
             array (
                 'id' => 922,
                 'ninja_id' => 425,
@@ -6091,7 +6131,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            259 => 
+            264 => 
             array (
                 'id' => 923,
                 'ninja_id' => 426,
@@ -6099,7 +6139,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            260 => 
+            265 => 
             array (
                 'id' => 924,
                 'ninja_id' => 426,
@@ -6107,7 +6147,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            261 => 
+            266 => 
             array (
                 'id' => 925,
                 'ninja_id' => 426,
@@ -6115,7 +6155,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            262 => 
+            267 => 
             array (
                 'id' => 926,
                 'ninja_id' => 426,
@@ -6123,7 +6163,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            263 => 
+            268 => 
             array (
                 'id' => 927,
                 'ninja_id' => 427,
@@ -6131,7 +6171,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            264 => 
+            269 => 
             array (
                 'id' => 928,
                 'ninja_id' => 427,
@@ -6139,7 +6179,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            265 => 
+            270 => 
             array (
                 'id' => 929,
                 'ninja_id' => 427,
@@ -6147,7 +6187,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            266 => 
+            271 => 
             array (
                 'id' => 930,
                 'ninja_id' => 427,
@@ -6155,7 +6195,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            267 => 
+            272 => 
             array (
                 'id' => 931,
                 'ninja_id' => 428,
@@ -6163,7 +6203,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            268 => 
+            273 => 
             array (
                 'id' => 932,
                 'ninja_id' => 428,
@@ -6171,7 +6211,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            269 => 
+            274 => 
             array (
                 'id' => 933,
                 'ninja_id' => 428,
@@ -6179,7 +6219,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            270 => 
+            275 => 
             array (
                 'id' => 934,
                 'ninja_id' => 428,
@@ -6187,7 +6227,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            271 => 
+            276 => 
             array (
                 'id' => 935,
                 'ninja_id' => 428,
@@ -6195,7 +6235,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            272 => 
+            277 => 
             array (
                 'id' => 936,
                 'ninja_id' => 429,
@@ -6203,7 +6243,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            273 => 
+            278 => 
             array (
                 'id' => 937,
                 'ninja_id' => 429,
@@ -6211,7 +6251,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            274 => 
+            279 => 
             array (
                 'id' => 938,
                 'ninja_id' => 429,
@@ -6219,7 +6259,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            275 => 
+            280 => 
             array (
                 'id' => 939,
                 'ninja_id' => 429,
@@ -6227,7 +6267,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            276 => 
+            281 => 
             array (
                 'id' => 940,
                 'ninja_id' => 429,
@@ -6235,7 +6275,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            277 => 
+            282 => 
             array (
                 'id' => 941,
                 'ninja_id' => 430,
@@ -6243,7 +6283,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            278 => 
+            283 => 
             array (
                 'id' => 942,
                 'ninja_id' => 430,
@@ -6251,7 +6291,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            279 => 
+            284 => 
             array (
                 'id' => 943,
                 'ninja_id' => 430,
@@ -6259,7 +6299,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            280 => 
+            285 => 
             array (
                 'id' => 944,
                 'ninja_id' => 430,
@@ -6267,7 +6307,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            281 => 
+            286 => 
             array (
                 'id' => 945,
                 'ninja_id' => 430,
@@ -6275,7 +6315,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            282 => 
+            287 => 
             array (
                 'id' => 946,
                 'ninja_id' => 431,
@@ -6283,7 +6323,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            283 => 
+            288 => 
             array (
                 'id' => 947,
                 'ninja_id' => 431,
@@ -6291,7 +6331,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            284 => 
+            289 => 
             array (
                 'id' => 948,
                 'ninja_id' => 431,
@@ -6299,7 +6339,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            285 => 
+            290 => 
             array (
                 'id' => 949,
                 'ninja_id' => 431,
@@ -6307,7 +6347,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            286 => 
+            291 => 
             array (
                 'id' => 950,
                 'ninja_id' => 431,
@@ -6315,7 +6355,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            287 => 
+            292 => 
             array (
                 'id' => 951,
                 'ninja_id' => 432,
@@ -6323,7 +6363,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            288 => 
+            293 => 
             array (
                 'id' => 952,
                 'ninja_id' => 432,
@@ -6331,7 +6371,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            289 => 
+            294 => 
             array (
                 'id' => 953,
                 'ninja_id' => 432,
@@ -6339,7 +6379,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            290 => 
+            295 => 
             array (
                 'id' => 954,
                 'ninja_id' => 432,
@@ -6347,7 +6387,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            291 => 
+            296 => 
             array (
                 'id' => 955,
                 'ninja_id' => 432,
@@ -6355,7 +6395,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            292 => 
+            297 => 
             array (
                 'id' => 956,
                 'ninja_id' => 433,
@@ -6363,7 +6403,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            293 => 
+            298 => 
             array (
                 'id' => 957,
                 'ninja_id' => 433,
@@ -6371,7 +6411,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            294 => 
+            299 => 
             array (
                 'id' => 958,
                 'ninja_id' => 433,
@@ -6379,7 +6419,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            295 => 
+            300 => 
             array (
                 'id' => 959,
                 'ninja_id' => 433,
@@ -6387,7 +6427,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            296 => 
+            301 => 
             array (
                 'id' => 960,
                 'ninja_id' => 433,
@@ -6395,7 +6435,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            297 => 
+            302 => 
             array (
                 'id' => 961,
                 'ninja_id' => 434,
@@ -6403,7 +6443,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            298 => 
+            303 => 
             array (
                 'id' => 962,
                 'ninja_id' => 434,
@@ -6411,7 +6451,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            299 => 
+            304 => 
             array (
                 'id' => 963,
                 'ninja_id' => 434,
@@ -6419,7 +6459,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            300 => 
+            305 => 
             array (
                 'id' => 964,
                 'ninja_id' => 434,
@@ -6427,7 +6467,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            301 => 
+            306 => 
             array (
                 'id' => 965,
                 'ninja_id' => 434,
@@ -6435,7 +6475,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            302 => 
+            307 => 
             array (
                 'id' => 966,
                 'ninja_id' => 435,
@@ -6443,7 +6483,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            303 => 
+            308 => 
             array (
                 'id' => 967,
                 'ninja_id' => 435,
@@ -6451,7 +6491,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            304 => 
+            309 => 
             array (
                 'id' => 968,
                 'ninja_id' => 435,
@@ -6459,7 +6499,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            305 => 
+            310 => 
             array (
                 'id' => 969,
                 'ninja_id' => 435,
@@ -6467,7 +6507,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            306 => 
+            311 => 
             array (
                 'id' => 970,
                 'ninja_id' => 435,
@@ -6475,7 +6515,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            307 => 
+            312 => 
             array (
                 'id' => 971,
                 'ninja_id' => 436,
@@ -6483,7 +6523,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            308 => 
+            313 => 
             array (
                 'id' => 972,
                 'ninja_id' => 436,
@@ -6491,7 +6531,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            309 => 
+            314 => 
             array (
                 'id' => 973,
                 'ninja_id' => 436,
@@ -6499,7 +6539,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            310 => 
+            315 => 
             array (
                 'id' => 974,
                 'ninja_id' => 436,
@@ -6507,7 +6547,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            311 => 
+            316 => 
             array (
                 'id' => 975,
                 'ninja_id' => 437,
@@ -6515,7 +6555,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            312 => 
+            317 => 
             array (
                 'id' => 976,
                 'ninja_id' => 437,
@@ -6523,7 +6563,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            313 => 
+            318 => 
             array (
                 'id' => 977,
                 'ninja_id' => 437,
@@ -6531,7 +6571,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            314 => 
+            319 => 
             array (
                 'id' => 978,
                 'ninja_id' => 437,
@@ -6539,7 +6579,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            315 => 
+            320 => 
             array (
                 'id' => 979,
                 'ninja_id' => 437,
@@ -6547,7 +6587,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            316 => 
+            321 => 
             array (
                 'id' => 980,
                 'ninja_id' => 438,
@@ -6555,7 +6595,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            317 => 
+            322 => 
             array (
                 'id' => 981,
                 'ninja_id' => 438,
@@ -6563,7 +6603,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            318 => 
+            323 => 
             array (
                 'id' => 982,
                 'ninja_id' => 438,
@@ -6571,7 +6611,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            319 => 
+            324 => 
             array (
                 'id' => 983,
                 'ninja_id' => 438,
@@ -6579,7 +6619,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            320 => 
+            325 => 
             array (
                 'id' => 984,
                 'ninja_id' => 438,
@@ -6587,7 +6627,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            321 => 
+            326 => 
             array (
                 'id' => 985,
                 'ninja_id' => 439,
@@ -6595,7 +6635,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            322 => 
+            327 => 
             array (
                 'id' => 986,
                 'ninja_id' => 439,
@@ -6603,7 +6643,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            323 => 
+            328 => 
             array (
                 'id' => 987,
                 'ninja_id' => 439,
@@ -6611,7 +6651,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            324 => 
+            329 => 
             array (
                 'id' => 988,
                 'ninja_id' => 439,
@@ -6619,7 +6659,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            325 => 
+            330 => 
             array (
                 'id' => 989,
                 'ninja_id' => 439,
@@ -6627,7 +6667,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            326 => 
+            331 => 
             array (
                 'id' => 990,
                 'ninja_id' => 440,
@@ -6635,7 +6675,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            327 => 
+            332 => 
             array (
                 'id' => 991,
                 'ninja_id' => 440,
@@ -6643,7 +6683,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            328 => 
+            333 => 
             array (
                 'id' => 992,
                 'ninja_id' => 440,
@@ -6651,7 +6691,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            329 => 
+            334 => 
             array (
                 'id' => 993,
                 'ninja_id' => 440,
@@ -6659,7 +6699,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            330 => 
+            335 => 
             array (
                 'id' => 994,
                 'ninja_id' => 440,
@@ -6667,7 +6707,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            331 => 
+            336 => 
             array (
                 'id' => 995,
                 'ninja_id' => 441,
@@ -6675,7 +6715,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            332 => 
+            337 => 
             array (
                 'id' => 996,
                 'ninja_id' => 441,
@@ -6683,7 +6723,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            333 => 
+            338 => 
             array (
                 'id' => 997,
                 'ninja_id' => 441,
@@ -6691,7 +6731,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            334 => 
+            339 => 
             array (
                 'id' => 998,
                 'ninja_id' => 442,
@@ -6699,7 +6739,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            335 => 
+            340 => 
             array (
                 'id' => 999,
                 'ninja_id' => 442,
@@ -6707,7 +6747,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            336 => 
+            341 => 
             array (
                 'id' => 1000,
                 'ninja_id' => 442,
@@ -6715,7 +6755,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            337 => 
+            342 => 
             array (
                 'id' => 1001,
                 'ninja_id' => 442,
@@ -6723,7 +6763,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            338 => 
+            343 => 
             array (
                 'id' => 1002,
                 'ninja_id' => 442,
@@ -6731,7 +6771,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            339 => 
+            344 => 
             array (
                 'id' => 1003,
                 'ninja_id' => 443,
@@ -6739,7 +6779,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            340 => 
+            345 => 
             array (
                 'id' => 1004,
                 'ninja_id' => 443,
@@ -6747,7 +6787,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            341 => 
+            346 => 
             array (
                 'id' => 1005,
                 'ninja_id' => 443,
@@ -6755,7 +6795,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            342 => 
+            347 => 
             array (
                 'id' => 1006,
                 'ninja_id' => 443,
@@ -6763,7 +6803,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            343 => 
+            348 => 
             array (
                 'id' => 1007,
                 'ninja_id' => 443,
@@ -6771,7 +6811,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            344 => 
+            349 => 
             array (
                 'id' => 1008,
                 'ninja_id' => 444,
@@ -6779,7 +6819,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            345 => 
+            350 => 
             array (
                 'id' => 1009,
                 'ninja_id' => 444,
@@ -6787,7 +6827,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            346 => 
+            351 => 
             array (
                 'id' => 1010,
                 'ninja_id' => 444,
@@ -6795,7 +6835,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            347 => 
+            352 => 
             array (
                 'id' => 1011,
                 'ninja_id' => 444,
@@ -6803,7 +6843,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            348 => 
+            353 => 
             array (
                 'id' => 1012,
                 'ninja_id' => 444,
@@ -6811,7 +6851,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            349 => 
+            354 => 
             array (
                 'id' => 1013,
                 'ninja_id' => 445,
@@ -6819,7 +6859,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            350 => 
+            355 => 
             array (
                 'id' => 1014,
                 'ninja_id' => 445,
@@ -6827,7 +6867,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            351 => 
+            356 => 
             array (
                 'id' => 1015,
                 'ninja_id' => 445,
@@ -6835,7 +6875,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            352 => 
+            357 => 
             array (
                 'id' => 1016,
                 'ninja_id' => 445,
@@ -6843,7 +6883,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            353 => 
+            358 => 
             array (
                 'id' => 1017,
                 'ninja_id' => 445,
@@ -6851,7 +6891,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            354 => 
+            359 => 
             array (
                 'id' => 1018,
                 'ninja_id' => 446,
@@ -6859,7 +6899,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            355 => 
+            360 => 
             array (
                 'id' => 1019,
                 'ninja_id' => 446,
@@ -6867,7 +6907,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            356 => 
+            361 => 
             array (
                 'id' => 1020,
                 'ninja_id' => 446,
@@ -6875,7 +6915,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            357 => 
+            362 => 
             array (
                 'id' => 1021,
                 'ninja_id' => 446,
@@ -6883,7 +6923,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            358 => 
+            363 => 
             array (
                 'id' => 1022,
                 'ninja_id' => 446,
@@ -6891,7 +6931,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            359 => 
+            364 => 
             array (
                 'id' => 1023,
                 'ninja_id' => 447,
@@ -6899,7 +6939,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            360 => 
+            365 => 
             array (
                 'id' => 1024,
                 'ninja_id' => 447,
@@ -6907,7 +6947,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            361 => 
+            366 => 
             array (
                 'id' => 1025,
                 'ninja_id' => 447,
@@ -6915,7 +6955,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            362 => 
+            367 => 
             array (
                 'id' => 1026,
                 'ninja_id' => 447,
@@ -6923,7 +6963,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            363 => 
+            368 => 
             array (
                 'id' => 1027,
                 'ninja_id' => 447,
@@ -6931,7 +6971,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            364 => 
+            369 => 
             array (
                 'id' => 1028,
                 'ninja_id' => 448,
@@ -6939,7 +6979,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            365 => 
+            370 => 
             array (
                 'id' => 1029,
                 'ninja_id' => 448,
@@ -6947,7 +6987,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            366 => 
+            371 => 
             array (
                 'id' => 1030,
                 'ninja_id' => 448,
@@ -6955,7 +6995,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            367 => 
+            372 => 
             array (
                 'id' => 1031,
                 'ninja_id' => 448,
@@ -6963,51 +7003,11 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
-            368 => 
+            373 => 
             array (
                 'id' => 1032,
                 'ninja_id' => 448,
                 'skill_id' => 821,
-                'created_at' => '2016-10-23 15:31:57',
-                'updated_at' => '2016-10-23 15:31:57',
-            ),
-            369 => 
-            array (
-                'id' => 1033,
-                'ninja_id' => 449,
-                'skill_id' => 822,
-                'created_at' => '2016-10-23 15:31:57',
-                'updated_at' => '2016-10-23 15:31:57',
-            ),
-            370 => 
-            array (
-                'id' => 1034,
-                'ninja_id' => 449,
-                'skill_id' => 823,
-                'created_at' => '2016-10-23 15:31:57',
-                'updated_at' => '2016-10-23 15:31:57',
-            ),
-            371 => 
-            array (
-                'id' => 1035,
-                'ninja_id' => 449,
-                'skill_id' => 824,
-                'created_at' => '2016-10-23 15:31:57',
-                'updated_at' => '2016-10-23 15:31:57',
-            ),
-            372 => 
-            array (
-                'id' => 1036,
-                'ninja_id' => 449,
-                'skill_id' => 613,
-                'created_at' => '2016-10-23 15:31:57',
-                'updated_at' => '2016-10-23 15:31:57',
-            ),
-            373 => 
-            array (
-                'id' => 1037,
-                'ninja_id' => 449,
-                'skill_id' => 401,
                 'created_at' => '2016-10-23 15:31:57',
                 'updated_at' => '2016-10-23 15:31:57',
             ),
@@ -7413,13 +7413,45 @@ class NinjasSkillsTableSeeder extends Seeder
             ),
             424 => 
             array (
+                'id' => 23,
+                'ninja_id' => 3,
+                'skill_id' => 14,
+                'created_at' => '2016-10-27 17:05:42',
+                'updated_at' => '2016-10-27 17:05:42',
+            ),
+            425 => 
+            array (
+                'id' => 25,
+                'ninja_id' => 5,
+                'skill_id' => 16,
+                'created_at' => '2016-10-27 17:06:32',
+                'updated_at' => '2016-10-27 17:06:32',
+            ),
+            426 => 
+            array (
+                'id' => 27,
+                'ninja_id' => 7,
+                'skill_id' => 18,
+                'created_at' => '2016-10-27 17:07:21',
+                'updated_at' => '2016-10-27 17:07:21',
+            ),
+            427 => 
+            array (
+                'id' => 29,
+                'ninja_id' => 9,
+                'skill_id' => 20,
+                'created_at' => '2016-10-27 17:10:37',
+                'updated_at' => '2016-10-27 17:10:37',
+            ),
+            428 => 
+            array (
                 'id' => 6,
                 'ninja_id' => 315,
                 'skill_id' => 1,
                 'created_at' => '2016-10-25 15:28:09',
                 'updated_at' => '2016-10-25 15:28:09',
             ),
-            425 => 
+            429 => 
             array (
                 'id' => 7,
                 'ninja_id' => 315,
@@ -7427,7 +7459,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-25 15:28:09',
                 'updated_at' => '2016-10-25 15:28:09',
             ),
-            426 => 
+            430 => 
             array (
                 'id' => 8,
                 'ninja_id' => 315,
@@ -7435,7 +7467,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-25 15:28:09',
                 'updated_at' => '2016-10-25 15:28:09',
             ),
-            427 => 
+            431 => 
             array (
                 'id' => 9,
                 'ninja_id' => 315,
@@ -7443,7 +7475,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-25 15:28:09',
                 'updated_at' => '2016-10-25 15:28:09',
             ),
-            428 => 
+            432 => 
             array (
                 'id' => 10,
                 'ninja_id' => 315,
@@ -7451,7 +7483,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-25 15:28:09',
                 'updated_at' => '2016-10-25 15:28:09',
             ),
-            429 => 
+            433 => 
             array (
                 'id' => 11,
                 'ninja_id' => 315,
@@ -7459,7 +7491,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-25 15:28:09',
                 'updated_at' => '2016-10-25 15:28:09',
             ),
-            430 => 
+            434 => 
             array (
                 'id' => 12,
                 'ninja_id' => 315,
@@ -7467,7 +7499,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-25 15:28:09',
                 'updated_at' => '2016-10-25 15:28:09',
             ),
-            431 => 
+            435 => 
             array (
                 'id' => 13,
                 'ninja_id' => 315,
@@ -7475,7 +7507,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-25 15:28:09',
                 'updated_at' => '2016-10-25 15:28:09',
             ),
-            432 => 
+            436 => 
             array (
                 'id' => 14,
                 'ninja_id' => 315,
@@ -7483,7 +7515,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-25 15:28:09',
                 'updated_at' => '2016-10-25 15:28:09',
             ),
-            433 => 
+            437 => 
             array (
                 'id' => 15,
                 'ninja_id' => 315,
@@ -7491,7 +7523,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-25 15:28:09',
                 'updated_at' => '2016-10-25 15:28:09',
             ),
-            434 => 
+            438 => 
             array (
                 'id' => 16,
                 'ninja_id' => 315,
@@ -7499,7 +7531,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-25 15:28:09',
                 'updated_at' => '2016-10-25 15:28:09',
             ),
-            435 => 
+            439 => 
             array (
                 'id' => 17,
                 'ninja_id' => 315,
@@ -7507,7 +7539,7 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-25 15:28:09',
                 'updated_at' => '2016-10-25 15:28:09',
             ),
-            436 => 
+            440 => 
             array (
                 'id' => 18,
                 'ninja_id' => 315,
@@ -7515,13 +7547,253 @@ class NinjasSkillsTableSeeder extends Seeder
                 'created_at' => '2016-10-25 15:28:09',
                 'updated_at' => '2016-10-25 15:28:09',
             ),
-            437 => 
+            441 => 
             array (
                 'id' => 19,
                 'ninja_id' => 315,
                 'skill_id' => 408,
                 'created_at' => '2016-10-25 15:28:09',
                 'updated_at' => '2016-10-25 15:28:09',
+            ),
+            442 => 
+            array (
+                'id' => 30,
+                'ninja_id' => 10,
+                'skill_id' => 22,
+                'created_at' => '2016-10-27 17:11:24',
+                'updated_at' => '2016-10-27 17:11:24',
+            ),
+            443 => 
+            array (
+                'id' => 31,
+                'ninja_id' => 11,
+                'skill_id' => 23,
+                'created_at' => '2016-10-27 17:11:46',
+                'updated_at' => '2016-10-27 17:11:46',
+            ),
+            444 => 
+            array (
+                'id' => 32,
+                'ninja_id' => 12,
+                'skill_id' => 24,
+                'created_at' => '2016-10-27 17:12:07',
+                'updated_at' => '2016-10-27 17:12:07',
+            ),
+            445 => 
+            array (
+                'id' => 33,
+                'ninja_id' => 13,
+                'skill_id' => 11,
+                'created_at' => '2016-10-27 17:12:32',
+                'updated_at' => '2016-10-27 17:12:32',
+            ),
+            446 => 
+            array (
+                'id' => 34,
+                'ninja_id' => 14,
+                'skill_id' => 25,
+                'created_at' => '2016-10-27 17:13:02',
+                'updated_at' => '2016-10-27 17:13:02',
+            ),
+            447 => 
+            array (
+                'id' => 35,
+                'ninja_id' => 15,
+                'skill_id' => 9,
+                'created_at' => '2016-10-27 17:14:15',
+                'updated_at' => '2016-10-27 17:14:15',
+            ),
+            448 => 
+            array (
+                'id' => 36,
+                'ninja_id' => 16,
+                'skill_id' => 41,
+                'created_at' => '2016-10-27 17:15:47',
+                'updated_at' => '2016-10-27 17:15:47',
+            ),
+            449 => 
+            array (
+                'id' => 37,
+                'ninja_id' => 17,
+                'skill_id' => 26,
+                'created_at' => '2016-10-27 17:16:08',
+                'updated_at' => '2016-10-27 17:16:08',
+            ),
+            450 => 
+            array (
+                'id' => 38,
+                'ninja_id' => 18,
+                'skill_id' => 27,
+                'created_at' => '2016-10-27 17:16:27',
+                'updated_at' => '2016-10-27 17:16:27',
+            ),
+            451 => 
+            array (
+                'id' => 39,
+                'ninja_id' => 19,
+                'skill_id' => 28,
+                'created_at' => '2016-10-27 17:16:58',
+                'updated_at' => '2016-10-27 17:16:58',
+            ),
+            452 => 
+            array (
+                'id' => 40,
+                'ninja_id' => 20,
+                'skill_id' => 29,
+                'created_at' => '2016-10-27 17:17:23',
+                'updated_at' => '2016-10-27 17:17:23',
+            ),
+            453 => 
+            array (
+                'id' => 41,
+                'ninja_id' => 21,
+                'skill_id' => 30,
+                'created_at' => '2016-10-27 17:17:54',
+                'updated_at' => '2016-10-27 17:17:54',
+            ),
+            454 => 
+            array (
+                'id' => 42,
+                'ninja_id' => 22,
+                'skill_id' => 31,
+                'created_at' => '2016-10-27 17:18:11',
+                'updated_at' => '2016-10-27 17:18:11',
+            ),
+            455 => 
+            array (
+                'id' => 43,
+                'ninja_id' => 23,
+                'skill_id' => 32,
+                'created_at' => '2016-10-27 17:18:40',
+                'updated_at' => '2016-10-27 17:18:40',
+            ),
+            456 => 
+            array (
+                'id' => 44,
+                'ninja_id' => 24,
+                'skill_id' => 33,
+                'created_at' => '2016-10-27 17:19:16',
+                'updated_at' => '2016-10-27 17:19:16',
+            ),
+            457 => 
+            array (
+                'id' => 45,
+                'ninja_id' => 25,
+                'skill_id' => 34,
+                'created_at' => '2016-10-27 17:19:36',
+                'updated_at' => '2016-10-27 17:19:36',
+            ),
+            458 => 
+            array (
+                'id' => 46,
+                'ninja_id' => 26,
+                'skill_id' => 35,
+                'created_at' => '2016-10-27 17:20:21',
+                'updated_at' => '2016-10-27 17:20:21',
+            ),
+            459 => 
+            array (
+                'id' => 47,
+                'ninja_id' => 27,
+                'skill_id' => 36,
+                'created_at' => '2016-10-27 17:20:44',
+                'updated_at' => '2016-10-27 17:20:44',
+            ),
+            460 => 
+            array (
+                'id' => 48,
+                'ninja_id' => 28,
+                'skill_id' => 37,
+                'created_at' => '2016-10-27 17:21:05',
+                'updated_at' => '2016-10-27 17:21:05',
+            ),
+            461 => 
+            array (
+                'id' => 49,
+                'ninja_id' => 29,
+                'skill_id' => 38,
+                'created_at' => '2016-10-27 17:21:25',
+                'updated_at' => '2016-10-27 17:21:25',
+            ),
+            462 => 
+            array (
+                'id' => 50,
+                'ninja_id' => 30,
+                'skill_id' => 39,
+                'created_at' => '2016-10-27 17:21:46',
+                'updated_at' => '2016-10-27 17:21:46',
+            ),
+            463 => 
+            array (
+                'id' => 51,
+                'ninja_id' => 31,
+                'skill_id' => 40,
+                'created_at' => '2016-10-27 17:22:04',
+                'updated_at' => '2016-10-27 17:22:04',
+            ),
+            464 => 
+            array (
+                'id' => 52,
+                'ninja_id' => 449,
+                'skill_id' => 42,
+                'created_at' => '2016-10-27 17:31:57',
+                'updated_at' => '2016-10-27 17:31:57',
+            ),
+            465 => 
+            array (
+                'id' => 53,
+                'ninja_id' => 449,
+                'skill_id' => 43,
+                'created_at' => '2016-10-27 17:31:57',
+                'updated_at' => '2016-10-27 17:31:57',
+            ),
+            466 => 
+            array (
+                'id' => 54,
+                'ninja_id' => 449,
+                'skill_id' => 337,
+                'created_at' => '2016-10-27 17:31:57',
+                'updated_at' => '2016-10-27 17:31:57',
+            ),
+            467 => 
+            array (
+                'id' => 55,
+                'ninja_id' => 449,
+                'skill_id' => 401,
+                'created_at' => '2016-10-27 17:31:57',
+                'updated_at' => '2016-10-27 17:31:57',
+            ),
+            468 => 
+            array (
+                'id' => 56,
+                'ninja_id' => 449,
+                'skill_id' => 613,
+                'created_at' => '2016-10-27 17:31:57',
+                'updated_at' => '2016-10-27 17:31:57',
+            ),
+            469 => 
+            array (
+                'id' => 57,
+                'ninja_id' => 449,
+                'skill_id' => 822,
+                'created_at' => '2016-10-27 17:31:57',
+                'updated_at' => '2016-10-27 17:31:57',
+            ),
+            470 => 
+            array (
+                'id' => 58,
+                'ninja_id' => 449,
+                'skill_id' => 823,
+                'created_at' => '2016-10-27 17:31:57',
+                'updated_at' => '2016-10-27 17:31:57',
+            ),
+            471 => 
+            array (
+                'id' => 59,
+                'ninja_id' => 449,
+                'skill_id' => 824,
+                'created_at' => '2016-10-27 17:31:57',
+                'updated_at' => '2016-10-27 17:31:57',
             ),
         ));
         

@@ -24,7 +24,7 @@ class Skill extends Model {
 	 *
 	 * @var array
 	 */
-	protected $fillable = ['name', 'chase_status', 'hurt_status', 'hurt_num', 'pic_url'];
+	protected $fillable = ['name', 'chase_status', 'hurt_status', 'hurt_num', 'pic_url', 'type_id'];
 
 	/**
 	 * @return \Illuminate\Database\Eloquent\Relations\HasMany

@@ -60,40 +60,44 @@ class EloquentSkillRepository implements SkillRepositoryContract
      * @throws GeneralException
      * @return bool
      */
-    public function create($input)
+    public function create($request)
     {
+    	
+    	$input = $request->all();
+    	$skill = $this->createSkillStub($input);    	
+    	
     	if (Skill::where('name', $input['name'])->first()) {
     		throw new GeneralException(trans('exceptions.backend.skill.already_exists'));
     	}
-        
-    	if (! isset($input['statuses']))
-    		$input['statuses'] = [];
     
-    		DB::transaction(function() use ($input, $all) {
-    			$skill       = new Skill;
-    			$skill->name = $input['name'];
-    
-    			if ($skill->save()) {
+    	DB::transaction(function() use ($skill, $input) {   
+    		if ($skill->save()) {
 
-    				$statuses = [];
-    
-    				if (is_array($input['statuses']) && count($input['statuses'])) {
-    					foreach ($input['statuses'] as $perm) {
-    						if (is_numeric($perm)) {
-    							array_push($statuses, $perm);
-    						}
+				//Attach new statuses
+    			$chases = [];   
+    			if (isset($input['associated-chases']) && count($input['associated-chases'])) {
+    				foreach ($input['associated-chases'] as $chase) {
+    					if (is_numeric($chase)) {
+    						$chases[$chase] = array('chase_create' => 1);    							
     					}
     				}
-    
-    				$skill->attachStatuses($statuses);
-    				
-    
-    				event(new SkillCreated($skill));
-    				return true;
+    			}    
+    			$skill->chases()->attach($chases);
+
+    			$hurts = [];
+    			if (isset($input['associated-hurts']) && count($input['associated-hurts'])) {
+    				foreach ($input['associated-hurts'] as $hurt) {
+    					if (is_numeric($hurt)) {
+    						$hurts[$hurt] = array('chase_create' => 2);
+    					}
+    				}
     			}
+    			$skill->hurts()->attach($hurts);
+    			return true;
+    		}
     
-    			throw new GeneralException(trans('exceptions.backend.access.skills.create_error'));
-    		});
+    		throw new GeneralException(trans('exceptions.backend.access.skills.create_error'));
+    	});
     }
     
     /**
@@ -131,7 +135,7 @@ class EloquentSkillRepository implements SkillRepositoryContract
     					}
     				}
     				$skill->hurts()->attach($hurts);
-    				
+    				$skill->save();
     				return true;
     			}
     
@@ -165,7 +169,8 @@ class EloquentSkillRepository implements SkillRepositoryContract
     {
         $skill                    = new Skill;
         $skill->name              = $input['name'];
-        $skill->alias             = $input['alias'];
+        $skill->hurt_num          = $input['hurt_num'];
+        $skill->type_id           = $input['type_id'];
         return $skill;
     }
 }

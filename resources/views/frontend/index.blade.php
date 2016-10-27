@@ -8,58 +8,58 @@
                 <div class="panel-heading"><i class="fa fa-home"></i> Calculate Combo </div>
                 
                 <div class="panel-body">
-                	<div class="form-group">
-                        {{ Form::label('main', trans('validation.attributes.frontend.main'), ['class' => 'col-md-4 control-label']) }}
-                        <div class="col-md-6">
+                	<div class="form-group row">
+                        {{ Form::label('main', trans('validation.attributes.frontend.main'), ['class' => 'col-md-3 control-label']) }}
+                        <div class="col-md-8">
                             {{ Form::select('main', $mains, [], ['class' => 'form-control main', 'placeholder' => trans('validation.attributes.frontend.main')]) }}
-                        </div><!--col-md-6-->
-                    </div><!--form-group-->
+                        </div><!--col-md-8-->
+                    </div><!--form-group row-->
                     
-                    <div class="form-group">
-                        {{ Form::label('mistery', trans('validation.attributes.frontend.mistery'), ['class' => 'col-md-4 control-label']) }}
-                        <div class="col-md-6">
+                    <div class="form-group row">
+                        {{ Form::label('mistery', trans('validation.attributes.frontend.mistery'), ['class' => 'col-md-3 control-label']) }}
+                        <div class="col-md-8">
                             {{ Form::select('mistery', [], [], ['class' => 'form-control mistery', 'placeholder' => trans('validation.attributes.frontend.mistery')]) }}
-                        </div><!--col-md-6-->
-                    </div><!--form-group-->
-                    <div class="form-group">
-                        {{ Form::label('standard', trans('validation.attributes.frontend.standard'), ['class' => 'col-md-4 control-label']) }}
-                        <div class="col-md-6">
+                        </div><!--col-md-8-->
+                    </div><!--form-group row-->
+                    <div class="form-group row">
+                        {{ Form::label('standard', trans('validation.attributes.frontend.standard'), ['class' => 'col-md-3 control-label']) }}
+                        <div class="col-md-8">
                             {{ Form::select('standard', [], [], ['class' => 'form-control standard', 'placeholder' => trans('validation.attributes.frontend.standard')]) }}
-                        </div><!--col-md-6-->
-                    </div><!--form-group-->
-                    <div class="form-group">
-                        {{ Form::label('chase', trans('validation.attributes.frontend.chase'), ['class' => 'col-md-4 control-label']) }}
-                        <div class="col-md-6">
+                        </div><!--col-md-8-->
+                    </div><!--form-group row-->
+                    <div class="form-group row">
+                        {{ Form::label('chase', trans('validation.attributes.frontend.chase'), ['class' => 'col-md-3 control-label']) }}
+                        <div class="col-md-8">
                             {{ Form::select('chase', [], [], ['class' => 'form-control chase', 'placeholder' => trans('validation.attributes.frontend.chase')]) }}
-                        </div><!--col-md-6-->
-                    </div><!--form-group-->
-                    <div class="form-group">
-                        {{ Form::label('ninja1', trans('validation.attributes.frontend.ninja1'), ['class' => 'col-md-4 control-label']) }}
-                        <div class="col-md-6">
+                        </div><!--col-md-8-->
+                    </div><!--form-group row-->
+                    <div class="form-group row">
+                        {{ Form::label('ninja1', trans('validation.attributes.frontend.ninja1'), ['class' => 'col-md-3 control-label']) }}
+                        <div class="col-md-8">
                             {{ Form::select('ninja1', $ninjas, [], ['class' => 'form-control ninja', 'placeholder' => trans('validation.attributes.frontend.ninja1')]) }}
-                        </div><!--col-md-6-->
-                    </div><!--form-group-->
+                        </div><!--col-md-8-->
+                    </div><!--form-group row-->
                     
-                    <div class="form-group">
-                        {{ Form::label('ninja2', trans('validation.attributes.frontend.ninja2'), ['class' => 'col-md-4 control-label']) }}
-                        <div class="col-md-6">
+                    <div class="form-group row">
+                        {{ Form::label('ninja2', trans('validation.attributes.frontend.ninja2'), ['class' => 'col-md-3 control-label']) }}
+                        <div class="col-md-8">
                             {{ Form::select('ninja2', $ninjas, [], ['class' => 'form-control ninja', 'placeholder' => trans('validation.attributes.frontend.ninja2')]) }}
-                        </div><!--col-md-6-->
-                    </div><!--form-group-->
+                        </div><!--col-md-8-->
+                    </div><!--form-group row-->
                     
-                    <div class="form-group">
-                        {{ Form::label('ninja3', trans('validation.attributes.frontend.ninja3'), ['class' => 'col-md-4 control-label']) }}
-                        <div class="col-md-6">
+                    <div class="form-group row">
+                        {{ Form::label('ninja3', trans('validation.attributes.frontend.ninja3'), ['class' => 'col-md-3 control-label']) }}
+                        <div class="col-md-8">
                             {{ Form::select('ninja3', $ninjas, [], ['class' => 'form-control ninja', 'placeholder' => trans('validation.attributes.frontend.ninja3')]) }}
-                        </div><!--col-md-6-->
-                    </div><!--form-group-->
+                        </div><!--col-md-8-->
+                    </div><!--form-group row-->
                                         
-                    <div class="form-group">
-                        {{ Form::label('summon', trans('validation.attributes.frontend.summon'), ['class' => 'col-md-4 control-label']) }}
-                        <div class="col-md-6">
+                    <div class="form-group row">
+                        {{ Form::label('summon', trans('validation.attributes.frontend.summon'), ['class' => 'col-md-3 control-label']) }}
+                        <div class="col-md-8">
                             {{ Form::select('summon', $summons, [], ['class' => 'form-control summon', 'placeholder' => trans('validation.attributes.frontend.summon')]) }}
-                        </div><!--col-md-6-->
-                    </div><!--form-group-->    
+                        </div><!--col-md-8-->
+                    </div><!--form-group row-->
                     <div class="form-group">
                     	<button class="calculate btn btn-primary">Calculate combo</button>
                     </div>

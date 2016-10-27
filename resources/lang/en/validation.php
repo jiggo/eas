@@ -157,6 +157,14 @@ return [
             'old_password' => 'Old Password',
             'new_password' => 'New Password',
             'new_password_confirmation' => 'New Password Confirmation',
+        	'main' => 'Main Class',
+        	'mistery' => 'Mistery',
+        	'standard' => 'Standard',
+        	'chase' => 'Chase',
+        	'ninja1' => '1st Ninja',
+        	'ninja2' => '2nd Ninja',
+        	'ninja3' => '3rd Ninja',
+        	'summon' => 'Summon'
         ],
     ],
 

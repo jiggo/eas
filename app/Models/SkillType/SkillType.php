@@ -1,4 +1,4 @@
-<?php namespace App\Models\Skill;
+<?php namespace App\Models\SkillType;
 
 use Illuminate\Database\Eloquent\Model;
 use App\Model\Skill\Skill;

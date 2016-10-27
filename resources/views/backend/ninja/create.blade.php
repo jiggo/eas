@@ -10,7 +10,7 @@
 @endsection
 
 @section('content')
-    {{ Form::open(['route' => 'admin.ninja.store', 'class' => 'form-horizontal', 'ninja' => 'form', 'method' => 'post', 'id' => 'create-ninja']) }}
+    {{ Form::open(['route' => 'admin.ninja.store', 'class' => 'form-horizontal', 'ninja' => 'form', 'method' => 'POST', 'id' => 'create-ninja']) }}
 
         <div class="box box-success">
             <div class="box-header with-border">
@@ -98,8 +98,7 @@
                     {{ Form::label('human', trans('validation.attributes.backend.ninjas.human'), ['class' => 'col-lg-2 control-label']) }}
 
                     <div class="col-lg-10">
-                        {{ Form::radio('human', "false", ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.resistance')]) }}
-                        {{ Form::radio('human', "true", ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.resistance')]) }}
+                        {{ Form::checkbox('human', true, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.resistance')]) }}
                     </div><!--col-lg-10-->
                 </div><!--form control-->
                 

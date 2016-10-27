@@ -537,7 +537,7 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
         $ninja->defense			  = $input['defense'];
         $ninja->ninjutsu		  = $input['ninjutsu'];
         $ninja->resistance		  = $input['resistance'];
-        $ninja->human			  = $input['human'];
+        $ninja->human			  = isset($input['human']) ? true : false;
         $ninja->summon_color	  = $input['summon_color'];
         return $ninja;
     }

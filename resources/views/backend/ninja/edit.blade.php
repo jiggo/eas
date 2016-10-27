@@ -98,7 +98,7 @@
                     {{ Form::label('human', trans('validation.attributes.backend.ninjas.human'), ['class' => 'col-lg-2 control-label']) }}
 
                     <div class="col-lg-10">
-                        {{ Form::checkbox('human', null, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.resistance')]) }}
+                        {{ Form::checkbox('human',  $ninja->human, ['class' => 'form-control', 'placeholder' => trans('validation.attributes.backend.ninjas.resistance')]) }}
                     </div><!--col-lg-10-->
                 </div><!--form control-->
                 

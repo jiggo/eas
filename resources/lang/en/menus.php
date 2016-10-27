@@ -46,6 +46,14 @@ return [
     		'create' => 'Create'
     	],
 
+    	'skill' => [
+    		'title' => 'Skills',
+    	],
+    	'skills' => [
+    		'main' => 'Menu',	
+    		'all' => 'All',
+    		'create' => 'Create'
+    	],
         'log-viewer' => [
             'main' => 'Log Viewer',
             'dashboard' => 'Dashboard',
