@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
         $this->call('NinjasTableSeeder');
         $this->call('SkillsTableSeeder');
         $this->call('NinjasSkillsTableSeeder');
-        $this->call('SkillsStatusesTableSeeder');
         $this->call('StatusesTableSeeder');
+        $this->call('SkillsStatusesTableSeeder');
     }
 }
