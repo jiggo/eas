@@ -100,9 +100,9 @@ return [
     		'table' => [
     			'id' => 'ID',
     			'name' => 'Name',    			
-    			'hurt_num' => '# Colpi',
-    			'type' => 'Tipologia',
-    			'owner' => 'Usata da',    			
+    			'hurt_num' => '# Hurts',
+    			'type' => 'Type',
+    			'owner' => 'Used by',    			
     		],
     		'management' => 'Skill Management',
     		'active' => 'Active skills',

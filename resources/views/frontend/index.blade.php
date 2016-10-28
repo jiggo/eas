@@ -11,8 +11,8 @@
 			overflow-y: scroll;
 		}
 		
-		#dest {
-			height: 500px;
+		#dest_fixed, #dest_variable, #main, #summon {
+			height: 220px;
 			overflow-y: scroll;
 		}
 		
@@ -27,9 +27,9 @@
 		<div class="col-md-10 col-md-offset-1">
 		
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-4">
 				    <div class="panel panel-default">
-		                <div class="panel-heading"><i class="fa fa-home"></i> Source</div>
+		                <div class="panel-heading">Drag ninjas from here</div>
 		                
 		                <div class="panel-body source ui-helper-clearfix">
 		                	<ul id="source" class="source ui-helper-reset ui-helper-clearfix">
@@ -41,14 +41,68 @@
 		            </div>
 	            </div>
 	            
-	            <div class="col-md-6">
+	            <div class="col-md-4">
 		            <div class="panel panel-default">
-		                <div class="panel-heading"><i class="fa fa-home"></i> Destination </div>
+		                <div class="panel-heading">Fixed Ninjas </div>
 		                		                
-		                <div id="dest" class="panel-body ui-state-default" style="min-height: 18em;">		                			               
+		                <div id="dest_fixed" class="panel-body ui-state-default dest">		                			               
 		                </div>
 		            </div>
 	            </div>
+	            
+	            <div class="col-md-4">
+		            <div class="panel panel-default">
+		                <div class="panel-heading">Main </div>
+		                		                
+		                <div id="main" class="panel-body">	
+				            <div class="form-group row">
+		                        <div class="col-md-12">
+		                            {{ Form::select('main', $mains, [], ['class' => 'form-control main', 'placeholder' => trans('validation.attributes.frontend.main')]) }}
+		                        </div><!--col-md-8-->
+		                    </div><!--form-group row-->
+		                    
+		                    <div class="form-group row">
+		                        <div class="col-md-12">
+		                            {{ Form::select('mistery', [], [], ['class' => 'form-control mistery', 'placeholder' => trans('validation.attributes.frontend.mistery')]) }}
+		                        </div><!--col-md-8-->
+		                    </div><!--form-group row-->
+		                    <div class="form-group row">
+		                        <div class="col-md-12">
+		                            {{ Form::select('standard', [], [], ['class' => 'form-control standard', 'placeholder' => trans('validation.attributes.frontend.standard')]) }}
+		                        </div><!--col-md-8-->
+		                    </div><!--form-group row-->
+		                    <div class="form-group row">
+		                        <div class="col-md-12">
+		                            {{ Form::select('chase', [], [], ['class' => 'form-control chase', 'placeholder' => trans('validation.attributes.frontend.chase')]) }}
+		                        </div><!--col-md-8-->
+		                    </div><!--form-group row-->	                			               
+		                </div>
+		            </div>
+	            </div>
+	            
+	            <div class="col-md-4">
+		            <div class="panel panel-default">
+		                <div class="panel-heading">Variable Ninjas </div>
+		                		                
+		                <div id="dest_variable" class="panel-body ui-state-default dest">		                			               
+		                </div>
+		            </div>
+	            </div>
+	            
+	            <div class="col-md-4">
+		            <div class="panel panel-default">
+		                <div class="panel-heading">Summon </div>
+		                		                
+		                <div id="summon" class="panel-body">		
+			                <div class="form-group row">
+		                        <div class="col-md-12">
+		                            {{ Form::select('summon', $summons, [], ['class' => 'form-control summon', 'placeholder' => trans('validation.attributes.frontend.summon')]) }}
+		                        </div><!--col-md-8-->
+		                    </div><!--form-group row-->                			               
+		                </div>
+		            </div>
+	            </div>
+	            
             </div>
             
             <div class="form-group">
@@ -75,6 +129,7 @@
 		            </div><!--table-responsive-->
 		    	</div>
 		   	</div>
+		   	<!-- 
 			<div class="panel panel-default">
                 <div class="panel-heading"><i class="fa fa-home"></i> Calculate Combo </div>
                 
@@ -83,61 +138,61 @@
                         {{ Form::label('main', trans('validation.attributes.frontend.main'), ['class' => 'col-md-3 control-label']) }}
                         <div class="col-md-8">
                             {{ Form::select('main', $mains, [], ['class' => 'form-control main', 'placeholder' => trans('validation.attributes.frontend.main')]) }}
-                        </div><!--col-md-8-->
-                    </div><!--form-group row-->
+                        </div>
+                    </div>
                     
                     <div class="form-group row">
                         {{ Form::label('mistery', trans('validation.attributes.frontend.mistery'), ['class' => 'col-md-3 control-label']) }}
                         <div class="col-md-8">
                             {{ Form::select('mistery', [], [], ['class' => 'form-control mistery', 'placeholder' => trans('validation.attributes.frontend.mistery')]) }}
-                        </div><!--col-md-8-->
-                    </div><!--form-group row-->
+                        </div>
+                    </div>
                     <div class="form-group row">
                         {{ Form::label('standard', trans('validation.attributes.frontend.standard'), ['class' => 'col-md-3 control-label']) }}
                         <div class="col-md-8">
                             {{ Form::select('standard', [], [], ['class' => 'form-control standard', 'placeholder' => trans('validation.attributes.frontend.standard')]) }}
-                        </div><!--col-md-8-->
-                    </div><!--form-group row-->
+                        </div>
+                    </div>
                     <div class="form-group row">
                         {{ Form::label('chase', trans('validation.attributes.frontend.chase'), ['class' => 'col-md-3 control-label']) }}
                         <div class="col-md-8">
                             {{ Form::select('chase', [], [], ['class' => 'form-control chase', 'placeholder' => trans('validation.attributes.frontend.chase')]) }}
-                        </div><!--col-md-8-->
-                    </div><!--form-group row-->
+                        </div>
+                    </div>
                     <div class="form-group row">
                         {{ Form::label('ninja1', trans('validation.attributes.frontend.ninja1'), ['class' => 'col-md-3 control-label']) }}
                         <div class="col-md-8">
                             {{ Form::select('ninja1', $ninjas, [], ['class' => 'form-control ninja', 'placeholder' => trans('validation.attributes.frontend.ninja1')]) }}
-                        </div><!--col-md-8-->
-                    </div><!--form-group row-->
+                        </div>
+                    </div>
                     
                     <div class="form-group row">
                         {{ Form::label('ninja2', trans('validation.attributes.frontend.ninja2'), ['class' => 'col-md-3 control-label']) }}
                         <div class="col-md-8">
                             {{ Form::select('ninja2', $ninjas, [], ['class' => 'form-control ninja', 'placeholder' => trans('validation.attributes.frontend.ninja2')]) }}
-                        </div><!--col-md-8-->
-                    </div><!--form-group row-->
+                        </div>
+                    </div>
                     
                     <div class="form-group row">
                         {{ Form::label('ninja3', trans('validation.attributes.frontend.ninja3'), ['class' => 'col-md-3 control-label']) }}
                         <div class="col-md-8">
                             {{ Form::select('ninja3', $ninjas, [], ['class' => 'form-control ninja', 'placeholder' => trans('validation.attributes.frontend.ninja3')]) }}
-                        </div><!--col-md-8-->
-                    </div><!--form-group row-->
+                        </div>
+                    </div>
                                         
                     <div class="form-group row">
                         {{ Form::label('summon', trans('validation.attributes.frontend.summon'), ['class' => 'col-md-3 control-label']) }}
                         <div class="col-md-8">
                             {{ Form::select('summon', $summons, [], ['class' => 'form-control summon', 'placeholder' => trans('validation.attributes.frontend.summon')]) }}
-                        </div><!--col-md-8-->
-                    </div><!--form-group row-->
+                        </div>
+                    </div>
                     <div class="form-group">
                     	<button class="calculate-combo btn btn-primary">Calculate combo</button>
                     </div>
                     <h2 id="combo">Max combo: <span>0</span></h2>    
                 </div>
             </div>
-            
+             -->
 
 		</div>
     </div><!--row-->
@@ -159,7 +214,8 @@
 	 
 		    // There's the source and the dest
 	    	var $source = $( "#source" ),
-	    		$dest = $('#dest');
+	    		$dest_fixed = $('#dest_fixed'),
+	    		$dest_variable = $('#dest_variable');
 	
 	    	// Let the source items be draggable
 	        $( "li", $source ).draggable({
@@ -171,19 +227,29 @@
 	        });
 	
 	     	// Let the dest be droppable, accepting the source items
-	        $dest.droppable({
-	          accept: "#source > li",
+	        $dest_fixed.droppable({
+	          accept: "#source > li, #dest_variable > ul > li",
 	          classes: {
 	            "ui-droppable-active": "ui-state-highlight"
 	          },
 	          drop: function( event, ui ) {
-	            selectNinja( ui.draggable );
+	            selectNinja( $(event.target), ui.draggable );
 	          }
 	        });
-	
+	     	// Let the dest be droppable, accepting the source items
+	        $dest_variable.droppable({
+	          accept: "#source > li, #dest_fixed > ul > li",
+	          classes: {
+	            "ui-droppable-active": "ui-state-highlight"
+	          },
+	          drop: function( event, ui ) {
+	        	 selectNinja( $(event.target), ui.draggable );
+	          }
+	        });
+	        
 	     	// Let the source be droppable as well, accepting items from the dest
 	        $source.droppable({
-	          accept: "#dest li",
+	          accept: ".dest li",
 	          classes: {
 	            "ui-droppable-active": "custom-state-active"
 	          },
@@ -192,11 +258,11 @@
 	          }
 	        });
 	
-	        function selectNinja( $item ) {
+	        function selectNinja( $target, $item ) {
 	            $item.fadeOut(function() {
-	              var $list = $( "ul", $dest ).length ?
-	                $( "ul", $dest ) :
-	                $( "<ul class='source ui-helper-reset'/>" ).appendTo( $dest );
+	              var $list = $( "ul", $target ).length ?
+	                $( "ul", $target ) :
+	                $( "<ul class='source ui-helper-reset'/>" ).appendTo( $target );
 		                
 	              $item.appendTo( $list ).fadeIn();
 	                
@@ -214,13 +280,23 @@
 		});
 
 		$('.calculate-team').on('click', function() {
-			var data = {ninja: []};	
+			var data = {fixed: [], variable: [], main: {}, summon: 0};	
 			t.clear();
 			$('.loading').toggleClass('hide');
-			$.each($('#dest li'), function(key, elem) {
-	            data.ninja.push($(elem).attr('data-ninjaid'));		
+			$.each($('#dest_fixed li'), function(key, elem) {
+	            data.fixed.push($(elem).attr('data-ninjaid'));		
 	        });
-
+			data.summon = $('select[name="summon"]').val();
+			
+			data.main.id =  $('select[name="main"]').val(),
+			data.main.mistery = $('select[name="mistery"]').val(),
+			data.main.standard = $('select[name="standard"]').val(),
+			data.main.chase = $('select[name="chase"]').val(),
+			
+			
+			$.each($('#dest_variable li'), function(key, elem) {
+	            data.variable.push($(elem).attr('data-ninjaid'));		
+	        });
 			$.ajax({
         		url: '{{ route("frontend.ninjas.team") }}',
         		method: 'GET',

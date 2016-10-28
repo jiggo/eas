@@ -61,12 +61,28 @@ class FrontendController extends Controller
     	$input = $request->all();
     
     	$ids = array();
-    	if(!isset($input["ninja"]))
+    	if((!isset($input["fixed"]) && !isset($input["variable"])) || !isset($input["main"]))
     		return response("Request not valid." , 400);
-    	foreach($input["ninja"] as $key => $ninja) {
-    		$ids["ninja".$key] = $ninja;
+    	
+    	if(isset($input["fixed"])) {
+	    	foreach($input["fixed"] as $key => $ninja) {    		
+	    		$ids["fixed".$key] = $ninja;
+	    	}
     	}
-    	$teams = $this->ninjas->getTeams($ids);
+    	if(isset($input["variable"])) {
+	    	foreach($input["variable"] as $key => $ninja) {
+	    		$ids["variable".$key] = $ninja;
+	    	}
+    	}
+    	if(isset($input["summon"])) {
+    		$ids["fixed".count(isset($input["fixed"]) ? $input["fixed"] : array())] = $input["summon"];
+    	}
+    	$ids["main"] = $input["main"];
+    	$teams = $this->ninjas->getTeams($ids, 
+    									isset($input["fixed"]) ? $input["fixed"] : array(), 
+    									isset($input["variable"]) ? $input["variable"] : array(), 
+    									$input["main"],
+    									isset($input["summon"]) && $input["summon"] != 0 ? $input["summon"] : 0);
     	
     	$return_teams = array();
     	foreach($teams as $value) {    		
