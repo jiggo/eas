@@ -198,13 +198,13 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
      * @param  $input
      * @return integer
      */
-    public function getTeams($input, $fixed = array(), $variable = array(), $main, $summon) {    	
+    public function getTeams($input, $fixed = array(), $variable = array(), $main = array(), $summon = 0) {    	
     	
     	$this->ninjas = $this->loadData($input);
 
-    	$this->pc_permute_subset($variable, 4 - count($fixed) - 1);   
+    	$this->pc_permute_subset($variable, 4 - count($fixed) - (!empty($main) ? 1 : 0));   
     	foreach($this->perms_sets as $perm) {
-    		$tocombine = array_merge($perm, $fixed, array($main["id"]), array($summon));
+    		$tocombine = array_merge($perm, $fixed, isset($main["id"]) ? array($main["id"]) : array(), $summon != 0 ? array($summon) : array());
     		$this->pc_permute($tocombine);
     		foreach($this->perms as $key => $ids) {
     			$this->teams[$key] = array();

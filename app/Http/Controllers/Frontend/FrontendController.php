@@ -61,8 +61,9 @@ class FrontendController extends Controller
     	$input = $request->all();
     
     	$ids = array();
-    	if((!isset($input["fixed"]) && !isset($input["variable"])) || !isset($input["main"]))
-    		return response("Request not valid." , 400);
+    	//dd($input);
+    	if(!isset($input["fixed"]) && !isset($input["variable"]) && !isset($input["main"]) && !isset($input["summon"]))
+    		return response("Select one ninja.", 400);
     	
     	if(isset($input["fixed"])) {
 	    	foreach($input["fixed"] as $key => $ninja) {    		
@@ -77,11 +78,13 @@ class FrontendController extends Controller
     	if(isset($input["summon"])) {
     		$ids["fixed".count(isset($input["fixed"]) ? $input["fixed"] : array())] = $input["summon"];
     	}
-    	$ids["main"] = $input["main"];
+    	if(isset($input["main"]))
+    		$ids["main"] = $input["main"];
+    	
     	$teams = $this->ninjas->getTeams($ids, 
     									isset($input["fixed"]) ? $input["fixed"] : array(), 
     									isset($input["variable"]) ? $input["variable"] : array(), 
-    									$input["main"],
+    									isset($input["main"]) ? $input["main"] : array(),
     									isset($input["summon"]) && $input["summon"] != 0 ? $input["summon"] : 0);
     	
     	$return_teams = array();

@@ -280,19 +280,23 @@
 		});
 
 		$('.calculate-team').on('click', function() {
-			var data = {fixed: [], variable: [], main: {}, summon: 0};	
+			var data = {fixed: [], variable: [], main: {}, summon: {}};	
 			t.clear();
 			$('.loading').toggleClass('hide');
 			$.each($('#dest_fixed li'), function(key, elem) {
 	            data.fixed.push($(elem).attr('data-ninjaid'));		
 	        });
-			data.summon = $('select[name="summon"]').val();
+	        var summon = $('select[name="summon"]').val();
+	        if(summon != '')
+	        	data.summon = summon;	        
 			
-			data.main.id =  $('select[name="main"]').val(),
-			data.main.mistery = $('select[name="mistery"]').val(),
-			data.main.standard = $('select[name="standard"]').val(),
-			data.main.chase = $('select[name="chase"]').val(),
-			
+			var main =  $('select[name="main"]').val();
+			if(main != '') {
+				data.main.id =  $('select[name="main"]').val();
+				data.main.mistery = $('select[name="mistery"]').val();
+				data.main.standard = $('select[name="standard"]').val();
+				data.main.chase = $('select[name="chase"]').val();
+			}
 			
 			$.each($('#dest_variable li'), function(key, elem) {
 	            data.variable.push($(elem).attr('data-ninjaid'));		
