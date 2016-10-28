@@ -22,7 +22,15 @@ elixir(function(mix) {
        'node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js',
        'public/js/vendor/bootstrap'
      )
-
+     .copy(
+       'node_modules/jquery-ui-dist/jquery-ui.min.js',
+       'public/js/vendor/jquery-ui'
+     )
+     .copy(
+       'node_modules/jquery-ui-dist/jquery-ui.min.css',
+       'public/css/vendor/jquery-ui'
+     )
+     
      /**
       * Process frontend SCSS stylesheets
       */

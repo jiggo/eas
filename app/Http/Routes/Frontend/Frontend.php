@@ -21,4 +21,5 @@ Route::group(['prefix' => 'ninja/{ninja}'], function() {
 });
 
 Route::get('ninjas/combo', 'FrontendController@combo')->name('frontend.ninjas.combo');
+Route::get('ninjas/team', 'FrontendController@team')->name('frontend.ninjas.team');
 	

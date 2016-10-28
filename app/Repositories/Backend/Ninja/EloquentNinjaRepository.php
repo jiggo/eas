@@ -21,10 +21,15 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
 	private $ninjas = array();
 	private $considered = array();
 	private $high_combo_queue = array();
+	private $best_team = array();
+	private $teams = array();
+	private $highest_team_combo = 1;
 	private $combos = 1;
 	private $hits = 0;
 	private $counter = 1;
 	private $perms = array();
+	private $perms_sets = array();
+	
     /**
      * @return mixed
      */
@@ -45,12 +50,14 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
     	if ($withSkills) {
     		return Ninja::with('skills')
 			    		->where('main', false)
+			    		->where('human', true)
 			    		->orderBy($order_by, $sort)
 			    		->get();
     	}
     
     	return Ninja::
 			    	where('main', false)
+			    	->where('human', true)
 			    	->orderBy($order_by, $sort)
 			    	->get();
     }
@@ -188,7 +195,52 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
     }   
     
     /**
-     * @param  $combo     
+     * @param  $input
+     * @return integer
+     */
+    public function getTeams($input) {
+    	
+    	$this->ninjas = $this->loadData($input);
+    	$ids = array();    
+    	foreach($this->ninjas as $key => $ninja)
+    		$ids[] = $key;
+    	
+    	$this->pc_permute_subset($ids, 4);    	    	
+    	
+    	foreach($this->perms_sets as $perm) {
+    		$this->pc_permute($perm);
+    		foreach($this->perms as $key => $ids) {
+    			$this->teams[$key] = array();
+    			$this->ninjasCombo($ids, $key);
+    		}
+    	}
+    	$return_teams = array();
+    	foreach($this->teams as $team) {
+    		if(count($return_teams) == 0) { 
+    			$return_teams[] = $team;
+    		} else {
+    			$result = $this->recursive_array_search($team["team"], array_column($return_teams, "team")); 
+    			if($result === false) {
+    				$return_teams[] = $team;
+    			} else {
+					
+    				if($return_teams[$result]["combo"] < $team["combo"]) {
+    					$return_teams[$result] = $team;
+    				}    				
+    			}
+    		}    		
+    	}
+    	
+    	$teams = array();
+    	foreach($return_teams as $key => $row) {
+    		$teams[$key] = $row["combo"];
+    	}
+    	array_multisort($teams, SORT_DESC, $return_teams);
+    	return $return_teams;
+    }
+    
+    /**
+     * @param  $input     
      * @return integer
      */
     public function getCombo($input) {    	
@@ -199,18 +251,20 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
     		$ids[] = $key;
     	$this->pc_permute($ids);
     	foreach($this->perms as $key => $ids) {
-    		$this->ninjasLoop($ids);    	
+    		$this->ninjasCombo($ids);    	
     	}
     	return $this->highest_combo;
     }
     
-    private function ninjasLoop($ids) {
+    private function ninjasCombo($ids, $key = 0) {
 
     	$this->considered = array();
     	$this->high_combo_queue = array();
-    	$this->combos = 1;    	
+    	$this->combos = 1;
+    	$this->highest_team_combo = 1;
     	$this->hits = 0;
-    	
+    	$this->teams[$key]["team"] = $ids;
+    	$this->teams[$key]["combo"] = $this->highest_team_combo;
     	foreach($ids as $id) {
 			$ninja = $this->ninjas[$id];
 			
@@ -231,6 +285,10 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
 	    		}
     		}
 
+    		if($this->combos > $this->highest_team_combo) {
+    			$this->highest_team_combo = $this->combos;
+    		}    		
+    		
     		/************** Standard **************/
     		if(isset($ninja["standard"])) {
     			//echo "Standard of ".$ninja['name']."\n";
@@ -247,10 +305,16 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
 	    		}
     		}
 
+    		if($this->combos > $this->highest_team_combo) {
+    			$this->highest_team_combo = $this->combos;
+    		}
+    		
     		if($this->combos > $this->highest_combo) {
-    			$this->highest_combo = $this->combos;    		
+    			$this->highest_combo = $this->combos;        			
     		}
     	}
+    	
+    	$this->teams[$key]["combo"] = $this->highest_team_combo;
     }
     
     private function findNext($current, $attack, $ids) {
@@ -337,6 +401,23 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
 	    }
 	}
     
+	private function pc_permute_subset($super_set, $k, $idx = 0, &$current = array()) {
+		//successful stop clause
+		if (count($current) == $k) {
+			$this->perms_sets[] = $current;
+			return;
+		}
+		//unseccessful stop clause
+		if ($idx == count($super_set)) return;
+		$x = $super_set[$idx];
+		$current[$x] = $x;
+		//"guess" x is in the subset
+		$this->pc_permute_subset($super_set, $k, $idx+1, $current);
+		unset($current[$x]);
+		//"guess" x is not in the subset
+		$this->pc_permute_subset($super_set, $k, $idx+1, $current);
+	}
+	
     private function loadData($input) {    	
     	$ninjas = array();
     	
@@ -521,6 +602,28 @@ class EloquentNinjaRepository implements NinjaRepositoryContract
         $ninja->skills()->attach($skills['associated-skills']);
     }
 
+    private function in_array_r($needle, $haystack, $strict = false) {
+    	foreach ($haystack as $item) {
+    		if (($strict ? $item === $needle : $item == $needle) || (is_array($item) && $this->in_array_r($needle, $item, $strict))) {
+    			return true;
+    		}
+    	}
+    
+    	return false;
+    }
+    
+    private function recursive_array_search($needle,$haystack) {
+    	foreach($haystack as $key => $value) {
+    		$current_key=$key;
+    		asort($needle);
+    		asort($value);
+    		if(count(array_diff($needle, $value)) == 0) {
+    			return $current_key;
+    		}
+    	}
+    	return false;
+    }
+    
     /**
      * @param  $input
      * @return mixed

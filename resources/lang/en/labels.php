@@ -88,6 +88,8 @@ return [
     			'defense' => 'Defense',
     			'ninjutsu' => 'Ninjutsu',
     			'resistance' => 'Resistance',
+    			'team' => 'Team',
+    			'combo' => 'Combo'
     		],
     		'management' => 'Ninja Management',
     		'active' => 'Active ninjas',

@@ -1,9 +1,80 @@
 @extends('frontend.layouts.master')
 
+@section('after-styles-end')
+    {{ Html::style("css/backend/plugin/datatables/dataTables.bootstrap.min.css") }}
+@stop
+
 @section('content')
+	<style>
+		.panel-body.source {
+			max-height: 500px;
+			overflow-y: scroll;
+		}
+		
+		#dest {
+			height: 500px;
+			overflow-y: scroll;
+		}
+		
+		.ui-widget-content {
+			margin: 10px 0;
+			padding: 5px;
+		}
+		
+	</style>
     <div class="row">
 
 		<div class="col-md-10 col-md-offset-1">
+		
+			<div class="row">
+				<div class="col-md-6">
+				    <div class="panel panel-default">
+		                <div class="panel-heading"><i class="fa fa-home"></i> Source</div>
+		                
+		                <div class="panel-body source ui-helper-clearfix">
+		                	<ul id="source" class="source ui-helper-reset ui-helper-clearfix">
+		                		@foreach($ninjas as $id => $ninja)
+		                			<li class="ui-widget-content ui-corner-tr" data-ninjaid="{{$id}}">{{$ninja}}</li>
+		                		@endforeach
+		                	</ul>
+		                </div>
+		            </div>
+	            </div>
+	            
+	            <div class="col-md-6">
+		            <div class="panel panel-default">
+		                <div class="panel-heading"><i class="fa fa-home"></i> Destination </div>
+		                		                
+		                <div id="dest" class="panel-body ui-state-default" style="min-height: 18em;">		                			               
+		                </div>
+		            </div>
+	            </div>
+            </div>
+            
+            <div class="form-group">
+            	<button class="calculate-team btn btn-primary">Calculate teams</button>
+            </div>
+            <div class="panel panel-default">  
+            	<div class="panel-heading"><i class="fa fa-home"></i> Teams </div> 
+            	<div class="panel-body">
+                    <div class="table-responsive">
+		                <table id="teams-table" class="table table-condensed table-hover">
+		                    <thead>
+		                        <tr>
+		                            <th style="width:20%;">{{ trans('labels.backend.ninjas.table.team') }}</th>		                            
+		                            <th>{{ trans('labels.backend.ninjas.table.life') }}</th>
+		                            <th>{{ trans('labels.backend.ninjas.table.attack') }}</th>
+		                            <th>{{ trans('labels.backend.ninjas.table.defense') }}</th>
+		                            <th>{{ trans('labels.backend.ninjas.table.ninjutsu') }}</th>
+		                            <th>{{ trans('labels.backend.ninjas.table.resistance') }}</th>
+		                            <th style="width:10%;">{{ trans('labels.backend.ninjas.table.combo') }}</th>
+		                            <th>{{ trans('labels.general.actions') }}</th>
+		                        </tr>
+		                    </thead>
+		                </table>
+		            </div><!--table-responsive-->
+		    	</div>
+		   	</div>
 			<div class="panel panel-default">
                 <div class="panel-heading"><i class="fa fa-home"></i> Calculate Combo </div>
                 
@@ -61,20 +132,139 @@
                         </div><!--col-md-8-->
                     </div><!--form-group row-->
                     <div class="form-group">
-                    	<button class="calculate btn btn-primary">Calculate combo</button>
+                    	<button class="calculate-combo btn btn-primary">Calculate combo</button>
                     </div>
                     <h2 id="combo">Max combo: <span>0</span></h2>    
                 </div>
             </div>
+            
+
 		</div>
     </div><!--row-->
     <div class="loading hide"><div class="inner-loading"><i class="fa fa-circle-o-notch fa-spin fa-4x"></i><div id="progress"></div></div></div>
 @endsection
 
 @section('after-scripts-end')
+    {{ Html::script("js/backend/plugin/datatables/jquery.dataTables.min.js") }}
+    {{ Html::script("js/backend/plugin/datatables/dataTables.bootstrap.min.js") }}
     <script>
-			
-		$('.calculate').on('click', function() {
+    	var t;
+    	
+		$(document).ready(function() {
+	    	t = $('#teams-table').DataTable({
+		    	orderMulti: true
+	    	});
+		});
+		$( function() {
+	 
+		    // There's the source and the dest
+	    	var $source = $( "#source" ),
+	    		$dest = $('#dest');
+	
+	    	// Let the source items be draggable
+	        $( "li", $source ).draggable({
+	          cancel: "a.ui-icon", // clicking an icon won't initiate dragging
+	          revert: "invalid", // when not dropped, the item will revert back to its initial position
+	          containment: "document",
+	          helper: "clone",
+	          cursor: "move"
+	        });
+	
+	     	// Let the dest be droppable, accepting the source items
+	        $dest.droppable({
+	          accept: "#source > li",
+	          classes: {
+	            "ui-droppable-active": "ui-state-highlight"
+	          },
+	          drop: function( event, ui ) {
+	            selectNinja( ui.draggable );
+	          }
+	        });
+	
+	     	// Let the source be droppable as well, accepting items from the dest
+	        $source.droppable({
+	          accept: "#dest li",
+	          classes: {
+	            "ui-droppable-active": "custom-state-active"
+	          },
+	          drop: function( event, ui ) {
+	            unselectNinja( ui.draggable );
+	          }
+	        });
+	
+	        function selectNinja( $item ) {
+	            $item.fadeOut(function() {
+	              var $list = $( "ul", $dest ).length ?
+	                $( "ul", $dest ) :
+	                $( "<ul class='source ui-helper-reset'/>" ).appendTo( $dest );
+		                
+	              $item.appendTo( $list ).fadeIn();
+	                
+	            });
+	        }
+	
+	        function unselectNinja( $item ) {
+	            $item.fadeOut(function() {
+	              $item               
+	                .appendTo( $source )
+	                .fadeIn();
+	            });
+	        }
+            
+		});
+
+		$('.calculate-team').on('click', function() {
+			var data = {ninja: []};	
+			t.clear();
+			$('.loading').toggleClass('hide');
+			$.each($('#dest li'), function(key, elem) {
+	            data.ninja.push($(elem).attr('data-ninjaid'));		
+	        });
+
+			$.ajax({
+        		url: '{{ route("frontend.ninjas.team") }}',
+        		method: 'GET',
+        		data: data,
+        		success: function(result) {
+            		$.each(result, function(key, value) {
+                		var team = '',
+                			life = 0,
+                			attack = 0,
+                			defense = 0,
+                			ninjutsu = 0,
+                			resistance = 0;
+            			$.each(value.team, function(key, ninja) {
+        					team += ninja.name+ '<br />';
+        					life += ninja.life;
+        					attack += ninja.attack;
+        					defense += ninja.defense;
+        					ninjutsu += ninja.ninjutsu;
+        					resistance += ninja.resistance; 
+            			});
+
+            			t.row.add( [
+           			             team,
+           			          	 life,
+           			          	 attack,
+           			             defense,
+           			             ninjutsu,
+           			             resistance,
+           			             value.combo,
+           			             ''
+           			         ] ).draw( false );
+            		});
+            		t.draw();
+        		},
+        		error: function(error) {            		
+            		alert(error.responseText);
+        		},
+        		complete: function() {
+        			$('.loading').toggleClass('hide');
+        		}
+    		});
+		});
+		
+		$('.calculate-combo').on('click', function() {
 			var data = {};	
 			$('.loading').toggleClass('hide');
 			$.each($('select'), function(key, select) {

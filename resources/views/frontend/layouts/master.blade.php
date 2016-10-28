@@ -24,6 +24,7 @@
         @endif
         
 		{{ Html::style('https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css') }}
+		{{ Html::style('css/vendor/jquery-ui/jquery-ui.min.css') }}
         @yield('after-styles-end')
 
         <!-- Fonts -->
@@ -42,6 +43,7 @@
         {{ HTML::script('https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js') }}
         <script>window.jQuery || document.write('<script src="{{asset('js/vendor/jquery/jquery-2.1.4.min.js')}}"><\/script>')</script>
         {!! Html::script('js/vendor/bootstrap/bootstrap.min.js') !!}
+        {!! Html::script('js/vendor/jquery-ui/jquery-ui.min.js') !!}
 		{{ Html::script('https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.full.min.js') }}
 		
         @yield('before-scripts-end')

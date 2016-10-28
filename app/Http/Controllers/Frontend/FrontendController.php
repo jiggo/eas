@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Repositories\Backend\Ninja\NinjaRepositoryContract;
 use App\Repositories\Backend\Skill\SkillRepositoryContract;
 use Illuminate\Http\Request;
+use App\Models\Ninja\Ninja;
 /**
  * Class FrontendController
  * @package App\Http\Controllers
@@ -50,10 +51,29 @@ class FrontendController extends Controller
 
     public function combo(Request $request) {
     	$input = $request->all();
-
+    	
     	$combo = $this->ninjas->getCombo($input);    		    
     	
     	return response($combo ,200);
+    }
+    
+    public function team(Request $request) {
+    	$input = $request->all();
+    
+    	$ids = array();
+    	if(!isset($input["ninja"]))
+    		return response("Request not valid." , 400);
+    	foreach($input["ninja"] as $key => $ninja) {
+    		$ids["ninja".$key] = $ninja;
+    	}
+    	$teams = $this->ninjas->getTeams($ids);
+    	
+    	$return_teams = array();
+    	foreach($teams as $value) {    		
+    		$return_teams[] = array("team" => Ninja::whereIn('id', $value["team"])->get(), "combo" => $value["combo"]);
+    		
+    	}
+    	return response($return_teams ,200);
     }
     
     public function getSkills($id, Request $request) {
